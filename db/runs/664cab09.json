@@ -1,0 +1,221 @@
+{
+  "run_id": "664cab09",
+  "corp": "SK하이닉스",
+  "ticker": "000660",
+  "sector": "반도체",
+  "start_date": "2026-03-13",
+  "end_date": "2026-03-13",
+  "days": 1,
+  "accuracy_1d": null,
+  "created_at": "2026-03-16T15:41:48.695432",
+  "daily_results": [
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-13",
+      "seed": {
+        "summary": "SK하이닉스에 대한 시장 상황 요약: 최근 주가 상승 추세에 따라 긍정적 기대감이 강조되나, 공시와 관련 뉴스 absence는 리스크 요인으로 간주",
+        "issue_type": "실적발표",
+        "sentiment": "positive",
+        "impact_level": "medium",
+        "key_points": [
+          "최근 5일 주가 상승 (+43.0%)",
+          "공시와 관련 뉴스 absence는 리스크 요인",
+          "주가 추세의 지속 가능성"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 2685.0,
+          "price_change_5d_pct": 43.05,
+          "trend": "상승",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 14.8,
+        "sell_pressure": 0.0,
+        "hold_pressure": 85.2,
+        "net_pressure": 14.8,
+        "type_breakdown": {
+          "retail": {
+            "매수": 1,
+            "매도": 0,
+            "관망": 4,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 1,
+            "매도": 0,
+            "관망": 4,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.252,
+        "confidence_avg": 0.653
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "공시와 관련 뉴스 absence는 리스크 요인으로 간주. 추가 정보가 필요.",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매수",
+          "reason": "Recent market trend and SKHynix's positive performance suggest a good investment opportunity. I'll take a calculated risk and invest.",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "공시 absence는 리스크 요인으로 간주, 주가 추세의 지속 가능성을 고려",
+          "confidence": 0.5585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승 추세는 긍정적이지만, 공시와 관련 뉴스 absence는 리스크 요인으로 간주.",
+          "confidence": 0.611339348184488
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승 추세는 긍정적이지만, 공시와 관련 뉴스 absence는 리스크 요인으로 간주.",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "시장 상황이 불확실하고 공시 absence, 리스크 요인으로 간주",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "공시 absence와 리스크 요인 간주, 추가 정보 필요",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "recent market trend and SK하이닉스' performance are positive, but absence of news and issues raises some concerns, so it's better to wait and observe",
+          "confidence": 0.6142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "가격 상승 추세와 공시 absence로 리스크 요인 간주, 추가 정보 필요",
+          "confidence": 0.65314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "Long-term growth potential and in-house research and development expertise justify the investment, despite the absence of recent news and the risk of excessive risk-taking.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승 추세에 따라 긍정적 기대감이 강조되나, 공시 absence는 리스크 요인으로 간주",
+          "confidence": 0.8114154682106199
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "역추세 편향으로 주가 추세의 지속 가능성을 고려, 공시와 관련 뉴스 absence는 리스크 요인으로 간주",
+          "confidence": 0.25988995669379356
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "Recent price surge and positive sentiment indicate a strong trend, but absence of news and earnings reports is a risk factor. I will wait and observe the market trend before making a decision.",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세의 지속 가능성에 대한 불확실성, 공시와 관련 뉴스 absence는 리스크 요인",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "역추세 편향으로 주가 추세의 지속 가능성을 고려하여 리스크 요인을 경계",
+          "confidence": 0.5162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세는 긍정적이지만 공시와 관련 뉴스 absence는 리스크 요인으로 간주. 추가 정보가 필요.",
+          "confidence": 0.8677603982663287
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세는 긍정적이지만 공시와 관련 뉴스 absence는 리스크 요인으로 간주. 추가 정보가 필요.",
+          "confidence": 0.6555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세에 대한 긍정적 기대감이 있지만, 공시와 관련 뉴스 absence는 리스크 요인으로 간주",
+          "confidence": 0.6915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세의 지속 가능성에 대한 불확실성, 공시와 관련 뉴스 absence는 리스크 요인",
+          "confidence": 0.3247874625989605
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세의 지속 가능성에 대한 불확실성, 공시와 관련 뉴스 absence는 리스크 요인",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    }
+  ]
+}

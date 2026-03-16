@@ -1,0 +1,820 @@
+{
+  "run_id": "c8715f36",
+  "corp": "SK하이닉스",
+  "ticker": "000660",
+  "sector": "반도체",
+  "start_date": "2025-03-10",
+  "end_date": "2025-03-13",
+  "days": 4,
+  "accuracy_1d": null,
+  "created_at": "2026-03-16T15:30:33.935438",
+  "daily_results": [
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2025-03-10",
+      "seed": {
+        "summary": "SK하이닉스에 대한 시장 정보 분석 결과 — 리스크 요인 우선",
+        "issue_type": "기타",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세 없음, 부정적 공시/뉴스 없음",
+          "리스크 요인: 주가 정보 없음",
+          "기타 포인트: 관련 뉴스 없음"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {}
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 6.3,
+        "hold_pressure": 93.7,
+        "net_pressure": -6.3,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.118,
+        "confidence_avg": 0.735
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인: 주가 정보 없음",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.5304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, Algorithmic trading and high-frequency trading.",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인 우선, 주가 하락 추세 없음, 부정적 공시/뉴스 없음",
+          "confidence": 0.7142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인 우선, 주가 하락 추세 없음, 부정적 공시/뉴스 없음",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세 없음, 부정적 공시/뉴스 없음",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.6162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인: 주가 정보 없음",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인: 주가 정보 없음",
+          "confidence": 0.9555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.3247874625989605
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세 없음, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.5391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2025-03-11",
+      "seed": {
+        "summary": "SK하이닉스에 대한 시장 상황 요약 — 리스크 요인을 우선 반영",
+        "issue_type": "기타",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세",
+          "관련 뉴스 없음",
+          "리스크 요인",
+          "[전일(2025-03-10) 이월] 예측:보합 | 매수:0% | 매도:6%\n요약: SK하이닉스에 대한 시장 정보 분석 결과 — 리스크 요인 우선"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {}
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 15.0,
+        "hold_pressure": 85.0,
+        "net_pressure": -15.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.256,
+        "confidence_avg": 0.679
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.33049027755348215
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, Algorithmic trading and high-frequency trading.",
+          "confidence": 0.3347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.7142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.1876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세, 부정적 공시/뉴스 없음",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.8677603982663287
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2025-03-12",
+      "seed": {
+        "summary": "SK하이닉스에 대한 시장 상황 요약 — 리스크 요인을 우선 반영",
+        "issue_type": "기타",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "공시 및 뉴스 없음",
+          "리스크 요인 우선 반영",
+          "[전일(2025-03-11) 이월] 예측:보합 | 매수:0% | 매도:15%\n요약: SK하이닉스에 대한 시장 상황 요약 — 리스크 요인을 우선 반영"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {}
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 15.4,
+        "hold_pressure": 84.6,
+        "net_pressure": -15.4,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.261,
+        "confidence_avg": 0.662
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.9643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, Algorithmic trading and high-frequency trading.",
+          "confidence": 0.1347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.7142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인 우선, 주가 하락 추세, 부정적 공시/뉴스 없음",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.15988995669379352
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세, 부정적 공시/뉴스 없음",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.21621132059617115
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.1391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2025-03-13",
+      "seed": {
+        "summary": "SK하이닉스에 대한 시장 정보 분석에서는 주가 하락 추세와 부정적 공시/뉴스가 없는 상태에서 리스크 요인을 우선 반영하여 neutral의 감정으로 분석됩니다.",
+        "issue_type": "기타",
+        "sentiment": "neutral",
+        "impact_level": "low",
+        "key_points": [
+          "주가 하락 추세 없음",
+          "부정적 공시/뉴스 없음",
+          "리스크 요인 우선 반영",
+          "[전일(2025-03-12) 이월] 예측:보합 | 매수:0% | 매도:15%\n요약: SK하이닉스에 대한 시장 상황 요약 — 리스크 요인을 우선 반영"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {}
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.632
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.23049027755348211
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, Algorithmic trading and high-frequency trading.",
+          "confidence": 0.4347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.7142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.61141546821062
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인 우선",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    }
+  ]
+}

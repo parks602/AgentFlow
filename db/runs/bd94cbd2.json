@@ -1,0 +1,974 @@
+{
+  "run_id": "bd94cbd2",
+  "corp": "LG에너지솔루션",
+  "ticker": "373220",
+  "sector": "2차전지",
+  "start_date": "2025-03-10",
+  "end_date": "2025-03-13",
+  "days": 4,
+  "accuracy_1d": 0.0,
+  "created_at": "2026-03-16T15:12:19.477283",
+  "daily_results": [
+    {
+      "corp_name": "LG에너지솔루션",
+      "ticker": "373220",
+      "issue_date": "2025-03-10",
+      "seed": {
+        "summary": "LG에너지솔루션의 주가가 상승 추세에 있는 가운데, 최근 5일 주가 추이의 상승 (+5.3%)은 긍정적 신호입니다. 그러나 공시와 관련 뉴스가 없는 상황에서 주가 상승은 리스크 요인을 우선 반영해야 합니다.",
+        "issue_type": "실적발표",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "상승 추세: 최근 5일 주가 추이 +5.3%",
+          "리스크 요인: 공시와 관련 뉴스가 없음",
+          "기타 포인트: 주가 상승 추세를 지속할 수 있는가"
+        ],
+        "corp_name": "LG에너지솔루션",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 349500.0,
+          "price_change_5d_pct": 5.27,
+          "trend": "상승",
+          "actual_1d_pct": -2.43,
+          "actual_5d_pct": -7.01,
+          "actual_20d_pct": -7.58
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.677
+      },
+      "validation": {
+        "ticker": "373220",
+        "issue_date": "2025-03-10",
+        "prediction": "보합",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.43,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -7.01,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -7.58,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 349500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 확인해야 함",
+          "confidence": 0.5643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+          "confidence": 0.3347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.25988995669379356
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.3162113205961712
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "상승 추세의 지속 가능성을 관망, 리스크 요인을 우선 반영",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "LG에너지솔루션",
+      "ticker": "373220",
+      "issue_date": "2025-03-11",
+      "seed": {
+        "summary": "LG에너지솔루션의 주가가 최근 5일간 상승하여 341,000원으로 정점을 찍었다. 그러나 공시와 관련 뉴스가 없는 상황에서 주가 추세를 분석하면 리스크 요인을 우선 반영해야 한다.",
+        "issue_type": "실적발표",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 상승의 근거는 최근 5일간의 추세지만, 공시와 관련 뉴스가 없는 상황에서 리스크 요인을 우선 반영해야 한다.",
+          "주가 하락의 가능성도 고려해야 한다.",
+          "추가 정보가 필요할 경우 공시나 관련 뉴스를 확인해야 한다.",
+          "[전일(2025-03-10) 이월] 예측:보합 | 매수:0% | 매도:0%\n요약: LG에너지솔루션의 주가가 상승 추세에 있는 가운데, 최근 5일 주가 추이의 상승 (+5.3%)은 긍정적 신호입니다. 그러나 공시와 관련 뉴스가 "
+        ],
+        "corp_name": "LG에너지솔루션",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 341000.0,
+          "price_change_5d_pct": 2.1,
+          "trend": "상승",
+          "actual_1d_pct": 2.2,
+          "actual_5d_pct": -4.69,
+          "actual_20d_pct": -6.74
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.626
+      },
+      "validation": {
+        "ticker": "373220",
+        "issue_date": "2025-03-11",
+        "prediction": "보합",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "상승",
+            "actual_change_pct": 2.2,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -4.69,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -6.74,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 341000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 확인해야 함",
+          "confidence": 0.7643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.33049027755348215
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+          "confidence": 0.1347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.11621132059617117
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.1391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "LG에너지솔루션",
+      "ticker": "373220",
+      "issue_date": "2025-03-12",
+      "seed": {
+        "summary": "LG에너지솔루션의 2024년 실적발표, 연결감사보고서를 발표. 최근 5일 주가 추이도 상승.",
+        "issue_type": "실적발표",
+        "sentiment": "positive",
+        "impact_level": "medium",
+        "key_points": [
+          "2024년 실적이 긍정적, 연결감사보고서 발표",
+          "주가 추이도 상승, 투자자 호감",
+          "리스크 요인 없음",
+          "[전일(2025-03-11) 이월] 예측:보합 | 매수:0% | 매도:0%\n요약: LG에너지솔루션의 주가가 최근 5일간 상승하여 341,000원으로 정점을 찍었다. 그러나 공시와 관련 뉴스가 없는 상황에서 주가 추세를 분석하면"
+        ],
+        "corp_name": "LG에너지솔루션",
+        "raw_disclosure_count": 1,
+        "raw_disclosures": [
+          {
+            "title": "사업보고서 (2024.12)",
+            "date": "20250312",
+            "corp": "LG에너지솔루션"
+          }
+        ],
+        "market_context": {
+          "current_price": 348500.0,
+          "price_change_5d_pct": 4.34,
+          "trend": "상승",
+          "actual_1d_pct": -2.3,
+          "actual_5d_pct": -5.16,
+          "actual_20d_pct": -9.9
+        }
+      },
+      "result": {
+        "prediction": "상승",
+        "strength": "강",
+        "buy_pressure": 63.9,
+        "sell_pressure": 0.0,
+        "hold_pressure": 36.1,
+        "net_pressure": 63.9,
+        "type_breakdown": {
+          "retail": {
+            "매수": 2,
+            "매도": 0,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 2,
+            "매도": 0,
+            "관망": 3,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 3,
+            "매도": 0,
+            "관망": 2,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 5,
+            "매도": 0,
+            "관망": 0,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.461,
+        "confidence_avg": 0.748
+      },
+      "validation": {
+        "ticker": "373220",
+        "issue_date": "2025-03-12",
+        "prediction": "상승",
+        "buy_pressure": 63.9,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "상승",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.3,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "상승",
+            "actual_direction": "하락",
+            "actual_change_pct": -5.16,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "상승",
+            "actual_direction": "하락",
+            "actual_change_pct": -9.9,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 348500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매수",
+          "reason": "Positive market sentiment, good earnings report, and no clear risks. My fearless and opportunistic nature aligns with the market's optimistic tone.",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매수",
+          "reason": "Positive market sentiment and news, and the company's 2024 performance report is encouraging. I'm willing to take a calculated risk.",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 확인해야 함",
+          "confidence": 0.9643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.13049027755348214
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "2024년 실적발표 긍정적, 주가 추이 상승, 리스크 요인 없음. Algorithmic trading and high-frequency trading. 감정 배제, 데이터 기반 판단.",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "LG에너지솔루션의 2024년 실적발표가 긍정적이고 주가 추이도 상승하여 투자자 호감을 얻었다.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "LG에너지솔루션의 2024년 실적발표가 긍정적이고 주가 추이도 상승, 리스크 요인 없음.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "LG에너지솔루션의 2024년 실적발표, 연결감사보고서 발표. 최근 5일 주가 추이도 상승. 추세추종 편향으로 매수.",
+          "confidence": 0.48769747792821333
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "Positive market sentiment and 2024 earnings report announcement, no risk factors identified. My bias is '뇌동매매' and I'm looking for quick profits.",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "매수",
+          "reason": "2024년 실적이 긍정적이고 주가 추이도 상승, 리스크 요인 없음. 내 편향은 'anchors on company's financial performance and industry trends'이다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "매수",
+          "reason": "LG에너지솔루션의 2024년 실적발표가 긍정적이고 주가 추이도 상승, 리스크 요인 없음. 내 편향은 'emphasizes the importance of data-driven decision making'으로 장기 성장 가능성을 고려하여 매수를 결정.",
+          "confidence": 0.9555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "매수",
+          "reason": "LG에너지솔루션의 2024년 실적발표가 긍정적이고 주가 추이도 상승, 리스크 요인 없음. 내 편향은 dividend payments and financial discipline을 중시하므로 장기 성장 가능성을 고려하여 매수를 결정.",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "매수",
+          "reason": "2024년 실적이 긍정적, 연결감사보고서 발표, 주가 추이도 상승, 투자자 호감. 내 편향은 'emphasizes the importance of operational improvements and strategic restructuring'이다.",
+          "confidence": 0.6247874625989606
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "매수",
+          "reason": "Positive earnings report and upward trend, no significant risks identified. LG Energy Solution's 2024 earnings report is positive, and the market sentiment is positive.",
+          "confidence": 0.7391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "LG에너지솔루션",
+      "ticker": "373220",
+      "issue_date": "2025-03-13",
+      "seed": {
+        "summary": "LG에너지솔루션의 2024년 실적발표, 연결감사보고서를 발표. 최근 5일 주가 추이도 보합을 기록. 그러나, 주가 하락 추세는 아니나, 부정적 공시/뉴스가 없어 sentiment는 neutral로 판단.",
+        "issue_type": "실적발표",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "2024년 실적발표, 연결감사보고서 발표",
+          "주가 추이 보합, 최근 5일 주가 추이 +0.4%",
+          "부정적 공시/뉴스 없음",
+          "[전일(2025-03-12) 이월] 예측:상승 | 매수:64% | 매도:0%\n요약: LG에너지솔루션의 2024년 실적발표, 연결감사보고서를 발표. 최근 5일 주가 추이도 상승."
+        ],
+        "corp_name": "LG에너지솔루션",
+        "raw_disclosure_count": 1,
+        "raw_disclosures": [
+          {
+            "title": "사업보고서 (2024.12)",
+            "date": "20250312",
+            "corp": "LG에너지솔루션"
+          }
+        ],
+        "market_context": {
+          "current_price": 340500.0,
+          "price_change_5d_pct": 0.44,
+          "trend": "보합",
+          "actual_1d_pct": -4.11,
+          "actual_5d_pct": -1.76,
+          "actual_20d_pct": 2.64
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 9.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 91.0,
+        "net_pressure": 9.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 1,
+            "매도": 0,
+            "관망": 4,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 1,
+            "매도": 0,
+            "관망": 4,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.163,
+        "confidence_avg": 0.687
+      },
+      "validation": {
+        "ticker": "373220",
+        "issue_date": "2025-03-13",
+        "prediction": "보합",
+        "buy_pressure": 9.0,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -4.11,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.76,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "상승",
+            "actual_change_pct": 2.64,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 340500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk-averse approach, considering the neutral market sentiment and no negative news.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Neutral market sentiment, no negative news, and recent 5-day price trend is positive. I will wait for further developments before making a decision.",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Neutral market sentiment and no negative news, considering the risk of FOMO and confirmation bias.",
+          "confidence": 0.45858094368674573
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk avoidance and loss aversion, market sentiment is neutral, and no clear trend or negative news.",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk factors to be considered, market sentiment neutral, and no negative news.",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.33049027755348215
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management and market context suggest waiting for further developments before making a decision.",
+          "confidence": 0.3347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, no clear trend or sentiment, awaiting further developments",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management and market context suggest waiting for further developments before making a decision.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "Long-term growth potential and in-house research and development expertise support the investment decision, despite the neutral market sentiment.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "시장 감성 neutral, 주가 추이 보합, 부정적 공시/뉴스 없음",
+          "confidence": 0.71141546821062
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추이 보합, 최근 5일 주가 추이 +0.4%, 부정적 공시/뉴스 없음, risk management and market context suggest waiting for further developments before making a decision.",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "군중 반응 neutral, 주가 추이 보합, 부정적 공시/뉴스 없음, 추세추종 편향으로 매수보다 관망이 더 합리적",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "Market sentiment is neutral, and no clear risks or opportunities identified. I will wait for further developments before making a decision.",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "Risk management and market context suggest waiting for further developments before making a decision.",
+          "confidence": 0.3162113205961712
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추이 보합, 최근 5일 주가 추이 +0.4%, 부정적 공시/뉴스 없음. 장기 펀더멘털을 고려하여 Risk-averse approach를 취함.",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "장기 성장 가능성을 고려하여 주가 추이 보합을 기다려보자.",
+          "confidence": 0.9555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "시장 감성 neutral, 주가 추이 보합, 부정적 공시/뉴스 없음, 장기 펀더멘털 고려",
+          "confidence": 0.5915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "매수",
+          "reason": "2024년 실적발표, 연결감사보고서 발표, 주가 추이 보합, 부정적 공시/뉴스 없음. 내 편향은 'emphasizes the importance of operational improvements and strategic restructuring'이다.",
+          "confidence": 0.6247874625989606
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "Neutral market sentiment, no significant risks identified, and a positive earnings report. Emphasizes the importance of understanding global macro trends and market dynamics.",
+          "confidence": 0.5391035493879133
+        }
+      ]
+    }
+  ]
+}

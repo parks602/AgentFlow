@@ -1,0 +1,285 @@
+{
+  "corp_name": "LG에너지솔루션",
+  "ticker": "373220",
+  "issue_date": "2026-03-16",
+  "seed": {
+    "summary": "LG에너지솔루션의 주가 추세는 최근 5일간 상승 추세를 보이나, 부정적 공시와 뉴스도 확인된다. 리스크 요인으로는 외국인 소진율의 증가, 주가 하락 추세 등이 확인된다.",
+    "issue_type": "실적발표",
+    "sentiment": "negative",
+    "impact_level": "medium",
+    "key_points": [
+      "상승 근거: 최근 5일간 주가 상승 추세",
+      "리스크 요인: 외국인 소진율의 증가, 주가 하락 추세",
+      "부정적 공시: 팰리서캐피탈의 주주제안으로 지배구조 개편 요구",
+      "[전일(2026-03-13) 이월] 예측:보합 | 매수:0% | 매도:0%\n요약: LG에너지솔루션의 주가 추세는 최근 5일간 상승趨勢를 보이고 있지만, 부정적 공시/뉴스가 있어 리스크 요인을 우선 반영해야 합니다."
+    ],
+    "corp_name": "LG에너지솔루션",
+    "raw_disclosure_count": 1,
+    "raw_articles": [
+      {
+        "title": "[마켓Q] 사진도 수줍은 英 행동주의 강경 주장 \"LG화학, 저평가 심각......",
+        "description": "또 △순자산가치 할인율 공개 △경영진 보상체계에 주식연계 보상 도입 △LG에너지솔루션 지분 유동화를 통한 자사주 매입 확대 등을 기업가치 제고 방안으로 제시했다. 팰리서캐피탈은 \"LG화학이 보유한 핵심 자산과... ",
+        "press": "www.asiatime.co.kr",
+        "date": "2026-03-14",
+        "url": "https://www.asiatime.co.kr/article/20260314500005",
+        "source": "naver_api"
+      },
+      {
+        "title": "북미 ESS 투자로 돌파구 … K배터리 현금 확보 나서",
+        "description": "LG에너지솔루션은 지난달 26일 호주 증권거래소(ASX)를 통해 호주 리튬 업체 라이온타운 지분 2억3946만주 전량을 매각했다고 밝혔다. 2024년 7월 리튬 공급망을 확보하기 위해 2억5000만달러를 투자한 전환사채를 주식으로... ",
+        "press": "www.mk.co.kr",
+        "date": "2026-03-11",
+        "url": "https://n.news.naver.com/mnews/article/009/0005648806?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "[오늘의 주목주] '에너지주 강세' LG에너지솔루션 3%대 상승, 코스닥 에...",
+        "description": "이날 LG에너지솔루션 주식은 전날보다 3.92%(1만4500원) 오른 38만4천 원에 거래를 마쳤다. 거래량은 34만5803주로 직전 거래일보다 31.3% 늘었다. 시가총액 순위는 5위를 유지했다. 시가총액은 89조8560억 원으로... ",
+        "press": "www.businesspost.co.kr",
+        "date": "2026-03-12",
+        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=432746",
+        "source": "naver_api"
+      },
+      {
+        "title": "삼성SDI·LG에너지솔루션·SK이노베이션·에코프로 등 이차전지 큰폭 하...",
+        "description": "LG에너지솔루션도 36만8000원으로 전일에 비해 1만6000원(4.17%) 하락세를 나타내고 있다. 거래량은... 주식 거래량은 138만7695주로 고가는 12만5000원, 저가는 11만2000원이다. 기관과 개인매매는 줄어들었으나... ",
+        "press": "www.dailycar.co.kr",
+        "date": "2026-03-13",
+        "url": "https://www.dailycar.co.kr/content/news.html?type=view&autoId=60945",
+        "source": "naver_api"
+      },
+      {
+        "title": "전쟁 장세에도 'LG만 담았다'…외국인 매수 배경 살펴보니",
+        "description": "미국·이스라엘과 이란의 공습 발발 이후 국내 증시에서 외국인이 한 주간 8조8000억원의 주식을 매도하며... 종목별로는 LG에너지솔루션 884억원, LG 574억원, LG전자 138억원, LG이노텍에 81억원 등이 몰렸다.... ",
+        "press": "www.bloter.net",
+        "date": "2026-03-11",
+        "url": "https://n.news.naver.com/mnews/article/293/0000080734?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "팰리서, LG화학 저평가 문제 제기…주주제안으로 지배구조 개편 요구",
+        "description": "체계에 주식연계 보상과 ROE·NAV 할인율 등 성과지표 반영 ▲LG에너지솔루션 지분 일부 활용을 통한 자사주 매입 확대 등이다. 팰리서는 이러한 제안이 이사회 권한을 침해하지 않으면서도 소수주주의 의견을... ",
+        "press": "www.popcornnews.net",
+        "date": "2026-03-13",
+        "url": "http://www.popcornnews.net/news/articleView.html?idxno=115100",
+        "source": "naver_api"
+      },
+      {
+        "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 선물 급락…개별주식선물...",
+        "description": "한국거래소에 따르면 이날 개별주식선물 시장에서 투자자들의 관심이 가장 높은 종목은 삼성전자와 SK하이닉스, 현대차, LG에너지솔루션이다. 삼성전자는 메모리 반도체와 시스템 반도체를 동시에 생산하는 글로벌 전자... ",
+        "press": "www.pinpointnews.co.kr",
+        "date": "2026-03-13",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=436614",
+        "source": "naver_api"
+      },
+      {
+        "title": "LG에너지솔루션 주가, 3월 13일 369,000원 3.91% 하락 마감",
+        "description": "코스피 시장에서 LG에너지솔루션은 시가총액 순위 5위를 유지했으며, 총 시가총액은 86조 3,460억 원에 달했다. 이날 주식 시장에서 총 370,087주의 거래량을 기록했고, 거래대금은 1,363억 1,700만 원으로... ",
+        "press": "www.topstarnews.net",
+        "date": "2026-03-13",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=16003234",
+        "source": "naver_api"
+      }
+    ],
+    "raw_disclosures": [
+      {
+        "title": "사업보고서 (2025.12)",
+        "date": "20260312",
+        "corp": "LG에너지솔루션"
+      }
+    ],
+    "market_context": {
+      "current_price": 369000.0,
+      "price_change_5d_pct": 2.64,
+      "trend": "상승",
+      "actual_1d_pct": null,
+      "actual_5d_pct": null,
+      "actual_20d_pct": null
+    }
+  },
+  "result": {
+    "prediction": "보합",
+    "strength": "-",
+    "buy_pressure": 0.0,
+    "sell_pressure": 0.0,
+    "hold_pressure": 100.0,
+    "net_pressure": 0.0,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.0,
+    "confidence_avg": 0.687
+  },
+  "validation": {
+    "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "부정적 공시/뉴스가 있어 리스크 요인을 우선 반영해야 합니다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "부정적 공시/뉴스가 있어 리스크 요인을 우선 반영해야 함",
+      "confidence": 0.8785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "부정적 공시/뉴스가 있어 리스크 요인을 우선 반영해야 한다.",
+      "confidence": 0.6585809436867457
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "부정적 공시/뉴스가 있어 리스크 요인을 우선 반영해야 함",
+      "confidence": 0.7113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 할 필요가 있습니다.",
+      "confidence": 0.9643101513004699
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 고려하여 리스크 관리를 우선으로 하여 시장 상황을 관망할 것이다.",
+      "confidence": 0.4304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "부정적 공시/뉴스가 있어 리스크 요인을 우선 반영해야 하며, 시장 분위기 부정적",
+      "confidence": 0.1347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 할 필요가 있습니다.",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영해야 할 필요가 있습니다. 부정적 공시/뉴스가 있어 리스크 관리 우선.",
+      "confidence": 0.85314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "부정적 공시/뉴스가 있어 리스크 요인을 우선 반영해야 하지만, Long-term growth potential과 in-house research and development expertise도 고려해야 한다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "부정적 공시/뉴스가 있어 리스크 요인을 우선 반영해야 함",
+      "confidence": 0.91141546821062
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "부정적 공시/뉴스가 있어 리스크 요인을 우선 반영해야 하며, 시장 분위기 부정적",
+      "confidence": 0.35988995669379353
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 할 필요가 있습니다.",
+      "confidence": 0.5876974779282134
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "부정적 공시/뉴스가 있어 리스크 요인을 우선 반영해야 함",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 하므로 포지션 정리를 결정",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 할 필요가 있습니다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 한다.",
+      "confidence": 0.9555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 할 필요가 있습니다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 고려하여 리스크 관리를 우선으로 하여 시장 상황을 관망할 것이다.",
+      "confidence": 0.12478746259896051
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 할 필요가 있습니다.",
+      "confidence": 0.4391035493879133
+    }
+  ],
+  "run_id": "1780ca95",
+  "corp": "LG에너지솔루션",
+  "sector": "2차전지"
+}

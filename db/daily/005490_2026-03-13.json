@@ -1,0 +1,284 @@
+{
+  "corp_name": "POSCO홀딩스",
+  "ticker": "005490",
+  "issue_date": "2026-03-13",
+  "seed": {
+    "summary": "POSCO홀딩스의 주가 추세는 하락 추세로, 최근 5일 주가 추이도 상승이지만 주가 하락 추세가 우세합니다. 투자자들은 철강 산업의 위기감과 중동 쇼크, 오일 쇼크 등의 리스크 요인에 주의해야 합니다.",
+    "issue_type": "실적발표",
+    "sentiment": "negative",
+    "impact_level": "high",
+    "key_points": [
+      "주가 하락 추세",
+      "철강 산업의 위기감",
+      "중동 쇼크, 오일 쇼크 등의 리스크 요인"
+    ],
+    "corp_name": "POSCO홀딩스",
+    "raw_disclosure_count": 1,
+    "raw_articles": [
+      {
+        "title": "[업앤다운]그룹주 하락…·롯데지주·LG↓",
+        "description": "GS와 POSCO홀딩스는 각각 3.77%(2500원)와 3.02%(1만500원) 하락해 6만3800원과 33만7000원에 장을 마감했다. LG와 롯데지주는 각각 3.02%(2800원)와 2.75%(850원) 내려 9만원과 3만100원에 거래됐다. HMM과... ",
+        "press": "www.nspna.com",
+        "date": "2026-03-13",
+        "url": "https://www.nspna.com/news/?mode=view&newsid=806192",
+        "source": "naver_api"
+      },
+      {
+        "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 선물 급락…개별주식선물...",
+        "description": "또 POSCO홀딩스와 삼성중공업, SK, 효성중공업도 주요 거래 종목으로 나타났다. 우리금융지주와 삼성화재, 현대로템, 카카오 역시 투자자들의 관심을 받았다. LS ELECTRIC과 HD현대, LG화학, 에코프로도 선물시장 주요 종목으로... ",
+        "press": "www.pinpointnews.co.kr",
+        "date": "2026-03-13",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=436614",
+        "source": "naver_api"
+      },
+      {
+        "title": "중동 쇼크, 코스피 '뚝'...대우건설·GS건설은 '껑충'",
+        "description": "철강주 중 POSCO홀딩스(-3.02%), 현대제철(-2.25%), 고려제강(-2.11%) 등이 하락했다. 조선주 중 HD현대중공업(-1.32%), HD한국조선해양(-2.12%) 등이 하락했다. 해운주 중 HMM이 2.77% 하락했다. 항공주 중 한진칼이 6.02... ",
+        "press": "www.choicenews.co.kr",
+        "date": "2026-03-13",
+        "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=162305",
+        "source": "naver_api"
+      },
+      {
+        "title": "[인터배터리 2026] 포스코퓨처엠, 소재 혁신으로 '사물 배터리' 시대 연...",
+        "description": "이 소재는 광양에 위치한 포스코HY클린메탈(POSCO HY Clean Metal)에서 정제 공정을 거쳐 니켈과 코발트, 리튬 등 배터리 원료로 재생된다. 또한 포스코홀딩스는 고온 환원 공정을 통해 금속을 합금 형태로 전환하는 POS-PyCycle... ",
+        "press": "www.ntoday.co.kr",
+        "date": "2026-03-13",
+        "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=125878",
+        "source": "naver_api"
+      },
+      {
+        "title": "POSCO홀딩스 주가, 3월 13일 장중 340,500원 2.01% 하락",
+        "description": "|중앙이코노미뉴스 김영진 기자|출처=네이버페이 증권 13일 오전 11시 58분 기준, 네이버페이 증권에 따르면 POSCO홀딩스 주가가 지난 종가 대비 하락세를 보이며 거래되고 있다. 현재 POSCO홀딩스는 340... ",
+        "press": "www.joongangenews.com",
+        "date": "2026-03-13",
+        "url": "https://www.joongangenews.com/news/articleView.html?idxno=502191",
+        "source": "naver_api"
+      },
+      {
+        "title": "장인화 회장, 주한인도대사 만나 철강 협력 방안 논의",
+        "description": "이를 통해 포스코홀딩스는 철강 수요가 연간 9~10% 증가하는 인도 시장을 조기에 선점하겠다는 계획을 갖고 있다. 또한 지난해 12월에는 인구 구자라트주 아메다바드 소재 POSCO-IAPC(아메다바드 가공센터)에서 '미니 시어... ",
+        "press": "www.newsis.com",
+        "date": "2026-03-13",
+        "url": "https://n.news.naver.com/mnews/article/003/0013820199?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "오일 쇼크에 추가 관세?...POSCO홀딩스 등 철강주 '장중 뚝'",
+        "description": "13일 증시에서 POSCO홀딩스 등 철강주 주가가 장중 약세를 기록 중이다. 중동발 오일쇼크와 더불어 미국 추가관세 우려 등이 거론되는 가운데 이 같은 흐름이 나타나고 있다. 한국거래소에 따르면 오전 10시 9분 현재... ",
+        "press": "www.choicenews.co.kr",
+        "date": "2026-03-13",
+        "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=162293",
+        "source": "naver_api"
+      },
+      {
+        "title": "외국 기술 빌려 쓰던 시대 끝… 비에이치아이, 원천기술 인수로 '잭팟'",
+        "description": "선박용 소화 장비의 엔케이와 지주사 POSCO홀딩스 역시 내림세다. 해상풍력과 해양 플랜트 비중이 높은 SK오션플랜트와 HJ중공업은 장중 하락 폭이 다소 깊어지고 있다. 조선업황은 긍정적이나 그간의 주가 상승에 따른... ",
+        "press": "www.pinpointnews.co.kr",
+        "date": "2026-03-13",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=436457",
+        "source": "naver_api"
+      }
+    ],
+    "raw_disclosures": [
+      {
+        "title": "사업보고서 (2025.12)",
+        "date": "20260311",
+        "corp": "POSCO홀딩스"
+      }
+    ],
+    "market_context": {
+      "current_price": 2685.0,
+      "price_change_5d_pct": 43.05,
+      "trend": "상승",
+      "actual_1d_pct": null,
+      "actual_5d_pct": null,
+      "actual_20d_pct": null
+    }
+  },
+  "result": {
+    "prediction": "하락",
+    "strength": "약",
+    "buy_pressure": 0.0,
+    "sell_pressure": 25.4,
+    "hold_pressure": 74.6,
+    "net_pressure": -25.4,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 1,
+        "관망": 4,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 1,
+        "관망": 4,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 2,
+        "관망": 3,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.379,
+    "confidence_avg": 0.757
+  },
+  "validation": {
+    "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세와 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인에 주의해야 하므로, 현재의 시장 상황을 관망하여 추가 정보를 기다려보자.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인에 주의해야 함",
+      "confidence": 0.6585809436867457
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크 등의 리스크 요인에 주의해야 함",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세와 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인에 주의해야 함",
+      "confidence": 0.7643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "POSCO홀딩스의 주가 추세는 하락 추세로, 철강 산업의 위기감과 중동 쇼크, 오일 쇼크 등의 리스크 요인에 주의해야 함",
+      "confidence": 0.5304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인으로 주가 하락의 가능성이 높아보임",
+      "confidence": 0.7347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인으로 리스크 관리가 최우선",
+      "confidence": 0.7142067710386049
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인으로 리스크 관리가 최우선",
+      "confidence": 0.85314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "POSCO홀딩스의 주가 하락 추세와 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인으로 리스크 관리를 우선시하고, 데이터 기반 판단으로 관망을 결정",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "하락 추세 우세, 철강 산업 위기감 및 리스크 요인 고려",
+      "confidence": 0.4598899566937935
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "하락 추세, 철강 산업 위기감, 중동 쇼크 등의 리스크 요인으로 주가 하락 가능성이 높다.",
+      "confidence": 0.5876974779282134
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크 등의 리스크 요인",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인으로 주가의 안정적인 성장 모멘텀이 꺾어졌으며, 단기 노이즈 무시.",
+      "confidence": 0.5162113205961711
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인으로 주가 하락 가능성이 높다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인으로 주가의 안정적인 추세를 예측할 수 없다.",
+      "confidence": 0.9555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인으로 주가의 안정성이 떨어질 수 있어",
+      "confidence": 0.8915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세, 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인으로 주가의 안정적인 성장 모멘텀이 꺾어졌으며, 단기 노이즈 무시.",
+      "confidence": 0.3247874625989605
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 철강 산업의 위기감, 중동 쇼크, 오일 쇼크 등의 리스크 요인으로 주가 하락 가능성이 높아 관망이 최선",
+      "confidence": 0.5391035493879133
+    }
+  ],
+  "run_id": "cd25419a",
+  "corp": "POSCO홀딩스",
+  "sector": "철강"
+}

@@ -1,0 +1,2655 @@
+{
+  "run_id": "f0a0087b",
+  "corp": "SK하이닉스",
+  "ticker": "000660",
+  "sector": "반도체",
+  "start_date": "2026-03-03",
+  "end_date": "2026-03-16",
+  "days": 10,
+  "accuracy_1d": 37.5,
+  "created_at": "2026-03-16T16:34:50.550399",
+  "daily_results": [
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-03",
+      "seed": {
+        "summary": "SK하이닉스의 주가가 하락 추세에 있는 상황에서 리스크 요인 우선",
+        "issue_type": "주가 추세",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "최근 5일 주가 추이 하락 (-6.6%)",
+          "리스크 요인 우선"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 939000.0,
+          "price_change_5d_pct": -6.57,
+          "trend": "하락",
+          "actual_1d_pct": -9.58,
+          "actual_5d_pct": -0.11,
+          "actual_20d_pct": -3.09
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 49.5,
+        "hold_pressure": 50.5,
+        "net_pressure": -49.5,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.5,
+        "confidence_avg": 0.765
+      },
+      "validation": {
+        "ticker": "000660",
+        "issue_date": "2026-03-03",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 49.5,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -9.58,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": -0.11,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -3.09,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 66.7,
+        "correct_count": 2,
+        "total_periods": 3,
+        "base_price": 939000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락으로 리스크 요인 우선",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 최근 5일 주가 추이 하락, 리스크 요인 우선",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "SK하이닉스의 주가가 하락 추세에 있는 상황에서 리스크 요인 우선",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 최근 5일 주가 추이 하락, 리스크 요인 우선",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세",
+          "confidence": 0.6304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락으로 리스크 요인 우선",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락, 리스크 요인 우선",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "Risks outweigh potential long-term growth, market trend is bearish",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선으로 리스크 관리를 위해 매도",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락으로 리스크 요인 우선",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.6162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가에 대한 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.4247874625989605
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.5391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-04",
+      "seed": {
+        "summary": "SK하이닉스 주가 하락 추세, 리스크 요인 우선",
+        "issue_type": "주가 하락",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세 (-16.6%)",
+          "부정적 공시/뉴스 없음",
+          "리스크 요인 우선",
+          "[전일(2026-03-03) 이월] 예측:하락 | 매수:0% | 매도:50%\n요약: SK하이닉스의 주가가 하락 추세에 있는 상황에서 리스크 요인 우선"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 849000.0,
+          "price_change_5d_pct": -16.6,
+          "trend": "하락",
+          "actual_1d_pct": 10.84,
+          "actual_5d_pct": 12.49,
+          "actual_20d_pct": 7.18
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 51.2,
+        "hold_pressure": 48.8,
+        "net_pressure": -51.2,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.5,
+        "confidence_avg": 0.72
+      },
+      "validation": {
+        "ticker": "000660",
+        "issue_date": "2026-03-04",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 51.2,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 10.84,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 12.49,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 7.18,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 849000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락으로 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 최근 5일 주가 추이 하락, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 최근 5일 주가 추이 하락, 리스크 요인 우선",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락으로 리스크 요인 우선",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락, 리스크 요인 우선",
+          "confidence": 0.65314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "Risks outweigh potential long-term growth, market trend is bearish, and in-house research and development expertise suggests caution.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선",
+          "confidence": 0.6598899566937936
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선으로 리스크 관리를 위해 매도",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락으로 리스크 요인 우선",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가에 대한 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-05",
+      "seed": {
+        "summary": "SK하이닉스 주가 하락 추세, 리스크 요인 우선",
+        "issue_type": "주가 하락",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세 (-14.4%)",
+          "부정적 공시/뉴스 없음",
+          "리스크 요인 우선",
+          "[전일(2026-03-04) 이월] 예측:하락 | 매수:0% | 매도:51%\n요약: SK하이닉스 주가 하락 추세, 리스크 요인 우선"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 941000.0,
+          "price_change_5d_pct": -14.38,
+          "trend": "하락",
+          "actual_1d_pct": -1.81,
+          "actual_5d_pct": -1.17,
+          "actual_20d_pct": -3.29
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 54.0,
+        "hold_pressure": 46.0,
+        "net_pressure": -54.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.497,
+        "confidence_avg": 0.674
+      },
+      "validation": {
+        "ticker": "000660",
+        "issue_date": "2026-03-05",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 54.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.81,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.17,
+            "is_correct": true
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -3.29,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 100.0,
+        "correct_count": 3,
+        "total_periods": 3,
+        "base_price": 941000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락으로 리스크 요인 우선",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 최근 5일 주가 추이 하락, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 최근 5일 주가 추이 하락, 리스크 요인 우선",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세",
+          "confidence": 0.5304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락으로 리스크 요인 우선",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락, 리스크 요인 우선",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "Risks outweigh potential long-term growth, market trend is bearish, and in-house research and development expertise suggests caution.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선",
+          "confidence": 0.4598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선으로 리스크 관리를 위해 매도",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선, 군중 반응이 강한 매도세",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.21621132059617115
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가에 대한 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.6555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.7915622059190301
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.1391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-06",
+      "seed": {
+        "summary": "SK하이닉스 주가 하락 추세에 대한 리스크 분석 — 주가 하락 추세와 부정적 공시/뉴스 absent",
+        "issue_type": "주가 하락 추세",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "부정적 공시/뉴스 absent",
+          "리스크 요인 1: 주가 하락 추세",
+          "[전일(2026-03-05) 이월] 예측:하락 | 매수:0% | 매도:54%\n요약: SK하이닉스 주가 하락 추세, 리스크 요인 우선"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 924000.0,
+          "price_change_5d_pct": -12.91,
+          "trend": "하락",
+          "actual_1d_pct": -9.52,
+          "actual_5d_pct": -1.52,
+          "actual_20d_pct": -1.52
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 51.5,
+        "hold_pressure": 48.5,
+        "net_pressure": -51.5,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.5,
+        "confidence_avg": 0.704
+      },
+      "validation": {
+        "ticker": "000660",
+        "issue_date": "2026-03-06",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 51.5,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -9.52,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.52,
+            "is_correct": true
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.52,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 100.0,
+        "correct_count": 3,
+        "total_periods": 3,
+        "base_price": 924000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 최근 5일 주가 추이 하락으로 리스크 요인 우선",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 우선",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 최근 5일 주가 추이 하락, 리스크 요인 우선",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 우선",
+          "confidence": 0.5304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 리스크 요인 우선",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 리스크 요인 우선, 감정 배제, 데이터 기반 판단.",
+          "confidence": 0.5531469462265499
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 1: 주가 하락 추세",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선",
+          "confidence": 0.4598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선으로 리스크 관리를 위해 매도",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선, 군중 반응이 강한 매도세",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가에 대한 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-09",
+      "seed": {
+        "summary": "SK하이닉스의 주가가 하락 추세에 있는 것으로 나타났다. 최근 5일 주가 추이는 -11.0%로 하락하고, 현재가 836,000원으로 하락 추세를 지속하고 있다.",
+        "issue_type": "주가 하락",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "리스크 요인: 최근 주가 하락",
+          "기타 포인트: 공시 없음",
+          "[전일(2026-03-06) 이월] 예측:하락 | 매수:0% | 매도:52%\n요약: SK하이닉스 주가 하락 추세에 대한 리스크 분석 — 주가 하락 추세와 부정적 공시/뉴스 absent"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 836000.0,
+          "price_change_5d_pct": -10.97,
+          "trend": "하락",
+          "actual_1d_pct": 12.2,
+          "actual_5d_pct": 8.85,
+          "actual_20d_pct": 8.85
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 54.7,
+        "hold_pressure": 45.3,
+        "net_pressure": -54.7,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.496,
+        "confidence_avg": 0.72
+      },
+      "validation": {
+        "ticker": "000660",
+        "issue_date": "2026-03-09",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 54.7,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 12.2,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 8.85,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 8.85,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 836000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 우선",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 최근 5일 주가 추이 하락, 리스크 요인 우선",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 우선",
+          "confidence": 0.5304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.7347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 리스크 요인 우선, 감정 배제, 데이터 기반 판단.",
+          "confidence": 0.7531469462265499
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선, 주가 하락 추세에 있는 SK하이닉스의 주가와 부정적 공시/뉴스 absent",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선",
+          "confidence": 0.6598899566937936
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선으로 리스크 관리를 위해 매도",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선, 군중 반응이 강한 매도세",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가에 대한 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스의 주가와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.23910354938791328
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-10",
+      "seed": {
+        "summary": "SK하이닉스 주식에 대한 투자자 관점의 시장 상황 요약 — 리스크와 기회를 균형있게",
+        "issue_type": "기타",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세",
+          "SK하이닉스 주식 매입 제안",
+          "지역 기업과 시민이 함께 성장하는 구조를 만들 수 있다",
+          "[전일(2026-03-09) 이월] 예측:하락 | 매수:0% | 매도:55%\n요약: SK하이닉스의 주가가 하락 추세에 있는 것으로 나타났다. 최근 5일 주가 추이는 -11.0%로 하락하고, 현재가 836,000원으로 하락 추세를"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "손인석 \"SK하이닉스 지방세, 청주시민 균등 지급할 것\"",
+            "description": "손 예비후보는 또 \"SK하이닉스 주식을 매입하는 '청주시민 주주 운동'을 전개할 것\"이라며 \"하이닉스의 성과를 시민이 다시 투자한다면 기업의 가치는 더 높아지고 그 혜택은 우리 지역으로 돌아오게 된다\"고 강조했다.... ",
+            "press": "www.nocutnews.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/079/0004122765?sid=102",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 예비후보 \"하이닉스 지방세 2000억 청주시민에게 주겠다\"",
+            "description": "그는 \"받은 지원금으로 SK하이닉스 주식을 매입하는 '시민 주주 운동'을 전개하겠다\"며 \"강제 사항은 아니지만, 시민이 지켜낸 기업의 성과를 다시 투자한다면 기업의 가치는 더 높아지고 그 혜택은 다시 우리 지역으로... ",
+            "press": "www.news1.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/421/0008814727?sid=102",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 “SK하이닉스 납부 청주시 지방세 시민 환원”",
+            "description": "아울러 “시민들이 받은 지원금으로 SK하이닉스 주식을 매입하는 ‘시민 주주 운동’을 함께 전개하겠다”면서 “이는 강제 사항은 아니다”라고 말했다. 손인석 예비후보는 “지원금이 소비로 이어지면 지역 경기 부양... ",
+            "press": "www.inews24.com",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/031/0001011449?sid=102",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 예비후보 \"SK하이닉스 지방세 시민에게 배분\"",
+            "description": "지원금을 활용해 SK하이닉스 주식을 매입하는 '청주시민 주주 운동'도 제안했다. 손 예비후보는 \"지원금 사용은 자유지만 시민이 지켜낸 하이닉스의 성과를 다시 투자한다면 기업의 가치는 더 높아지고 그 혜택은 우리... ",
+            "press": "www.ccdailynews.com",
+            "date": "2026-03-09",
+            "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2401825",
+            "source": "naver_api"
+          },
+          {
+            "title": "\"SK하이닉스 지방세 2천억, 청주시민에게 돌려드리겠다\"",
+            "description": "또 시민들이 지원금을 활용해 SK하이닉스 주식을 매입하는 '청주시민 주주운동'도 제안했다. 시민이 기업 성장에 함께 참여함으로써 지역과 기업이 상생하는 선순환 구조를 만들겠다는 구상이다. 그는 \"시민이 지켜낸... ",
+            "press": "www.dynews.co.kr",
+            "date": "2026-03-09",
+            "url": "http://www.dynews.co.kr/news/articleView.html?idxno=841386",
+            "source": "naver_api"
+          },
+          {
+            "title": "KB운용, 'RISE 삼전·SK하닉채권혼합50 ETF' 순자산 3천억 돌파",
+            "description": "삼성전자·SK하이닉스에 대한 투자 비중을 극대화하면서도 단일 종목 투자 대비 리스크를 분산해 연금 자산에 적합한 상품으로 간주된다. 현행 제도상 퇴직연금 계좌는 주식형 ETF 등 위험자산에 대한 투자 한도가... ",
+            "press": "www.news1.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/421/0008814694?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "RISE 삼성전자SK하이닉스채권혼합50 ETF, 순자산 3000억 돌파",
+            "description": "특히 RISE 삼성전자SK하이닉스채권혼합50 ETF는 퇴직연금(DC·IRP) 규정상 안전자산에 속한다. 현행 제도상 퇴직연금 계좌는 주식형 ETF 등 위험자산에 대한 투자 한도가 70%로 제한되지만 채권혼합형으로 인정되는 이... ",
+            "press": "www.edaily.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/018/0006230618?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 청주시장 예비후보 \"SK하이닉스 지방세 2천억, 시민에 환원\"",
+            "description": "이어 \"시민이 받은 지원금으로 SK하이닉스 주식을 매입하는 '청주시민 주주운동'을 전개하겠다\"고 말했다. 기업 성장에 시민이 다시 투자함으로써 시민과 기업이 함께 성장하는 선순환 구조를 만들겠다는 논리다. 또... ",
+            "press": "www.jbnews.com",
+            "date": "2026-03-09",
+            "url": "https://www.jbnews.com/news/articleView.html?idxno=1500080",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 938000.0,
+          "price_change_5d_pct": 10.48,
+          "trend": "상승",
+          "actual_1d_pct": 1.81,
+          "actual_5d_pct": -2.99,
+          "actual_20d_pct": -2.99
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "약",
+        "buy_pressure": 8.0,
+        "sell_pressure": 42.6,
+        "hold_pressure": 49.3,
+        "net_pressure": -34.6,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 1,
+            "매도": 3,
+            "관망": 1,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 1,
+            "매도": 3,
+            "관망": 1,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.569,
+        "confidence_avg": 0.699
+      },
+      "validation": {
+        "ticker": "000660",
+        "issue_date": "2026-03-10",
+        "prediction": "하락",
+        "buy_pressure": 8.0,
+        "sell_pressure": 42.6,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 1.81,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.99,
+            "is_correct": true
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.99,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 66.7,
+        "correct_count": 2,
+        "total_periods": 3,
+        "base_price": 938000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선, 군중 반응에 따라 매도 우위",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선, 군중 반응의 강한 신호",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선, 주가 하락 추세에 있는 SK하이닉스의 주가와 부정적 공시/뉴스 absent",
+          "confidence": 0.33049027755348215
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 감정 배제, 데이터 기반 판단.",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "Long-term growth potential and in-house research and development expertise outweigh the current market trend and risk factors.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 SK하이닉스 주가 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선, 군중 반응에 따라 매도 우위",
+          "confidence": 0.4598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "SK하이닉스 주식에 대한 추세추종으로 매수 제안, 현재 성향은 매수편향",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세와 리스크 요인 우선, 군중 반응이 강한 매도세",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.1
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-11",
+      "seed": {
+        "summary": "SK하이닉스 주식 시장 상황 요약 — 리스크와 기회를 균형있게",
+        "issue_type": "실적발표",
+        "sentiment": "positive",
+        "impact_level": "medium",
+        "key_points": [
+          "SK하이닉스 주식이 최근 5일 주가 추이에서 상승 (+1.5%)",
+          "외국인 투자자들이 반도체주를 적극적으로 사들였다",
+          "RISE 삼성전자SK하이닉스채권혼합50 ETF가 순자산 3천억 돌파",
+          "[전일(2026-03-10) 이월] 예측:하락 | 매수:8% | 매도:43%\n요약: SK하이닉스 주식에 대한 투자자 관점의 시장 상황 요약 — 리스크와 기회를 균형있게"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "\"AI칩 미래 선점하자\"…삼성전자·SK하이닉스, 젊은 반도체 인재 영입전...",
+            "description": "삼성, 비메모리 채용 재개…'종합 반도체 경쟁력↑' 10일 업계에 따르면 삼성전자와 SK하이닉스는 이날... 엔비디아, 구글, 브로드컴 등 빅테크들도 억대 연봉에 주식 보상을 내걸고 있다. 엔비디아는 4억원에 달하는... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-10",
+            "url": "https://n.news.naver.com/mnews/article/003/0013813454?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 \"SK하이닉스 지방세, 청주시민 균등 지급할 것\"",
+            "description": "손 예비후보는 또 \"SK하이닉스 주식을 매입하는 '청주시민 주주 운동'을 전개할 것\"이라며 \"하이닉스의 성과를 시민이 다시 투자한다면 기업의 가치는 더 높아지고 그 혜택은 우리 지역으로 돌아오게 된다\"고 강조했다.... ",
+            "press": "www.nocutnews.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/079/0004122765?sid=102",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 예비후보 \"하이닉스 지방세 2000억 청주시민에게 주겠다\"",
+            "description": "그는 \"받은 지원금으로 SK하이닉스 주식을 매입하는 '시민 주주 운동'을 전개하겠다\"며 \"강제 사항은 아니지만, 시민이 지켜낸 기업의 성과를 다시 투자한다면 기업의 가치는 더 높아지고 그 혜택은 다시 우리 지역으로... ",
+            "press": "www.news1.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/421/0008814727?sid=102",
+            "source": "naver_api"
+          },
+          {
+            "title": "\"종전 임박 기대감\"…삼전 7%·SK하이닉스 8% 상승[핫스탁]",
+            "description": "삼성전자와 SK하이닉스가 급등 중이다. 한국거래소에 따르면 삼성전자는 10일 오전 9시7분 현재... 김영건 미래에셋증권 연구원은 \"삼성전자 주식은 미국의 이란공습 후 패닉셀을 겪으며 단 5거래일만에 19.9%의 누적... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-10",
+            "url": "https://n.news.naver.com/mnews/article/003/0013811658?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 “SK하이닉스 납부 청주시 지방세 시민 환원”",
+            "description": "아울러 “시민들이 받은 지원금으로 SK하이닉스 주식을 매입하는 ‘시민 주주 운동’을 함께 전개하겠다”면서 “이는 강제 사항은 아니다”라고 말했다. 손인석 예비후보는 “지원금이 소비로 이어지면 지역 경기 부양... ",
+            "press": "www.inews24.com",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/031/0001011449?sid=102",
+            "source": "naver_api"
+          },
+          {
+            "title": "9조 던지더니 '돌변'…외국인, K증시서 '1조 줍줍'한 종목 [종목+]",
+            "description": "한국거래소에 따르면 이날 외국인은 유가증권시장에서 1조977억원어치 주식을 순매수했다. 앞서 지난달... 특히 외국인은 그동안 낙폭이 컸던 삼성전자와 SK하이닉스를 중심으로 반도체주를 적극적으로 사들였다. 이날... ",
+            "press": "www.hankyung.com",
+            "date": "2026-03-10",
+            "url": "https://n.news.naver.com/mnews/article/015/0005260661?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 예비후보 \"SK하이닉스 지방세 시민에게 배분\"",
+            "description": "지원금을 활용해 SK하이닉스 주식을 매입하는 '청주시민 주주 운동'도 제안했다. 손 예비후보는 \"지원금 사용은 자유지만 시민이 지켜낸 하이닉스의 성과를 다시 투자한다면 기업의 가치는 더 높아지고 그 혜택은 우리... ",
+            "press": "www.ccdailynews.com",
+            "date": "2026-03-09",
+            "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2401825",
+            "source": "naver_api"
+          },
+          {
+            "title": "\"SK하이닉스 지방세 2천억, 청주시민에게 돌려드리겠다\"",
+            "description": "또 시민들이 지원금을 활용해 SK하이닉스 주식을 매입하는 '청주시민 주주운동'도 제안했다. 시민이 기업 성장에 함께 참여함으로써 지역과 기업이 상생하는 선순환 구조를 만들겠다는 구상이다. 그는 \"시민이 지켜낸... ",
+            "press": "www.dynews.co.kr",
+            "date": "2026-03-09",
+            "url": "http://www.dynews.co.kr/news/articleView.html?idxno=841386",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 955000.0,
+          "price_change_5d_pct": 1.49,
+          "trend": "상승",
+          "actual_1d_pct": -2.62,
+          "actual_5d_pct": -4.71,
+          "actual_20d_pct": -4.71
+        }
+      },
+      "result": {
+        "prediction": "상승",
+        "strength": "약",
+        "buy_pressure": 40.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 60.0,
+        "net_pressure": 40.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 2,
+            "매도": 0,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 2,
+            "매도": 0,
+            "관망": 3,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 3,
+            "매도": 0,
+            "관망": 2,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.48,
+        "confidence_avg": 0.669
+      },
+      "validation": {
+        "ticker": "000660",
+        "issue_date": "2026-03-11",
+        "prediction": "상승",
+        "buy_pressure": 40.0,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "상승",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.62,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "상승",
+            "actual_direction": "하락",
+            "actual_change_pct": -4.71,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "상승",
+            "actual_direction": "하락",
+            "actual_change_pct": -4.71,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 955000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매수",
+          "reason": "SK하이닉스 주식이 최근 5일 주가 추이에서 상승 (+1.5%)와 외국인 투자자들이 반도체주를 적극적으로 사들였다",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매수",
+          "reason": "SK하이닉스 주식이 최근 5일 주가 추이에서 상승 (+1.5%)와 외국인 투자자들이 반도체주를 적극적으로 사들였다",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.9643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "SK하이닉스 주식이 최근 5일 주가 추이에서 상승 (+1.5%)로 긍정적 시장 분위기, Algorithmic trading and high-frequency trading.",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려, 추가 정보 필요",
+          "confidence": 0.6142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 감정 배제, 데이터 기반 판단.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "Long-term growth potential and in-house research and development expertise outweigh the current market trend and risk factors.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "SK하이닉스 주식이 최근 5일 주가 추이에서 상승 (+1.5%)와 외국인 투자자들이 반도체주를 적극적으로 사들였다.",
+          "confidence": 0.91141546821062
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "SK하이닉스 주식이 최근 5일 주가 추이에서 상승 (+1.5%)와 외국인 투자자들이 반도체주를 적극적으로 사들였다",
+          "confidence": 0.2876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "SK하이닉스 주식이 최근 5일 주가 추이에서 상승 (+1.5%)와 외국인 투자자들이 반도체주를 적극적으로 사들였다",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.6915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.1
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-12",
+      "seed": {
+        "summary": "SK하이닉스 주식 시장 상황 요약: 리스크와 기회 균형",
+        "issue_type": "실적발표",
+        "sentiment": "positive",
+        "impact_level": "medium",
+        "key_points": [
+          "SK하이닉스 주식이 최근 5일간 0.7% 상승한 것",
+          "자사주 소각 결정으로 처분 등을 통한 유통 주식 수 증가 가능성이 사라졌으며",
+          "SK하이닉스가 미국에 ‘AI 컴퍼니’를 설립하여 그룹의 AI 투자의 컨트롤 타워",
+          "[전일(2026-03-11) 이월] 예측:상승 | 매수:40% | 매도:0%\n요약: SK하이닉스 주식 시장 상황 요약 — 리스크와 기회를 균형있게"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "\"AI칩 미래 선점하자\"…삼성전자·SK하이닉스, 젊은 반도체 인재 영입전...",
+            "description": "삼성, 비메모리 채용 재개…'종합 반도체 경쟁력↑' 10일 업계에 따르면 삼성전자와 SK하이닉스는 이날... 엔비디아, 구글, 브로드컴 등 빅테크들도 억대 연봉에 주식 보상을 내걸고 있다. 엔비디아는 4억원에 달하는... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-10",
+            "url": "https://n.news.naver.com/mnews/article/003/0013813454?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "삼전·SK하이닉스 하락 끝?…증권가 \"비중확대 기회\"",
+            "description": "외국인들은 전날 유가증권시장에서 1조1000억원어치의 주식을 순매수했다. 순매수 1, 2위는 삼성전자와 SK하이닉스였다. 다만 연일 폭등과 폭락을 반복하는 변동성 장세가 투자자들의 혼란을 부추기고 있다.... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-11",
+            "url": "https://n.news.naver.com/mnews/article/003/0013813946?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "코스피 상승 발맞춰 삼전·SK '자사주 소각' 훈풍 \"100조 특별배당 가능...",
+            "description": "이 경우 금산분리 원칙에 어긋날 수 있어 두 회사는 삼성전자 주식을 매각해야 하고 차익 기대감이... 같은 기간 SK하이닉스 역시 2조 5029억원, 1조2070억을 팔았다. 이는 지난달 28일 미국의 이란 공습 소식이 전해지자... ",
+            "press": "view.asiae.co.kr",
+            "date": "2026-03-11",
+            "url": "https://n.news.naver.com/mnews/article/277/0005732549?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "美 기술주 강세에 삼전·SK하이닉스 2%대 상승 출발[핫스탁]",
+            "description": "미국 증시가 혼조세로 마감하면서도 기술주를 중심으로 강세를 보이면서 삼성전자와 SK하이닉스 주가가... 삼성전자는 올해 상반기 중 자기주식 보통주 약 7340만주, 우선주 약 1360만주 16조원 규모의 자사주를... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-11",
+            "url": "https://n.news.naver.com/mnews/article/003/0013814223?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 \"SK하이닉스 지방세, 청주시민 균등 지급할 것\"",
+            "description": "손 예비후보는 또 \"SK하이닉스 주식을 매입하는 '청주시민 주주 운동'을 전개할 것\"이라며 \"하이닉스의 성과를 시민이 다시 투자한다면 기업의 가치는 더 높아지고 그 혜택은 우리 지역으로 돌아오게 된다\"고 강조했다.... ",
+            "press": "www.nocutnews.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/079/0004122765?sid=102",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 예비후보 \"하이닉스 지방세 2000억 청주시민에게 주겠다\"",
+            "description": "그는 \"받은 지원금으로 SK하이닉스 주식을 매입하는 '시민 주주 운동'을 전개하겠다\"며 \"강제 사항은 아니지만, 시민이 지켜낸 기업의 성과를 다시 투자한다면 기업의 가치는 더 높아지고 그 혜택은 다시 우리 지역으로... ",
+            "press": "www.news1.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/421/0008814727?sid=102",
+            "source": "naver_api"
+          },
+          {
+            "title": "\"종전 임박 기대감\"…삼전 7%·SK하이닉스 8% 상승[핫스탁]",
+            "description": "삼성전자와 SK하이닉스가 급등 중이다. 한국거래소에 따르면 삼성전자는 10일 오전 9시7분 현재... 김영건 미래에셋증권 연구원은 \"삼성전자 주식은 미국의 이란공습 후 패닉셀을 겪으며 단 5거래일만에 19.9%의 누적... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-10",
+            "url": "https://n.news.naver.com/mnews/article/003/0013811658?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 “SK하이닉스 납부 청주시 지방세 시민 환원”",
+            "description": "아울러 “시민들이 받은 지원금으로 SK하이닉스 주식을 매입하는 ‘시민 주주 운동’을 함께 전개하겠다”면서 “이는 강제 사항은 아니다”라고 말했다. 손인석 예비후보는 “지원금이 소비로 이어지면 지역 경기 부양... ",
+            "press": "www.inews24.com",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/031/0001011449?sid=102",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 930000.0,
+          "price_change_5d_pct": 0.65,
+          "trend": "보합",
+          "actual_1d_pct": -2.15,
+          "actual_5d_pct": -2.15,
+          "actual_20d_pct": -2.15
+        }
+      },
+      "result": {
+        "prediction": "상승",
+        "strength": "약",
+        "buy_pressure": 30.5,
+        "sell_pressure": 0.0,
+        "hold_pressure": 69.5,
+        "net_pressure": 30.5,
+        "type_breakdown": {
+          "retail": {
+            "매수": 1,
+            "매도": 0,
+            "관망": 4,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 2,
+            "매도": 0,
+            "관망": 3,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 2,
+            "매도": 0,
+            "관망": 3,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.424,
+        "confidence_avg": 0.666
+      },
+      "validation": {
+        "ticker": "000660",
+        "issue_date": "2026-03-12",
+        "prediction": "상승",
+        "buy_pressure": 30.5,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "상승",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.15,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "상승",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.15,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "상승",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.15,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 930000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "군중 반응이 긍정적이고, SK하이닉스 주식이 최근 5일 주가 추이에서 상승하여 리스크 요인 우선으로 매도나 관망이 자연스러운 반응",
+          "confidence": 0.7785679158793695
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매수",
+          "reason": "SK하이닉스의 실적발표와 AI 컴퍼니 설립으로 기회가 있는 것 같아요!",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.7643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.23049027755348211
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "SK하이닉스 주식이 최근 5일 주가 추이에서 상승 (+0.7%)로 긍정적 시장 분위기, Algorithmic trading and high-frequency trading.",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려, 추가 정보 필요",
+          "confidence": 0.6142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "가격과 공시를 고려하여 리스크 관리를 우선으로 하되, 감정 배제, 데이터 기반 판단.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "Long-term growth potential and in-house research and development expertise outweigh the current market trend and risk factors.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "SK하이닉스 주식이 최근 5일 주가 추이에서 상승 (+0.7%)와 외국인 투자자들이 반도체주를 적극적으로 사들였다. 추세추종 편향으로 매수",
+          "confidence": 0.91141546821062
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.4598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "SK하이닉스 주식이 최근 5일간 0.7% 상승한 것과 자사주 소각 결정으로 처분 등을 통한 유통 주식 수 증가 가능성이 사라졌으며, 시장 분위기도 긍정적이므로 관망을 선택",
+          "confidence": 0.2876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "SK하이닉스 주식이 최근 5일 주가 추이에서 상승 (+0.7%)로 긍정적 시장 분위기",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가, 리스크 요인 우선",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-13",
+      "seed": {
+        "summary": "SK하이닉스 주식 시장 상황은 주가 상승 추세에 있지만, 리스크 요인도 확인되어야 한다.",
+        "issue_type": "실적발표",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "상승 근거: SK하이닉스 주식이 8.8% 상승, 외국인들은 전날 유가증권시장에서 1조1000억원어치의 주식을 순매수",
+          "리스크 요인: SK하이닉스 주식이 2%대 상승 출발, 삼성전자와 SK하이닉스가 자사주 소각 훈풍",
+          "기타 포인트: SK하이닉스 직원들 근황, SK하이닉스 주식을 매입하는 '시민 주주 운동'",
+          "[전일(2026-03-12) 이월] 예측:상승 | 매수:30% | 매도:0%\n요약: SK하이닉스 주식 시장 상황 요약: 리스크와 기회 균형"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "\"AI칩 미래 선점하자\"…삼성전자·SK하이닉스, 젊은 반도체 인재 영입전...",
+            "description": "삼성, 비메모리 채용 재개…'종합 반도체 경쟁력↑' 10일 업계에 따르면 삼성전자와 SK하이닉스는 이날... 엔비디아, 구글, 브로드컴 등 빅테크들도 억대 연봉에 주식 보상을 내걸고 있다. 엔비디아는 4억원에 달하는... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-10",
+            "url": "https://n.news.naver.com/mnews/article/003/0013813454?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "삼전·SK하이닉스 하락 끝?…증권가 \"비중확대 기회\"",
+            "description": "외국인들은 전날 유가증권시장에서 1조1000억원어치의 주식을 순매수했다. 순매수 1, 2위는 삼성전자와 SK하이닉스였다. 다만 연일 폭등과 폭락을 반복하는 변동성 장세가 투자자들의 혼란을 부추기고 있다.... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-11",
+            "url": "https://n.news.naver.com/mnews/article/003/0013813946?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "코스피 상승 발맞춰 삼전·SK '자사주 소각' 훈풍 \"100조 특별배당 가능...",
+            "description": "이 경우 금산분리 원칙에 어긋날 수 있어 두 회사는 삼성전자 주식을 매각해야 하고 차익 기대감이... 같은 기간 SK하이닉스 역시 2조 5029억원, 1조2070억을 팔았다. 이는 지난달 28일 미국의 이란 공습 소식이 전해지자... ",
+            "press": "view.asiae.co.kr",
+            "date": "2026-03-11",
+            "url": "https://n.news.naver.com/mnews/article/277/0005732549?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "美 기술주 강세에 삼전·SK하이닉스 2%대 상승 출발[핫스탁]",
+            "description": "미국 증시가 혼조세로 마감하면서도 기술주를 중심으로 강세를 보이면서 삼성전자와 SK하이닉스 주가가... 삼성전자는 올해 상반기 중 자기주식 보통주 약 7340만주, 우선주 약 1360만주 16조원 규모의 자사주를... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-11",
+            "url": "https://n.news.naver.com/mnews/article/003/0013814223?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "\"입사 2년차도 자사주 1억 보유\"…SK하이닉스 직원들 근황",
+            "description": "일해야 주식이 오르니 동기부여가 되는 것\"이라고 했다. 앞서 지난 1월에도 SK하이닉스 내부 분위기를 전한 글이 온라인에서 화제가 된 바 있다. 당시에는 직장인 익명 커뮤니티 '블라인드'에 올라온 글이 각종... ",
+            "press": "www.hankyung.com",
+            "date": "2026-03-12",
+            "url": "https://n.news.naver.com/mnews/article/015/0005261398?sid=102",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 \"SK하이닉스 지방세, 청주시민 균등 지급할 것\"",
+            "description": "손 예비후보는 또 \"SK하이닉스 주식을 매입하는 '청주시민 주주 운동'을 전개할 것\"이라며 \"하이닉스의 성과를 시민이 다시 투자한다면 기업의 가치는 더 높아지고 그 혜택은 우리 지역으로 돌아오게 된다\"고 강조했다.... ",
+            "press": "www.nocutnews.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/079/0004122765?sid=102",
+            "source": "naver_api"
+          },
+          {
+            "title": "손인석 예비후보 \"하이닉스 지방세 2000억 청주시민에게 주겠다\"",
+            "description": "그는 \"받은 지원금으로 SK하이닉스 주식을 매입하는 '시민 주주 운동'을 전개하겠다\"며 \"강제 사항은 아니지만, 시민이 지켜낸 기업의 성과를 다시 투자한다면 기업의 가치는 더 높아지고 그 혜택은 다시 우리 지역으로... ",
+            "press": "www.news1.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/421/0008814727?sid=102",
+            "source": "naver_api"
+          },
+          {
+            "title": "룰라대통령에 명함건넨 삼성 회장 [김세형칼럼]",
+            "description": "높은 연봉(3억8000만원)을 제시하며 한국의 삼성, SK하이닉스의 HBM 고급 인력을 겨냥한 게 뻔했다. 얼마 전... 5000만달러의 주식과 수석부사장 승진이라는 선물로 주저앉혔다는 일화는 전설로 남아 있다. 그동안 미국... ",
+            "press": "www.mk.co.kr",
+            "date": "2026-03-12",
+            "url": "https://n.news.naver.com/mnews/article/009/0005648979?sid=110",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 910000.0,
+          "price_change_5d_pct": 8.85,
+          "trend": "상승",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 7.4,
+        "hold_pressure": 92.6,
+        "net_pressure": -7.4,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.137,
+        "confidence_avg": 0.624
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "SK하이닉스 주식이 최근 5일 주가 추이에서 상승 (+8.8%)이나 리스크 요인도 확인되어야 한다.",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "SK하이닉스의 실적발표와 AI 컴퍼니 설립으로 기회가 있는 것 같아요! 하지만 리스크 요인도 확인되어야 한다.",
+          "confidence": 0.45858094368674573
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.9643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "불확실성으로 눈치보기, 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려, 추가 정보 필요",
+          "confidence": 0.6142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "가격과 공시를 고려하여 리스크 관리를 우선으로 하되, 감정 배제, 데이터 기반 판단.",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "SK하이닉스 주식이 8.8% 상승, 외국인들은 전날 유가증권시장에서 1조1000억원어치의 주식을 순매수, 하지만 리스크 요인도 확인되어야 한다.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세에 있는 SK하이닉스 주가 리스크 요인 우선, 새로운 정보 반영 필요",
+          "confidence": 0.61141546821062
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.25988995669379356
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고, SK하이닉스 주식이 8.8% 상승한 것에 대한 리스크 요인을 고려해야 한다.",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "리스크 요인 확인, 하락 신호 감지",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.1391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-16",
+      "seed": {
+        "summary": "SK하이닉스 주가 추세는 최근 5일간 상승 추세를 보이나, 부정적 공시/뉴스가 일부 포함되어 있는 점을 고려해야 한다.",
+        "issue_type": "실적발표",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "상승 근거: 최근 5일간 주가 상승, 반도체 업종 내 최선호주로 꼽힘",
+          "리스크 요인: 부정적 공시/뉴스 일부 포함, 외국인들이 팔아치운 삼성전자·하이닉스",
+          "[전일(2026-03-13) 이월] 예측:보합 | 매수:0% | 매도:7%\n요약: SK하이닉스 주식 시장 상황은 주가 상승 추세에 있지만, 리스크 요인도 확인되어야 한다."
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "\"코스닥보단 코스피 유망…톱픽은 하이닉스·한미반도체\"",
+            "description": "남 본부장은 “전쟁으로 밸류체인 자체가 무너진 것은 아닌 만큼 지금은 펀더멘털이 탄탄한 반도체 주식을 모아갈 때”라고 강조했다. 반도체업종 내 최선호주로는 SK하이닉스를 꼽았다. 원가 상승 압박을 방어할 수익... ",
+            "press": "www.hankyung.com",
+            "date": "2026-03-15",
+            "url": "https://n.news.naver.com/mnews/article/015/0005262443?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "\"AI칩 미래 선점하자\"…삼성전자·SK하이닉스, 젊은 반도체 인재 영입전...",
+            "description": "삼성, 비메모리 채용 재개…'종합 반도체 경쟁력↑' 10일 업계에 따르면 삼성전자와 SK하이닉스는 이날... 엔비디아, 구글, 브로드컴 등 빅테크들도 억대 연봉에 주식 보상을 내걸고 있다. 엔비디아는 4억원에 달하는... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-10",
+            "url": "https://n.news.naver.com/mnews/article/003/0013813454?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "주식시장 급등락은 '숫자 밖'에서 시작된다",
+            "description": "비트겐슈타인이 주식투자를 한다면? ● “말할 수 없는 것엔 침묵하라” 비트겐슈타인의 교훈 ● 리스크를... 기업 이익은 개선되고 있고, 삼성전자와 SK하이닉스 같은 대형주에 대한 기대도 살아 있었다. 코스피의... ",
+            "press": "shindonga.donga.com",
+            "date": "2026-03-14",
+            "url": "https://n.news.naver.com/mnews/article/262/0000019227?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "“삼성전자·하이닉스 내년 이익 900조 전망까지, 다시 온 올라탈 기회...",
+            "description": "‘이미 오를 만큼 오른 것 같은데, 지금이라도 반도체 주식을 사야 할까?’라는 의문이 머릿속을 떠나지... HBM 시장과 범용 반도체 가격 급등 수혜를 삼성전자와 SK하이닉스가 입고 있기 때문인데요. 김 부장은 “올해... ",
+            "press": "www.chosun.com",
+            "date": "2026-03-14",
+            "url": "https://n.news.naver.com/mnews/article/023/0003964518?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "삼전·SK하이닉스 하락 끝?…증권가 \"비중확대 기회\"",
+            "description": "외국인들은 전날 유가증권시장에서 1조1000억원어치의 주식을 순매수했다. 순매수 1, 2위는 삼성전자와 SK하이닉스였다. 다만 연일 폭등과 폭락을 반복하는 변동성 장세가 투자자들의 혼란을 부추기고 있다.... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-11",
+            "url": "https://n.news.naver.com/mnews/article/003/0013813946?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "코스피 상승 발맞춰 삼전·SK '자사주 소각' 훈풍 \"100조 특별배당 가능...",
+            "description": "이 경우 금산분리 원칙에 어긋날 수 있어 두 회사는 삼성전자 주식을 매각해야 하고 차익 기대감이... 같은 기간 SK하이닉스 역시 2조 5029억원, 1조2070억을 팔았다. 이는 지난달 28일 미국의 이란 공습 소식이 전해지자... ",
+            "press": "view.asiae.co.kr",
+            "date": "2026-03-11",
+            "url": "https://n.news.naver.com/mnews/article/277/0005732549?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "\"삼전·하이닉스보다 더 올랐다\"…줄줄이 급등하자 '깜짝' 전망",
+            "description": "삼성전자와 SK하이닉스에 이어 반도체 소부장(소재·부품·장비) 종목이 급등하고 있다. ‘반도체 투톱’이... 한 자산운용사 주식운용본부장은 “중국은 ‘장비 자국화’에 초점을 맞춘 정책을 펴고 있기 때문에... ",
+            "press": "www.hankyung.com",
+            "date": "2026-03-13",
+            "url": "https://n.news.naver.com/mnews/article/015/0005262133?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "[금융핫이슈] 외국인이 팔아치운 삼성전자·하이닉스, 골드만삭스가 '매...",
+            "description": "개인은 지난 9일부터 13일까지 삼성전자 2조7172억원, SK하이닉스 1조3770억원어치를 매수했다. 폭락장에서 저가 매수에 나선 것이다. 즉 그동안 반도체 주식을 팔아치운 외국인인 골드만삭스가 앞장서서 목표 주가를... ",
+            "press": "www.pennmike.com",
+            "date": "2026-03-15",
+            "url": "https://www.pennmike.com/news/articleView.html?idxno=116771",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 910000.0,
+          "price_change_5d_pct": 8.85,
+          "trend": "상승",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.628
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인 확인 필요, 주가 추세는 상승이나 부정적 공시/뉴스 일부 포함",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인 확인 필요, 시장 분위기 중립적",
+          "confidence": 0.45858094368674573
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "불확실성으로 눈치보기, 리스크 요인 우선으로 리스크 관리를 최우선으로 고려",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선으로 리스크 관리를 최우선으로 고려, 추가 정보 필요",
+          "confidence": 0.6142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "가격과 공시를 고려하여 리스크 관리를 우선으로 하되, 감정 배제, 데이터 기반 판단.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "불확실성으로 눈치보기, 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "불확실성으로 눈치보기, 하락 추세와 리스크 요인 우선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "SK하이닉스 주가 추세는 최근 5일간 상승 추세를 보이나, 부정적 공시/뉴스가 일부 포함되어 있는 점을 고려해야 한다.",
+          "confidence": 0.2876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "상승 추세 유지, 리스크 요인 확인 필요",
+          "confidence": 0.6150886494937298
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.21621132059617115
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 단기 노이즈 무시",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.7915622059190301
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "하락 추세와 리스크 요인 우선, 추가 정보 필요",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    }
+  ]
+}

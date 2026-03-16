@@ -1,0 +1,271 @@
+{
+  "summary": {
+    "total_cases": 3,
+    "avg_accuracy_pct": 11.1,
+    "period_accuracy": {
+      "1d": 33.3,
+      "5d": 0.0,
+      "20d": 0.0
+    }
+  },
+  "cases": [
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2023-10-26",
+      "seed": {
+        "summary": "SK하이닉스가 2023년 11월 3일까지 22,279주의 자기주식을 처분할 계획을 발표했습니다.",
+        "issue_type": "자기주식 처분 결정",
+        "sentiment": "neutral",
+        "impact_level": "low",
+        "key_points": [
+          "22,279주의 자기주식을 처분할 계획",
+          "처분예정기간은 2023년 11월 3일",
+          "임직원에 대한자기주식 상여 지급"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 1
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 14.3,
+        "sell_pressure": 3.5,
+        "hold_pressure": 82.1,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 4,
+            "매도": 1,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "issue_type": "자기주식 처분 결정",
+        "sentiment": "neutral"
+      },
+      "validation": {
+        "ticker": "000660",
+        "issue_date": "2023-10-26",
+        "prediction": "보합",
+        "buy_pressure": 14.3,
+        "sell_pressure": 3.5,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "보합",
+            "actual_change_pct": -0.75,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "상승",
+            "actual_change_pct": 4.42,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "상승",
+            "actual_change_pct": 8.42,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 33.3,
+        "correct_count": 1,
+        "total_periods": 3,
+        "base_price": 120000.0
+      },
+      "memo": "3Q 실적발표 — 어닝쇼크, 당일 -5.88%"
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2024-01-25",
+      "seed": {
+        "summary": "SK하이닉스가 직원 대상 자기주식 상여 지급을 결정, 477,390주를 처분할 계획입니다.",
+        "issue_type": "자기주식 처분 결정",
+        "sentiment": "neutral",
+        "impact_level": "low",
+        "key_points": [
+          "477,390주의 자기주식을 처분할 계획",
+          "직원 대상 자기주식 상여 지급",
+          "시장 통한 처분"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 1
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 17.9,
+        "sell_pressure": 0.0,
+        "hold_pressure": 82.1,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 5,
+            "매도": 0,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "issue_type": "자기주식 처분 결정",
+        "sentiment": "neutral"
+      },
+      "validation": {
+        "ticker": "000660",
+        "issue_date": "2024-01-25",
+        "prediction": "보합",
+        "buy_pressure": 17.9,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.02,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -3.42,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "상승",
+            "actual_change_pct": 13.9,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 137400.0
+      },
+      "memo": "4Q 흑자전환 발표"
+    },
+    {
+      "corp_name": "삼성전자",
+      "ticker": "005930",
+      "issue_date": "2024-04-05",
+      "seed": {
+        "summary": "삼성전자 주가가 23.7% 상승하여 84,500원에 거래 중인 것으로 보이며, 투자자들은 이 추이에 대한 분석을 요구할 것이다.",
+        "issue_type": "주가 추이",
+        "sentiment": "positive",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 상승",
+          "투자자 분석 요구",
+          "시장 상황 분석 필요"
+        ],
+        "corp_name": "삼성전자",
+        "raw_disclosure_count": 0
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 18.4,
+        "sell_pressure": 0.0,
+        "hold_pressure": 81.6,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 5,
+            "매도": 0,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "issue_type": "주가 추이",
+        "sentiment": "positive"
+      },
+      "validation": {
+        "ticker": "005930",
+        "issue_date": "2024-04-05",
+        "prediction": "보합",
+        "buy_pressure": 18.4,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -18.22,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -18.11,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -9.94,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 84500.0
+      },
+      "memo": "1Q 잠정실적 — 반도체 흑자전환"
+    }
+  ]
+}
