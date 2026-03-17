@@ -4,4 +4,3 @@ __*
 .venv
 db/daily/
 db/runs/
-simulation.db
