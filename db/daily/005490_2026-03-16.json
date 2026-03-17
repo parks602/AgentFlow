@@ -1,0 +1,245 @@
+{
+  "corp_name": "POSCO홀딩스",
+  "ticker": "005490",
+  "issue_date": "2026-03-16",
+  "seed": {
+    "summary": "POSCO홀딩스의 주가 추세는 최근 5일간 보합을 나타내나, 오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+    "issue_type": "실적발표",
+    "sentiment": "negative",
+    "impact_level": "medium",
+    "key_points": [
+      "주가가 최근 5일간 보합을 나타내나, 하지만 오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "포스코홀딩스의 주가가 3월 12일 장중 1.01% 상승했으나, 13일에는 장중 약세를 기록 중입니다.",
+      "철강주 '장중 뚝' 등으로 철강 산업의 리스크 요인들이 있습니다.",
+      "[전일(2026-03-13) 이월] 예측:보합 | 매수:0% | 매도:9%\n요약: POSCO홀딩스 주식의 시장 상황은 주가 하락 추세와 부정적 공시/뉴스가 없는 경우를 제외하고는 주가 하락 추세를 보이고 있다."
+    ],
+    "corp_name": "POSCO홀딩스",
+    "raw_disclosure_count": 1,
+    "raw_articles": [
+      {
+        "title": "오일 쇼크에 추가 관세?...POSCO홀딩스 등 철강주 '장중 뚝'",
+        "description": "13일 증시에서 POSCO홀딩스 등 철강주 주가가 장중 약세를 기록 중이다. 중동발 오일쇼크와 더불어 미국... 특정 섹터 및 특정 기업에 대한 분석 내용과 이슈, 특정 테마는 지켜봐야 하는 경우가 많은 데다, 주식투자는 늘... ",
+        "press": "www.choicenews.co.kr",
+        "date": "2026-03-13",
+        "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=162293",
+        "source": "naver_api"
+      },
+      {
+        "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 선물 급락…개별주식선물...",
+        "description": "사진=핀포인트뉴스DB 국내 파생상품 시장에서 13일 개별주식선물 거래가 활발하게 이어지며 업종별 투자... 또 POSCO홀딩스와 삼성중공업, SK, 효성중공업도 주요 거래 종목으로 나타났다. 우리금융지주와 삼성화재... ",
+        "press": "www.pinpointnews.co.kr",
+        "date": "2026-03-13",
+        "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=436614",
+        "source": "naver_api"
+      },
+      {
+        "title": "POSCO홀딩스 주가, 3월 12일 장중 348,500원 1.01% 상승",
+        "description": "POSCO홀딩스의 시가총액은 28조 2,051억 원으로 코스피 시장에서 29위에 자리한다. 상장주식수는 80,932,952주이다. 주가수익비율(PER)은 62.68배로, 동일 업종의 PER 57.34배와 비교했을 때 다소 높은 수준에... ",
+        "press": "www.joongangenews.com",
+        "date": "2026-03-12",
+        "url": "https://www.joongangenews.com/news/articleView.html?idxno=501727",
+        "source": "naver_api"
+      }
+    ],
+    "raw_disclosures": [
+      {
+        "title": "사업보고서 (2025.12)",
+        "date": "20260311",
+        "corp": "POSCO홀딩스"
+      }
+    ],
+    "market_context": {
+      "current_price": 337000.0,
+      "price_change_5d_pct": 0.3,
+      "trend": "보합",
+      "actual_1d_pct": null,
+      "actual_5d_pct": null,
+      "actual_20d_pct": null
+    }
+  },
+  "result": {
+    "prediction": "보합",
+    "strength": "-",
+    "buy_pressure": 0.0,
+    "sell_pressure": 8.5,
+    "hold_pressure": 91.5,
+    "net_pressure": -8.5,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 1,
+        "관망": 4,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.155,
+    "confidence_avg": 0.667
+  },
+  "validation": {
+    "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.9718269282420703
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.45858094368674573
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인들이 있어 주의가 필요하고, 주가 추세는 보합을 나타내나.",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.9643101513004699
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.33049027755348215
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인들이 있어 주의가 필요하고, 주가 추세는 보합을 나타내나.",
+      "confidence": 0.4347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.5142067710386049
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영해야 하며, 주가 추세가 안정하고 있지만 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.15988995669379352
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.41621132059617116
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.8555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인에 주의해야 하지만, 현재 정보는 부족하여 섣불리 판단하지 않을 것이다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.12478746259896051
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+      "confidence": 0.4391035493879133
+    }
+  ],
+  "run_id": "91867504",
+  "corp": "POSCO홀딩스",
+  "sector": "철강"
+}

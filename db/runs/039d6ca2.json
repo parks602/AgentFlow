@@ -1,0 +1,732 @@
+{
+  "run_id": "039d6ca2",
+  "corp": "SK하이닉스",
+  "ticker": "000660",
+  "sector": "반도체",
+  "start_date": "2026-03-12",
+  "end_date": "2026-03-16",
+  "days": 3,
+  "accuracy_1d": 0.0,
+  "created_at": "2026-03-16T16:13:04.712645",
+  "daily_results": [
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-12",
+      "seed": {
+        "summary": "SK하이닉스의 주가 추세는 보합을 나타내는 데, 관련 공시와 뉴스도 없는 상태에서 주가가 하락 추세가 아니라는 점을 고려하면, 현재의 주가 추세는 neutral로 판단된다.",
+        "issue_type": "실적발표",
+        "sentiment": "neutral",
+        "impact_level": "low",
+        "key_points": [
+          "주가가 최근 5일간 보합을 나타내는 데, 이 추세는 주가의 안정성을 나타내는 것 같다.",
+          "관련 공시와 뉴스도 없는 상태에서 주가가 하락 추세가 아니라는 점을 고려하면, 리스크 요인은 낮은 수준으로 판단된다.",
+          "이러한 상황에서 주가의 움직임을 주시할 필요가 있다."
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 930000.0,
+          "price_change_5d_pct": 0.65,
+          "trend": "보합",
+          "actual_1d_pct": -2.15,
+          "actual_5d_pct": -2.15,
+          "actual_20d_pct": -2.15
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.687
+      },
+      "validation": {
+        "ticker": "000660",
+        "issue_date": "2026-03-12",
+        "prediction": "보합",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.15,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.15,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.15,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 930000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "SK하이닉스의 주가 추세는 보합을 나타내는 데, 관련 공시와 뉴스도 없는 상태에서 주가가 하락 추세가 아니라는 점을 고려하면, 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.7113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.7142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.65314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.91141546821062
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세는 보합을 나타내는 데, 관련 공시와 뉴스도 없는 상태에서 주가가 하락 추세가 아니라는 점을 고려하면, 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.4598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.2876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.7150886494937296
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 주가가 하락 추세가 아니라는 점을 고려하면, 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.5162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.3247874625989605
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.5391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-13",
+      "seed": {
+        "summary": "SK하이닉스의 주가가 최근 5일간 상승하여 910,000원에 도달했지만, 공시와 관련 뉴스 absence는 리스크 요인을 반영해야 합니다.",
+        "issue_type": "실적발표",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "상승 근거: 주가 추세",
+          "리스크 요인: 공시 absence, 관련 뉴스 absence",
+          "[전일(2026-03-12) 이월] 예측:보합 | 매수:0% | 매도:0%\n요약: SK하이닉스의 주가 추세는 보합을 나타내는 데, 관련 공시와 뉴스도 없는 상태에서 주가가 하락 추세가 아니라는 점을 고려하면, 현재의 주가 추세"
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 910000.0,
+          "price_change_5d_pct": 8.85,
+          "trend": "상승",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.651
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.7113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 absence, 관련 뉴스 absence를 고려하여 주가 추세에 대한 판단을 미루어야 한다.",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.23049027755348211
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.3347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.7142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고 리스크 요인은 낮은 수준으로 판단되지만, 공시 absence와 관련 뉴스 absence는 리스크 요인을 반영해야 하므로 관망을 선택",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세는 보합을 나타내는 데, 관련 공시와 뉴스도 없는 상태에서 주가가 하락 추세가 아니라는 점을 고려하면, 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.25988995669379356
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 absence, 관련 뉴스 absence를 고려하여 주가 추세를 중립적으로 판단",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.7150886494937296
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.3162113205961712
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 추세가 중립적이고 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "ticker": "000660",
+      "issue_date": "2026-03-16",
+      "seed": {
+        "summary": "The Korean stock market is experiencing a mixed sentiment, with some positive factors and risks. The recent 5-day price movement shows a strong upward trend (+8.8%), but the news and market trends indicate a neutral sentiment.",
+        "issue_type": "실적발표 (Earnings Report)",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "SK Hynix's strong earnings report and positive market sentiment (+8.8%)",
+          "Risks from global economic uncertainty and market volatility",
+          "Uncertainty around the impact of the GTC conference on the tech industry",
+          "[전일(2026-03-13) 이월] 예측:보합 | 매수:0% | 매도:0%\n요약: SK하이닉스의 주가가 최근 5일간 상승하여 910,000원에 도달했지만, 공시와 관련 뉴스 absence는 리스크 요인을 반영해야 합니다."
+        ],
+        "corp_name": "SK하이닉스",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "유가 100달러·환율 1500원에도…코스피 1%↑ [MTN 마감시황]",
+            "description": "시가총액 상위종목 중에선 SK하이닉스가 전 거래일보다 6만4000원(7.03%) 넘게 오르며, 97만4000원에 거래를 마쳤다. 이밖에도 삼성전자(2.83%), 삼성전자우(3.29%), SK스퀘어(5.24%) 등이 상승한 반면, 현대차(-2.13... ",
+            "press": "news.mtn.co.kr",
+            "date": "2026-03-16",
+            "url": "https://news.mtn.co.kr/news-detail/2026031616015648116",
+            "source": "naver_api"
+          },
+          {
+            "title": "[마감시황] 코스피, 62.61포인트 오른 5549.85 마감",
+            "description": "삼성전자가 전 거래일 대비 2.83% 올라간 18만8700원을 기록했고, SK하이닉스는 7.03% 급등한 97만4000원으로 마감했다. 삼성전자와 SK하이닉스가 반등에 성공하며 코스피가 소폭 상승했지만 현대차(-2.13... ",
+            "press": "www.lcnews.co.kr",
+            "date": "2026-03-16",
+            "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=125495",
+            "source": "naver_api"
+          },
+          {
+            "title": "AI인프라·밸류업 투트랙 공략…삼성·SK, 주총서 미래 청사진 제시",
+            "description": "16일 업계에 따르면 삼성전자, SK하이닉스, LG전자 등 3사는 올해 주총에서 이사회 독립성 강화와 고부가가치 제품 중심의 사업 구조 전환을 핵심 안건으로 다룰 예정이다. 전영현 삼성전자 디바이스솔루션(DS)... ",
+            "press": "zdnet.co.kr",
+            "date": "2026-03-16",
+            "url": "https://n.news.naver.com/mnews/article/092/0002414583?sid=105",
+            "source": "naver_api"
+          },
+          {
+            "title": "고유가·환율 부담에도…코스피 1%대 상승 마감",
+            "description": "오후 들어 SK하이닉스가 7% 넘게 오르며 지수를 끌어올렸습니다. 이번주 예정된 엔비디아의 연례 최대 개발자 행사 GTC, 마이크론 실적 발표를 앞둔 기대감도 반영된 것으로 풀이됩니다. 현재 시장을 짓누르는 가장 큰... ",
+            "press": "www.yonhapnewstv.co.kr",
+            "date": "2026-03-16",
+            "url": "https://n.news.naver.com/mnews/article/422/0000844550?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "[마감시황] 코스피 1%대 상승…외국인은 8800억 순매도",
+            "description": "삼성전자(2.83%), SK하이닉스(7.03%), SK스퀘어(5.24%) 등이 상승했다. 반면 현대차(-2.13%), LG에너지솔루션(-0.81%), 한화에어로스페이스(-0.81%), 삼성바이오로직스(-1.51%), 두산에너빌리티(-0.75%), 기아(-1.40... ",
+            "press": "www.newspim.com",
+            "date": "2026-03-16",
+            "url": "https://www.newspim.com/news/view/20260316001016",
+            "source": "naver_api"
+          },
+          {
+            "title": "'오락가락' 코스피, 1% 상승해 5540선…환율 '1497원' 마감",
+            "description": "삼성전자는 2.83%, SK하이닉스는 7.03% 각각 상승했다. 삼성전자우와 SK스퀘어는 각각 3.29%, 5.24%씩 올랐다. 이밖에 KB금융(0.27%), 미래에셋증권(2.46%), 삼성전기(3.12%) 등도 상승 마감했다. 반면 현대차는 2.13... ",
+            "press": "www.newsworks.co.kr",
+            "date": "2026-03-16",
+            "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=834216",
+            "source": "naver_api"
+          },
+          {
+            "title": "중동發 변동성 장세 속 코스피 상승…코스닥은 하락",
+            "description": "SK하이닉스(+7.03%), SK스퀘어(+5.24%), 삼성전자우(+3.29%), 삼성전자(+2.84%), 미래에셋증권(+2.46%) 등 6곳에서 주가가 올랐다. 이와 달리 한화오션(-3.65%), 셀트리온(-2.68%), HD현대중공업(-2.18%), 현대차(-2.13... ",
+            "press": "view.asiae.co.kr",
+            "date": "2026-03-16",
+            "url": "https://n.news.naver.com/mnews/article/277/0005735060?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "[사설] 엔비디아 GTC 소용돌이 잘 읽어야",
+            "description": "이런 혁신의 소용돌이에 삼성전자·SK하이닉스도 함께 한다. 아무리 글로벌 정세가 혼돈스럽고, 위축될 가능성이 크다 하더라도 변화는 변화대로 우리에게 불어닥친다. 세계 테크계의 용트림 같은 혁신에 우리도... ",
+            "press": "www.etnews.com",
+            "date": "2026-03-16",
+            "url": "https://n.news.naver.com/mnews/article/030/0003407931?sid=105",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 910000.0,
+          "price_change_5d_pct": 8.85,
+          "trend": "상승",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.673
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "시장 분위기 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.7113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk factors and uncertainty around SK Hynix's earnings report and market trends.",
+          "confidence": 0.9643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "시장 분위기 중립적이고 리스크 요인으로 주가 추세를 중립적으로 판단",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.3347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "시장 분위기 중립적이고 리스크 요인으로 주가 추세를 보합으로 판단, 그러나 리스크 관리를 최우선으로 하여 포지션을 줄이는 것이 원칙",
+          "confidence": 0.7142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고 리스크 요인으로 주가 추세를 중립적으로 판단",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "시장 분위기 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.6598899566937936
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "시장 분위기 중립적이고 리스크 요인으로 주가 추세를 중립적으로 판단",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.7150886494937296
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "시장 분위기 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.21621132059617115
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고, 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "장기 펀더멘털이 훼손되지 않았으며, 주가 추세가 중립적이므로 추가 분석이 필요하다.",
+          "confidence": 0.6555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "시장 분위기 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "시장 분위기가 중립적이고, 관련 공시와 뉴스도 없는 상태에서 리스크 요인은 낮은 수준으로 판단된다.",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    }
+  ]
+}

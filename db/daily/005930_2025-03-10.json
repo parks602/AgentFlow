@@ -1,0 +1,239 @@
+{
+  "corp_name": "삼성전자",
+  "ticker": "005930",
+  "issue_date": "2025-03-10",
+  "seed": {
+    "summary": "삼성전자 주가가 하락 추세로 나타나고, 관련 공시 및 뉴스도 부정적입니다. 투자자들은 주가 하락에 대한 리스크 요인을 우선 반영해야 합니다.",
+    "issue_type": "주가 하락",
+    "sentiment": "negative",
+    "impact_level": "high",
+    "key_points": [
+      "주가 하락 추세",
+      "부정적 공시 및 뉴스",
+      "리스크 요인"
+    ],
+    "corp_name": "삼성전자",
+    "raw_disclosure_count": 0,
+    "market_context": {
+      "current_price": 45500.0,
+      "price_change_5d_pct": -16.21,
+      "trend": "하락",
+      "actual_1d_pct": -1.1,
+      "actual_5d_pct": -0.33,
+      "actual_20d_pct": 32.97
+    }
+  },
+  "result": {
+    "prediction": "보합",
+    "strength": "-",
+    "buy_pressure": 0.0,
+    "sell_pressure": 21.7,
+    "hold_pressure": 78.3,
+    "net_pressure": -21.7,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 1,
+        "관망": 4,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 2,
+        "관망": 3,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.34,
+    "confidence_avg": 0.712
+  },
+  "validation": {
+    "ticker": "005930",
+    "issue_date": "2025-03-10",
+    "prediction": "보합",
+    "buy_pressure": 0.0,
+    "sell_pressure": 21.7,
+    "evaluations": {
+      "1d": {
+        "predicted": "보합",
+        "actual_direction": "하락",
+        "actual_change_pct": -1.1,
+        "is_correct": false
+      },
+      "5d": {
+        "predicted": "보합",
+        "actual_direction": "보합",
+        "actual_change_pct": -0.33,
+        "is_correct": true
+      },
+      "20d": {
+        "predicted": "보합",
+        "actual_direction": "상승",
+        "actual_change_pct": 32.97,
+        "is_correct": false
+      }
+    },
+    "accuracy_pct": 33.3,
+    "correct_count": 1,
+    "total_periods": 3,
+    "base_price": 45500.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.9718269282420703
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 확인해야 함",
+      "confidence": 0.7585809436867458
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세, 부정적 공시 및 뉴스, 리스크 요인 우선 반영",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 확인해야 함",
+      "confidence": 0.7643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.33049027755348215
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+      "confidence": 0.5347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+      "confidence": 0.85314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "삼성전자 주가 하락 추세, 부정적 공시 및 뉴스, 리스크 요인 우선 반영",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.4598899566937935
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 부정적 공시, 리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 확인해야 함",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 확인해야 함",
+      "confidence": 0.5162113205961711
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "삼성전자 주가 하락 추세, 부정적 공시 및 뉴스, 리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "삼성전자 주가 하락 추세, 부정적 공시 및 뉴스, 리스크 요인 우선 반영",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.9915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "삼성전자 주가 하락 추세와 부정적 공시, 리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.12478746259896051
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세, 부정적 공시 및 뉴스, 리스크 요인 우선 반영",
+      "confidence": 0.4391035493879133
+    }
+  ],
+  "run_id": "97cf001c",
+  "corp": "삼성전자",
+  "sector": "반도체"
+}

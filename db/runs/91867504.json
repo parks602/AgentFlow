@@ -1,0 +1,2390 @@
+{
+  "run_id": "91867504",
+  "corp": "POSCO홀딩스",
+  "ticker": "005490",
+  "sector": "철강",
+  "start_date": "2026-03-03",
+  "end_date": "2026-03-16",
+  "days": 10,
+  "accuracy_1d": 50.0,
+  "created_at": "2026-03-16T17:26:57.989213",
+  "daily_results": [
+    {
+      "corp_name": "POSCO홀딩스",
+      "ticker": "005490",
+      "issue_date": "2026-03-03",
+      "seed": {
+        "summary": "POSCO홀딩스의 주가가 하락 추세에 있으며, 관련 공시와 뉴스도 없음. 따라서 투자자들은 주가 하락의 리스크를 우선 고려해야 할 필요가 있음.",
+        "issue_type": "주가 하락",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "관련 공시와 뉴스 없음",
+          "리스크 요인"
+        ],
+        "corp_name": "POSCO홀딩스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 374500.0,
+          "price_change_5d_pct": -6.26,
+          "trend": "하락",
+          "actual_1d_pct": -14.15,
+          "actual_5d_pct": -8.28,
+          "actual_20d_pct": -10.01
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 79.8,
+        "hold_pressure": 20.2,
+        "net_pressure": -79.8,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.323,
+        "confidence_avg": 0.785
+      },
+      "validation": {
+        "ticker": "005490",
+        "issue_date": "2026-03-03",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 79.8,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -14.15,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -8.28,
+            "is_correct": true
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -10.01,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 100.0,
+        "correct_count": 3,
+        "total_periods": 3,
+        "base_price": 374500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.6304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 POSCO홀딩스의 주가와 관련 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있으며, 관련 공시와 뉴스도 없음. 리스크 요인을 우선 고려해야 할 필요가 있음.",
+          "confidence": 0.6162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 관련 공시/뉴스 없음, 리스크 요인 고려 필요",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.3247874625989605
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.5391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "POSCO홀딩스",
+      "ticker": "005490",
+      "issue_date": "2026-03-04",
+      "seed": {
+        "summary": "POSCO홀딩스의 주가가 하락 추세에 있는 것 같으며, 관련 공시와 뉴스도 없다고 분석됩니다. 따라서 투자자들은 주가 하락에 대한 리스크를 우선 고려해야 할 것입니다.",
+        "issue_type": "주가 하락",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "관련 공시와 뉴스 없음",
+          "리스크 요인",
+          "[전일(2026-03-03) 이월] 예측:하락 | 매수:0% | 매도:80%\n요약: POSCO홀딩스의 주가가 하락 추세에 있으며, 관련 공시와 뉴스도 없음. 따라서 투자자들은 주가 하락의 리스크를 우선 고려해야 할 필요가 있음."
+        ],
+        "corp_name": "POSCO홀딩스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 321500.0,
+          "price_change_5d_pct": -20.91,
+          "trend": "하락",
+          "actual_1d_pct": 7.78,
+          "actual_5d_pct": 7.31,
+          "actual_20d_pct": 4.82
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 72.4,
+        "hold_pressure": 27.6,
+        "net_pressure": -72.4,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.399,
+        "confidence_avg": 0.735
+      },
+      "validation": {
+        "ticker": "005490",
+        "issue_date": "2026-03-04",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 72.4,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 7.78,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 7.31,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 4.82,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 321500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.9643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.7347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세에 있는 POSCO홀딩스의 주가와 관련 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세에 있으며, 관련 공시와 뉴스도 없음. 리스크 요인을 우선 고려해야 할 필요가 있음.",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.9555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 관련 공시/뉴스 없음, 리스크 요인 고려 필요",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려 필요",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "POSCO홀딩스",
+      "ticker": "005490",
+      "issue_date": "2026-03-05",
+      "seed": {
+        "summary": "POSCO홀딩스의 주가가 하락 추세에 있고, 관련 공시/뉴스도 없음. 리스크 요인으로 주가 하락 추세를 우선 고려.",
+        "issue_type": "주가 하락 추세",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "관련 공시/뉴스 없음",
+          "리스크 요인",
+          "[전일(2026-03-04) 이월] 예측:하락 | 매수:0% | 매도:72%\n요약: POSCO홀딩스의 주가가 하락 추세에 있는 것 같으며, 관련 공시와 뉴스도 없다고 분석됩니다. 따라서 투자자들은 주가 하락에 대한 리스크를 우선"
+        ],
+        "corp_name": "POSCO홀딩스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 346500.0,
+          "price_change_5d_pct": -14.97,
+          "trend": "하락",
+          "actual_1d_pct": 2.02,
+          "actual_5d_pct": 0.29,
+          "actual_20d_pct": -2.74
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 84.6,
+        "hold_pressure": 15.4,
+        "net_pressure": -84.6,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.26,
+        "confidence_avg": 0.759
+      },
+      "validation": {
+        "ticker": "005490",
+        "issue_date": "2026-03-05",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 84.6,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 2.02,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": 0.29,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.74,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 33.3,
+        "correct_count": 1,
+        "total_periods": 3,
+        "base_price": 346500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.6304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.7347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세, 관련 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 우선 고려",
+          "confidence": 0.5162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.6555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 관련 공시/뉴스 없음, 리스크 요인 고려 필요",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려 필요",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.7391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "POSCO홀딩스",
+      "ticker": "005490",
+      "issue_date": "2026-03-06",
+      "seed": {
+        "summary": "POSCO홀딩스의 주가가 하락 추세에 있는 것으로 분석됩니다. 최근 5일 주가 추이의 하락 (-14.4%)는 주가의 부정적 추세를 나타내는 바입니다.",
+        "issue_type": "주가 하락",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세",
+          "부정적 공시/뉴스 없음",
+          "리스크 요인",
+          "[전일(2026-03-05) 이월] 예측:하락 | 매수:0% | 매도:85%\n요약: POSCO홀딩스의 주가가 하락 추세에 있고, 관련 공시/뉴스도 없음. 리스크 요인으로 주가 하락 추세를 우선 고려."
+        ],
+        "corp_name": "POSCO홀딩스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 353500.0,
+          "price_change_5d_pct": -14.41,
+          "trend": "하락",
+          "actual_1d_pct": -4.95,
+          "actual_5d_pct": -4.67,
+          "actual_20d_pct": -4.67
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 82.3,
+        "hold_pressure": 17.7,
+        "net_pressure": -82.3,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.292,
+        "confidence_avg": 0.745
+      },
+      "validation": {
+        "ticker": "005490",
+        "issue_date": "2026-03-06",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 82.3,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -4.95,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -4.67,
+            "is_correct": true
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -4.67,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 100.0,
+        "correct_count": 3,
+        "total_periods": 3,
+        "base_price": 353500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.7347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.4598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.1876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 우선 고려",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 관련 공시/뉴스 없음, 리스크 요인 고려 필요",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려 필요",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.5391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "POSCO홀딩스",
+      "ticker": "005490",
+      "issue_date": "2026-03-09",
+      "seed": {
+        "summary": "POSCO홀딩스의 주가가 하락 추세에 있는 가운데, 공시와 관련 뉴스가 없는 상황에서 리스크 요인을 우선 반영하여 주가 하락 추세의 가능성을 고려해야 합니다.",
+        "issue_type": "업황변화",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "공시와 관련 뉴스가 없음",
+          "리스크 요인",
+          "[전일(2026-03-06) 이월] 예측:하락 | 매수:0% | 매도:82%\n요약: POSCO홀딩스의 주가가 하락 추세에 있는 것으로 분석됩니다. 최근 5일 주가 추이의 하락 (-14.4%)는 주가의 부정적 추세를 나타내는 바입"
+        ],
+        "corp_name": "POSCO홀딩스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 336000.0,
+          "price_change_5d_pct": -10.28,
+          "trend": "하락",
+          "actual_1d_pct": 2.23,
+          "actual_5d_pct": 0.3,
+          "actual_20d_pct": 0.3
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 82.7,
+        "hold_pressure": 17.3,
+        "net_pressure": -82.7,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.286,
+        "confidence_avg": 0.748
+      },
+      "validation": {
+        "ticker": "005490",
+        "issue_date": "2026-03-09",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 82.7,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 2.23,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": 0.3,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": 0.3,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 336000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.5304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 우선 고려",
+          "confidence": 0.6162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.9555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 관련 공시/뉴스 없음, 리스크 요인 고려 필요",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려 필요",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "매도",
+          "reason": "주가 하락 추세, 관련 공시와 뉴스 없음, 리스크 요인 고려",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "POSCO홀딩스",
+      "ticker": "005490",
+      "issue_date": "2026-03-10",
+      "seed": {
+        "summary": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+        "issue_type": "실적발표",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 상승 (+6.8%)",
+          "공시 및 뉴스 없음으로 리스크 요인",
+          "주가 추세의 지속 가능성",
+          "[전일(2026-03-09) 이월] 예측:하락 | 매수:0% | 매도:83%\n요약: POSCO홀딩스의 주가가 하락 추세에 있는 가운데, 공시와 관련 뉴스가 없는 상황에서 리스크 요인을 우선 반영하여 주가 하락 추세의 가능성을 고"
+        ],
+        "corp_name": "POSCO홀딩스",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 343500.0,
+          "price_change_5d_pct": 6.84,
+          "trend": "상승",
+          "actual_1d_pct": 0.44,
+          "actual_5d_pct": -1.89,
+          "actual_20d_pct": -1.89
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.642
+      },
+      "validation": {
+        "ticker": "005490",
+        "issue_date": "2026-03-10",
+        "prediction": "보합",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "보합",
+            "actual_change_pct": 0.44,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.89,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.89,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 33.3,
+        "correct_count": 1,
+        "total_periods": 3,
+        "base_price": 343500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승 추세지만 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.45858094368674573
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.5304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.5142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.65314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승 추세지만 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.1876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 고려해야 함",
+          "confidence": 0.3162113205961712
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세지만 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세지만 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세지만 공시 및 뉴스 없음으로 리스크 요인 고려 필요",
+          "confidence": 0.6915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "POSCO홀딩스",
+      "ticker": "005490",
+      "issue_date": "2026-03-11",
+      "seed": {
+        "summary": "포스코홀딩스의 2025년 실적발표에서 연결재무제표가 공개됐습니다. 최근 5일 주가 추이는 보합(-0.4%)으로 주가가 안정하고 있습니다. 그러나 공시내용은 부정적이지 않습니다.",
+        "issue_type": "실적발표",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "주가가 안정하고 있는 점",
+          "실적발표가 공개된 점",
+          "리스크 요인은 없는 점",
+          "[전일(2026-03-10) 이월] 예측:보합 | 매수:0% | 매도:0%\n요약: POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다."
+        ],
+        "corp_name": "POSCO홀딩스",
+        "raw_disclosure_count": 1,
+        "raw_disclosures": [
+          {
+            "title": "사업보고서 (2025.12)",
+            "date": "20260311",
+            "corp": "POSCO홀딩스"
+          }
+        ],
+        "market_context": {
+          "current_price": 345000.0,
+          "price_change_5d_pct": -0.43,
+          "trend": "보합",
+          "actual_1d_pct": 0.72,
+          "actual_5d_pct": -2.32,
+          "actual_20d_pct": -2.32
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.664
+      },
+      "validation": {
+        "ticker": "005490",
+        "issue_date": "2026-03-11",
+        "prediction": "보합",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "보합",
+            "actual_change_pct": 0.72,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.32,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.32,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 33.3,
+        "correct_count": 1,
+        "total_periods": 3,
+        "base_price": 345000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.45858094368674573
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.3347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.5142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점. 하지만, 이정모의 편향은 'emphasizes the importance of operational improvements and strategic restructuring'이므로, 추가 정보를 기다리며 관망을 선택.",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점. 하지만, 단기 노이즈 무시.",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "POSCO홀딩스",
+      "ticker": "005490",
+      "issue_date": "2026-03-12",
+      "seed": {
+        "summary": "포스코홀딩스의 실적발표에 대한 시장 상황 요약으로, 최근 5일 주가 추이의 하락 (-1.7%)는 리스크 요인을 반영하는 것 같다.",
+        "issue_type": "실적발표",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세",
+          "실적발표의 부정적 성과",
+          "포스코홀딩스의 경영 리스크",
+          "[전일(2026-03-11) 이월] 예측:보합 | 매수:0% | 매도:0%\n요약: 포스코홀딩스의 2025년 실적발표에서 연결재무제표가 공개됐습니다. 최근 5일 주가 추이는 보합(-0.4%)으로 주가가 안정하고 있습니다. 그러나"
+        ],
+        "corp_name": "POSCO홀딩스",
+        "raw_disclosure_count": 1,
+        "raw_disclosures": [
+          {
+            "title": "사업보고서 (2025.12)",
+            "date": "20260311",
+            "corp": "POSCO홀딩스"
+          }
+        ],
+        "market_context": {
+          "current_price": 347500.0,
+          "price_change_5d_pct": -1.7,
+          "trend": "하락",
+          "actual_1d_pct": -3.02,
+          "actual_5d_pct": -3.02,
+          "actual_20d_pct": -3.02
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 8.9,
+        "hold_pressure": 91.1,
+        "net_pressure": -8.9,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.162,
+        "confidence_avg": 0.623
+      },
+      "validation": {
+        "ticker": "005490",
+        "issue_date": "2026-03-12",
+        "prediction": "보합",
+        "buy_pressure": 0.0,
+        "sell_pressure": 8.9,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -3.02,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -3.02,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -3.02,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 347500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 리스크 요인 고려",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.45858094368674573
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고, 실적발표의 부정적 성과를 반영해야 함. 리스크 요인을 우선 반영해야 함.",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.23049027755348211
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.1347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.5142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세와 실적발표의 부정적 성과로 리스크 요인 반영",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 실적발표의 부정적 성과로 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락 추세이지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 리스크 요인 고려",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 실적발표의 부정적 성과에 대한 리스크 요인 고려",
+          "confidence": 0.3162113205961712
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 리스크 요인 고려",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 리스크 요인 고려",
+          "confidence": 0.6555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 하락 추세와 실적발표의 부정적 성과로 리스크 요인에 주의해야 하지만, 현재 정보는 부족하여 섣불리 판단하지 않을 것이다.",
+          "confidence": 0.6915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 포스코홀딩스의 경영 리스크를 고려하여 추가 정보를 기다리며 관망을 선택",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 포스코홀딩스의 경영 리스크를 고려하여 단기 노이즈 무시",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "POSCO홀딩스",
+      "ticker": "005490",
+      "issue_date": "2026-03-13",
+      "seed": {
+        "summary": "POSCO홀딩스 주식의 시장 상황은 주가 하락 추세와 부정적 공시/뉴스가 없는 경우를 제외하고는 주가 하락 추세를 보이고 있다.",
+        "issue_type": "실적발표",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세",
+          "부정적 공시/뉴스가 없는 경우",
+          "시가총액이 28조 2,051억 원으로 코스피 시장에서 29위에 자리",
+          "[전일(2026-03-12) 이월] 예측:보합 | 매수:0% | 매도:9%\n요약: 포스코홀딩스의 실적발표에 대한 시장 상황 요약으로, 최근 5일 주가 추이의 하락 (-1.7%)는 리스크 요인을 반영하는 것 같다."
+        ],
+        "corp_name": "POSCO홀딩스",
+        "raw_disclosure_count": 1,
+        "raw_articles": [
+          {
+            "title": "POSCO홀딩스 주가, 3월 12일 장중 348,500원 1.01% 상승",
+            "description": "POSCO홀딩스의 시가총액은 28조 2,051억 원으로 코스피 시장에서 29위에 자리한다. 상장주식수는 80,932,952주이다. 주가수익비율(PER)은 62.68배로, 동일 업종의 PER 57.34배와 비교했을 때 다소 높은 수준에... ",
+            "press": "www.joongangenews.com",
+            "date": "2026-03-12",
+            "url": "https://www.joongangenews.com/news/articleView.html?idxno=501727",
+            "source": "naver_api"
+          }
+        ],
+        "raw_disclosures": [
+          {
+            "title": "사업보고서 (2025.12)",
+            "date": "20260311",
+            "corp": "POSCO홀딩스"
+          }
+        ],
+        "market_context": {
+          "current_price": 337000.0,
+          "price_change_5d_pct": 0.3,
+          "trend": "보합",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 8.6,
+        "hold_pressure": 91.4,
+        "net_pressure": -8.6,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.157,
+        "confidence_avg": 0.659
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 리스크 요인 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 하락 추세와 부정적 공시/뉴스가 없는 경우를 고려하여 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 하락 추세와 부정적 공시/뉴스가 없는 경우를 고려하여 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.45858094368674573
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스가 없는 경우를 제외하고는 주가 하락 추세를 보이고 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 하락 추세와 부정적 공시/뉴스가 없는 경우를 고려하여 리스크 요인을 우선 반영해야 함.",
+          "confidence": 0.9643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.3347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.5142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하며, 주가 추세가 안정하고 있지만 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세와 실적발표의 부정적 성과로 리스크 요인 반영",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 실적발표의 부정적 성과로 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "POSCO홀딩스의 주가 추세는 하락 추세이지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 리스크 요인 고려",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 실적발표의 부정적 성과에 대한 리스크 요인 고려",
+          "confidence": 0.11621132059617117
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 리스크 요인 고려",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 리스크 요인 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인에 주의해야 하지만, 현재 정보는 부족하여 섣불리 판단하지 않을 것이다.",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 포스코홀딩스의 경영 리스크를 고려하여 추가 정보를 기다리며 관망을 선택",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 실적발표의 부정적 성과, 포스코홀딩스의 경영 리스크를 고려하여 단기 노이즈 무시",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "POSCO홀딩스",
+      "ticker": "005490",
+      "issue_date": "2026-03-16",
+      "seed": {
+        "summary": "POSCO홀딩스의 주가 추세는 최근 5일간 보합을 나타내나, 오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+        "issue_type": "실적발표",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가가 최근 5일간 보합을 나타내나, 하지만 오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "포스코홀딩스의 주가가 3월 12일 장중 1.01% 상승했으나, 13일에는 장중 약세를 기록 중입니다.",
+          "철강주 '장중 뚝' 등으로 철강 산업의 리스크 요인들이 있습니다.",
+          "[전일(2026-03-13) 이월] 예측:보합 | 매수:0% | 매도:9%\n요약: POSCO홀딩스 주식의 시장 상황은 주가 하락 추세와 부정적 공시/뉴스가 없는 경우를 제외하고는 주가 하락 추세를 보이고 있다."
+        ],
+        "corp_name": "POSCO홀딩스",
+        "raw_disclosure_count": 1,
+        "raw_articles": [
+          {
+            "title": "오일 쇼크에 추가 관세?...POSCO홀딩스 등 철강주 '장중 뚝'",
+            "description": "13일 증시에서 POSCO홀딩스 등 철강주 주가가 장중 약세를 기록 중이다. 중동발 오일쇼크와 더불어 미국... 특정 섹터 및 특정 기업에 대한 분석 내용과 이슈, 특정 테마는 지켜봐야 하는 경우가 많은 데다, 주식투자는 늘... ",
+            "press": "www.choicenews.co.kr",
+            "date": "2026-03-13",
+            "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=162293",
+            "source": "naver_api"
+          },
+          {
+            "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 선물 급락…개별주식선물...",
+            "description": "사진=핀포인트뉴스DB 국내 파생상품 시장에서 13일 개별주식선물 거래가 활발하게 이어지며 업종별 투자... 또 POSCO홀딩스와 삼성중공업, SK, 효성중공업도 주요 거래 종목으로 나타났다. 우리금융지주와 삼성화재... ",
+            "press": "www.pinpointnews.co.kr",
+            "date": "2026-03-13",
+            "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=436614",
+            "source": "naver_api"
+          },
+          {
+            "title": "POSCO홀딩스 주가, 3월 12일 장중 348,500원 1.01% 상승",
+            "description": "POSCO홀딩스의 시가총액은 28조 2,051억 원으로 코스피 시장에서 29위에 자리한다. 상장주식수는 80,932,952주이다. 주가수익비율(PER)은 62.68배로, 동일 업종의 PER 57.34배와 비교했을 때 다소 높은 수준에... ",
+            "press": "www.joongangenews.com",
+            "date": "2026-03-12",
+            "url": "https://www.joongangenews.com/news/articleView.html?idxno=501727",
+            "source": "naver_api"
+          }
+        ],
+        "raw_disclosures": [
+          {
+            "title": "사업보고서 (2025.12)",
+            "date": "20260311",
+            "corp": "POSCO홀딩스"
+          }
+        ],
+        "market_context": {
+          "current_price": 337000.0,
+          "price_change_5d_pct": 0.3,
+          "trend": "보합",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 8.5,
+        "hold_pressure": 91.5,
+        "net_pressure": -8.5,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.155,
+        "confidence_avg": 0.667
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.45858094368674573
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인들이 있어 주의가 필요하고, 주가 추세는 보합을 나타내나.",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.9643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.33049027755348215
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인들이 있어 주의가 필요하고, 주가 추세는 보합을 나타내나.",
+          "confidence": 0.4347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.5142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하며, 주가 추세가 안정하고 있지만 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.15988995669379352
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인에 주의해야 하지만, 현재 정보는 부족하여 섣불리 판단하지 않을 것이다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "오일 쇼크와 추가 관세 가능성 등 리스크 요인들이 있어 주의가 필요합니다.",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    }
+  ]
+}

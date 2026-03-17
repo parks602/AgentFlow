@@ -1,0 +1,239 @@
+{
+  "corp_name": "한국전력",
+  "ticker": "015760",
+  "issue_date": "2026-03-03",
+  "seed": {
+    "summary": "한국전력의 주가가 하락 추세로, 리스크 요인들이 우선 고려된다.",
+    "issue_type": "주가 하락",
+    "sentiment": "negative",
+    "impact_level": "high",
+    "key_points": [
+      "주가 하락 추세",
+      "부정적 뉴스/공시 없음",
+      "주가 하락의 리스크 요인"
+    ],
+    "corp_name": "한국전력",
+    "raw_disclosure_count": 0,
+    "market_context": {
+      "current_price": 50900.0,
+      "price_change_5d_pct": -18.95,
+      "trend": "하락",
+      "actual_1d_pct": -10.51,
+      "actual_5d_pct": -6.48,
+      "actual_20d_pct": -5.11
+    }
+  },
+  "result": {
+    "prediction": "하락",
+    "strength": "강",
+    "buy_pressure": 0.0,
+    "sell_pressure": 65.8,
+    "hold_pressure": 34.2,
+    "net_pressure": -65.8,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 3,
+        "관망": 2,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 5,
+        "관망": 0,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 5,
+        "관망": 0,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.45,
+    "confidence_avg": 0.759
+  },
+  "validation": {
+    "ticker": "015760",
+    "issue_date": "2026-03-03",
+    "prediction": "하락",
+    "buy_pressure": 0.0,
+    "sell_pressure": 65.8,
+    "evaluations": {
+      "1d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -10.51,
+        "is_correct": true
+      },
+      "5d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -6.48,
+        "is_correct": true
+      },
+      "20d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -5.11,
+        "is_correct": true
+      }
+    },
+    "accuracy_pct": 100.0,
+    "correct_count": 3,
+    "total_periods": 3,
+    "base_price": 50900.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세, 리스크 요인 우선 고려, 부정적 뉴스/공시 없음",
+      "confidence": 0.9718269282420703
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세, 부정적 뉴스/공시 없음, 리스크 요인 우선 고려",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세, 부정적 시장 분위기, 리스크 요인 우선 고려",
+      "confidence": 0.7585809436867458
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세, 부정적 뉴스/공시 없음, 주가 하락의 리스크 요인",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세, 리스크 요인 우선 고려, 부정적 뉴스/공시 없음",
+      "confidence": 0.6643101513004699
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세, 리스크 요인 우선 고려, 부정적 뉴스/공시 없음",
+      "confidence": 0.6304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세, 부정적 시장 분위기, 리스크 요인 우선 고려",
+      "confidence": 0.6347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세, 리스크 요인 우선 고려, 부정적 뉴스/공시 없음",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 리스크 요인으로 인한 위험 관리 필요",
+      "confidence": 0.95314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세, 리스크 요인 우선 고려, 부정적 뉴스/공시 없음",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세, 리스크 요인 우선 고려",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 리스크 요인으로 주가 하락의 가능성이 높아 매도 또는 관망이 더 합리적",
+      "confidence": 0.5598899566937935
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 부정적 시장 분위기, 리스크 요인 우선 고려",
+      "confidence": 0.38769747792821335
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 리스크 요인으로 주가 하락의 가능성이 높아보임",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세, 리스크 요인 우선 고려, 부정적 뉴스/공시 없음",
+      "confidence": 0.6162113205961711
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세, 리스크 요인 우선 고려, 추가 정보 필요",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세, 리스크 요인 우선 고려, 추가 정보 필요",
+      "confidence": 0.8555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세, 리스크 요인 우선 고려, 정보 부족",
+      "confidence": 0.8915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세, 부정적 뉴스/공시 없음, 주가 하락의 리스크 요인",
+      "confidence": 0.3247874625989605
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세, 리스크 요인 우선 고려, 정보 부족",
+      "confidence": 0.5391035493879133
+    }
+  ],
+  "run_id": "7bd6af04",
+  "corp": "한국전력",
+  "sector": "유틸리티"
+}

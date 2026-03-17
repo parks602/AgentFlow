@@ -1,0 +1,239 @@
+{
+  "corp_name": "KB금융",
+  "ticker": "105560",
+  "issue_date": "2026-03-03",
+  "seed": {
+    "summary": "KB금융의 주가가 하락 추세에 있는 가운데, 최근 5일 주가 추이의 하락 (-7.9%)는 주가의 강한 하락 추세를 나타내는 것으로 보인다. ",
+    "issue_type": "주가 하락 추세",
+    "sentiment": "negative",
+    "impact_level": "high",
+    "key_points": [
+      "주가 하락 추세",
+      "최근 5일 주가 추이의 하락 (-7.9%)",
+      "주가의 강한 하락 추세"
+    ],
+    "corp_name": "KB금융",
+    "raw_disclosure_count": 0,
+    "market_context": {
+      "current_price": 153500.0,
+      "price_change_5d_pct": -7.92,
+      "trend": "하락",
+      "actual_1d_pct": -10.29,
+      "actual_5d_pct": -3.97,
+      "actual_20d_pct": -3.0
+    }
+  },
+  "result": {
+    "prediction": "하락",
+    "strength": "강",
+    "buy_pressure": 0.0,
+    "sell_pressure": 58.8,
+    "hold_pressure": 41.2,
+    "net_pressure": -58.8,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 2,
+        "관망": 3,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 5,
+        "관망": 0,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 5,
+        "관망": 0,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.485,
+    "confidence_avg": 0.76
+  },
+  "validation": {
+    "ticker": "105560",
+    "issue_date": "2026-03-03",
+    "prediction": "하락",
+    "buy_pressure": 0.0,
+    "sell_pressure": 58.8,
+    "evaluations": {
+      "1d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -10.29,
+        "is_correct": true
+      },
+      "5d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -3.97,
+        "is_correct": true
+      },
+      "20d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -3.0,
+        "is_correct": true
+      }
+    },
+    "accuracy_pct": 100.0,
+    "correct_count": 3,
+    "total_periods": 3,
+    "base_price": 153500.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세와 최근 5일 주가 추이의 하락 (-7.9%)에 따라 주가의 강한 하락 추세를 예측",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세와 강한 하락 추세, FOMO가 작용하여 주가 하락을 예측",
+      "confidence": 0.7585809436867458
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세와 강한 하락 추세, 손실 공포와 군중 심리가 작용하여 주의를 기울일 필요가 있음",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세에 있는 KB금융의 주가가 강한 하락 추세를 나타내는 것으로 보인다. 더 많은 정보를 수집하고 시장 상황을 지켜보는 것이 좋다.",
+      "confidence": 0.6643101513004699
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+      "confidence": 0.6304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+      "confidence": 0.7347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세, 강한 하락 추세, 리스크 관리 우선",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선",
+      "confidence": 0.85314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세, 최근 5일 주가 추이의 하락 (-7.9%)",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세, 강한 하락 추세, 리스크 관리 우선",
+      "confidence": 0.5598899566937935
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세와 강한 하락 추세, 추세추종 편향으로 매도",
+      "confidence": 0.38769747792821335
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세와 최근 5일 주가 추이의 하락 (-7.9%)로 주가의 강한 하락 추세를 판단",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세, 강한 하락 추세, 리스크 관리 우선",
+      "confidence": 0.6162113205961711
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 강한 하락 추세, 주가의 내재가치 대비 비싸 보이거나 성장 모멘텀이 꺾였으면 매도가 맞다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 최근 5일 주가 추이의 하락 (-7.9%)를 고려하여 주가의 강한 하락 추세를 예측, 섣불리 판단하지 않고 관망을 선택",
+      "confidence": 0.9555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세에 주의를 기울이고, 최근 5일 주가 추이의 하락 (-7.9%)를 고려하여 장기 펀더멘털을 확인하고자 한다.",
+      "confidence": 0.8915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세, 최근 5일 주가 추이의 하락 (-7.9%)로 주가의 강한 하락 추세를 나타내는 것 같아",
+      "confidence": 0.22478746259896054
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 최근 5일 주가 추이의 하락 (-7.9%)를 고려하여 주가의 강한 하락 추세를 예측, 섣불리 판단하지 않고 관망을 선택",
+      "confidence": 0.5391035493879133
+    }
+  ],
+  "run_id": "2a6c5436",
+  "corp": "KB금융",
+  "sector": "금융"
+}

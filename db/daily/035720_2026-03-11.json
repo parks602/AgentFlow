@@ -1,0 +1,306 @@
+{
+  "corp_name": "카카오",
+  "ticker": "035720",
+  "issue_date": "2026-03-11",
+  "seed": {
+    "summary": "카카오 주식 시장 상황 요약 — 리스크와 기회를 균형있게",
+    "issue_type": "실적발표",
+    "sentiment": "negative",
+    "impact_level": "medium",
+    "key_points": [
+      "주가 하락 추세, 최근 5일 주가 추이 -0.6%",
+      "카카오 주식의 총수는 4억4231만8138주, 자사주는 244만0723주",
+      "다음 서비스 매각 절차에 들어갔습니다.",
+      "[전일(2026-03-10) 이월] 예측:하락 | 매수:0% | 매도:75%\n요약: 카카오 주가 하락 추세, 부정적 공시/뉴스에 영향을 받음 — 리스크 요인 우선"
+    ],
+    "corp_name": "카카오",
+    "raw_disclosure_count": 0,
+    "raw_articles": [
+      {
+        "title": "[자사주 소각 의무화] 카카오 덜 흔들리는 이유",
+        "description": "10일 카카오의 2025년 3분기 분기보고서에 따르면 카카오 발행주식의 총수는 4억4231만8138주이며 이 중 자사주는 244만0723주로 자사주 보유비율은 약 0.6%다. 3분기 자사주 기초수량은 465만3062주였으나 이 중 주주가치... ",
+        "press": "www.bloter.net",
+        "date": "2026-03-10",
+        "url": "https://n.news.naver.com/mnews/article/293/0000080583?sid=105",
+        "source": "naver_api"
+      },
+      {
+        "title": "'주식 1→90만 원' 레인보우로보틱스, 미공개정보 혐의로 檢수사[박지환...",
+        "description": "알고 주식을 매집해 부당이득을 얻은 것으로 의심하고 있습니다. 취재기자 연결해 자세한 내용... 각종 비리와 부당대우, 사건사고와 미담 등 모든 얘깃거리를 알려주세요.이메일 : 카카오톡 : @노컷뉴스사이트 : https... ",
+        "press": "www.nocutnews.co.kr",
+        "date": "2026-03-10",
+        "url": "https://n.news.naver.com/mnews/article/079/0004123269?sid=102",
+        "source": "naver_api"
+      },
+      {
+        "title": "이경실, 주식 투자 실패 고백 \"3억 깡통 됐다...쳐다보기도 싫어\"",
+        "description": "이를 들은 조혜련은 \"카카오, 삼성 같은 우량 주식이 아니었나보다\"라며 안타까워했고, 이경실은 \"나는 삼성을 7만 원대에 팔았는데 지금 엄청 올라있더라. 쳐다보기도 싫다\"고 말해 웃음을 자아냈다. 이어 \"4만 얼마까지... ",
+        "press": "www.sportschosun.com",
+        "date": "2026-03-10",
+        "url": "https://m.entertain.naver.com/article/076/0004383201",
+        "source": "naver_api"
+      },
+      {
+        "title": "카카오, '다음'과 작별 준비…\"TV도, 게임채널링도 종료\"",
+        "description": "카카오는 지난 1월 말 인공지능(AI) 기술 기업 업스테이지와 주식 교환을 전제로 한 협업을 추진하며 다음 사업 매각 절차에 들어갔습니다. 다음 서비스는 현재 카카오의 100% 자회사인 AXZ가 운영하고 있습니다. 매각... ",
+        "press": "www.newstomato.com",
+        "date": "2026-03-10",
+        "url": "http://www.newstomato.com/ReadNews.aspx?no=1293743&inflow=N",
+        "source": "naver_api"
+      },
+      {
+        "title": "카카오페이 흑자전환 뒤 숨은 변수...금융서비스 의존도 시험대",
+        "description": "특히 4분기 카카오페이증권의 주식 거래액은 전년 동기 대비 159% 늘어난 45조 원으로 사상 최대를 기록했다. 다만 거래대금 확대에 기반한 증권 수익 구조는 증시가 꺾일 경우 가장 먼저 영향을 받을 수 있는 영역으로... ",
+        "press": "www.wikileaks-kr.org",
+        "date": "2026-03-09",
+        "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=184473",
+        "source": "naver_api"
+      },
+      {
+        "title": "카카오 주가, 3월 9일 장중 49,900원 6.90% 하락",
+        "description": "외국인 소진율은 29.81%로, 외국인 투자자들의 카카오 주식 보유 비중을 나타냈다. 동일업종 등락률은 -5.65%를 기록하며 업종 전반에 걸쳐 하락 흐름이 나타났다. 카카오 주가 역시 이러한 업종의 전반적인... ",
+        "press": "www.joongangenews.com",
+        "date": "2026-03-09",
+        "url": "https://www.joongangenews.com/news/articleView.html?idxno=500449",
+        "source": "naver_api"
+      },
+      {
+        "title": "카카오 주가, 3월 9일 장중 49,650원 7.37% 하락",
+        "description": "카카오는 코스피 시장에서 시가총액 21조 9,311억 원으로 35위에 위치해 있다. 상장주식수는 442,605,669주이며, 이 중 외국인 보유 주식수는 131,918,989주로 외국인소진율은 29.81%이다. 기업 가치 평가 지표를... ",
+        "press": "www.topstarnews.net",
+        "date": "2026-03-09",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=15996963",
+        "source": "naver_api"
+      },
+      {
+        "title": "카카오 주가, 3월 10일 장중 52,100원 3.37% 상승",
+        "description": "외국인 소진율은 29.75%로, 총 131,681,510주의 외국인 보유 주식수를 보이고 있다. 지난 거래일, 카카오는 50,100원에 장이 열린 뒤 50,500원의 고점과 48,800원의 저점을 기록하며 50,400원에서 주가가 형성되었다.... ",
+        "press": "www.joongangenews.com",
+        "date": "2026-03-10",
+        "url": "https://www.joongangenews.com/news/articleView.html?idxno=500875",
+        "source": "naver_api"
+      }
+    ],
+    "market_context": {
+      "current_price": 50900.0,
+      "price_change_5d_pct": -0.59,
+      "trend": "보합",
+      "actual_1d_pct": -0.98,
+      "actual_5d_pct": -0.59,
+      "actual_20d_pct": -0.59
+    }
+  },
+  "result": {
+    "prediction": "하락",
+    "strength": "강",
+    "buy_pressure": 0.0,
+    "sell_pressure": 69.0,
+    "hold_pressure": 31.0,
+    "net_pressure": -69.0,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 4,
+        "관망": 1,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 5,
+        "관망": 0,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 4,
+        "관망": 1,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.428,
+    "confidence_avg": 0.69
+  },
+  "validation": {
+    "ticker": "035720",
+    "issue_date": "2026-03-11",
+    "prediction": "하락",
+    "buy_pressure": 0.0,
+    "sell_pressure": 69.0,
+    "evaluations": {
+      "1d": {
+        "predicted": "하락",
+        "actual_direction": "보합",
+        "actual_change_pct": -0.98,
+        "is_correct": false
+      },
+      "5d": {
+        "predicted": "하락",
+        "actual_direction": "보합",
+        "actual_change_pct": -0.59,
+        "is_correct": false
+      },
+      "20d": {
+        "predicted": "하락",
+        "actual_direction": "보합",
+        "actual_change_pct": -0.59,
+        "is_correct": false
+      }
+    },
+    "accuracy_pct": 0.0,
+    "correct_count": 0,
+    "total_periods": 3,
+    "base_price": 50900.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세, 부정적 공시/뉴스 absent으로 리스크 요인으로 판단",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent으로 리스크 요인",
+      "confidence": 0.8785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세, 부정적 공시/뉴스 absent으로 리스크 요인",
+      "confidence": 0.7585809436867458
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세, 부정적 공시/뉴스 absent로 리스크 요인",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 주의",
+      "confidence": 0.7643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent로 리스크 요인으로 판단",
+      "confidence": 0.4304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent으로 리스크 요인",
+      "confidence": 0.3347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세 및 부정적 공시/뉴스에 영향을 받음",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent으로 리스크 요인으로 판단",
+      "confidence": 0.85314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세, 부정적 공시/뉴스 absent, 리스크 요인 주의",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 부정적 공시/뉴스 absent, 리스크 요인",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세, 부정적 공시/뉴스 absent, 리스크 요인 우선",
+      "confidence": 0.25988995669379356
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 주의",
+      "confidence": 0.38769747792821335
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 주의",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가 하락 추세, 부정적 공시/뉴스 absent, 리스크 요인 주의",
+      "confidence": 0.6162113205961711
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인: 주가 하락 추세",
+      "confidence": 0.9677603982663288
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 장기 펀더멘털을 고려하여 섣불리 판단하지 않음",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 장기 펀더멘털을 확인해야 함",
+      "confidence": 0.8915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인으로 판단, 장기 펀더멘털을 고려하여 섣불리 판단하지 않음",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 주의",
+      "confidence": 0.1391035493879133
+    }
+  ],
+  "run_id": "ccb9c6d5",
+  "corp": "카카오",
+  "sector": "플랫폼"
+}

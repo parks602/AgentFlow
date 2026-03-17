@@ -1,0 +1,2392 @@
+{
+  "run_id": "c655ed17",
+  "corp": "셀트리온",
+  "ticker": "068270",
+  "sector": "바이오",
+  "start_date": "2026-03-03",
+  "end_date": "2026-03-16",
+  "days": 10,
+  "accuracy_1d": 50.0,
+  "created_at": "2026-03-16T17:38:42.108640",
+  "daily_results": [
+    {
+      "corp_name": "셀트리온",
+      "ticker": "068270",
+      "issue_date": "2026-03-03",
+      "seed": {
+        "summary": "셀트리온의 주가가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 합니다.",
+        "issue_type": "주가 하락 추세",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세",
+          "최근 5일 주가 추이 하락 (-9.5%)",
+          "현재가 225,000원"
+        ],
+        "corp_name": "셀트리온",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 225000.0,
+          "price_change_5d_pct": -9.46,
+          "trend": "하락",
+          "actual_1d_pct": -12.27,
+          "actual_5d_pct": -8.44,
+          "actual_20d_pct": -8.67
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 76.1,
+        "hold_pressure": 23.9,
+        "net_pressure": -76.1,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.364,
+        "confidence_avg": 0.775
+      },
+      "validation": {
+        "ticker": "068270",
+        "issue_date": "2026-03-03",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 76.1,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -12.27,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -8.44,
+            "is_correct": true
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -8.67,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 100.0,
+        "correct_count": 3,
+        "total_periods": 3,
+        "base_price": 225000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 최근 5일 주가 추이 하락 (-9.5%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 최근 5일 주가 추이 하락 (-9.5%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 최근 5일 주가 추이 하락 (-9.5%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.7643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 최근 5일 주가 추이 하락 (-9.5%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 최근 5일 주가 추이 하락 (-9.5%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 최근 5일 주가 추이 하락 (-9.5%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 최근 5일 주가 추이 하락 (-9.5%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 최근 5일 주가 추이 하락 (-9.5%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 최근 5일 주가 추이 하락, 현재가 225,000원, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 리스크 요인 우선 반영 필요",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.3247874625989605
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 최근 5일 주가 추이 하락 (-9.5%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.7391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "셀트리온",
+      "ticker": "068270",
+      "issue_date": "2026-03-04",
+      "seed": {
+        "summary": "셀트리온 주가 하락 추세에 대한 시장 상황 요약 — 리스크 요인을 우선 반영",
+        "issue_type": "주가 하락 추세",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세 (-19.3%)",
+          "관련 뉴스 및 공시 없음",
+          "리스크 요인: 주가 하락 추세",
+          "[전일(2026-03-03) 이월] 예측:하락 | 매수:0% | 매도:76%\n요약: 셀트리온의 주가가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 합니다."
+        ],
+        "corp_name": "셀트리온",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 197400.0,
+          "price_change_5d_pct": -19.26,
+          "trend": "하락",
+          "actual_1d_pct": 7.14,
+          "actual_5d_pct": 5.88,
+          "actual_20d_pct": 4.1
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 73.5,
+        "hold_pressure": 26.5,
+        "net_pressure": -73.5,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.389,
+        "confidence_avg": 0.674
+      },
+      "validation": {
+        "ticker": "068270",
+        "issue_date": "2026-03-04",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 73.5,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 7.14,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 5.88,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 4.1,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 197400.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락 (-19.3%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온 주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.4347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온 주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.1876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세에 놓여 있는 셀트리온의 주가 하락 추세",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 최근 5일 주가 추이 하락, 현재가 197,400원, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 리스크 요인 우선 반영 필요",
+          "confidence": 0.5915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 하지만, 현재가 197,400원으로 아직 저가 zone에 있으므로 관망을 선택",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "셀트리온",
+      "ticker": "068270",
+      "issue_date": "2026-03-05",
+      "seed": {
+        "summary": "셀트리온의 주가가 하락 추세에 있는가? — 리스크 요인을 우선 반영",
+        "issue_type": "주가 하락",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세 (-12.6%)",
+          "관련 뉴스 없음 (DART 공시 기반)",
+          "최근 5일 주가 추이 하락",
+          "[전일(2026-03-04) 이월] 예측:하락 | 매수:0% | 매도:74%\n요약: 셀트리온 주가 하락 추세에 대한 시장 상황 요약 — 리스크 요인을 우선 반영"
+        ],
+        "corp_name": "셀트리온",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 211500.0,
+          "price_change_5d_pct": -12.6,
+          "trend": "하락",
+          "actual_1d_pct": 0.47,
+          "actual_5d_pct": -2.6,
+          "actual_20d_pct": -2.84
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 74.7,
+        "hold_pressure": 25.3,
+        "net_pressure": -74.7,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.378,
+        "confidence_avg": 0.726
+      },
+      "validation": {
+        "ticker": "068270",
+        "issue_date": "2026-03-05",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 74.7,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": 0.47,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.6,
+            "is_correct": true
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -2.84,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 66.7,
+        "correct_count": 2,
+        "total_periods": 3,
+        "base_price": 211500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락 (-12.6%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온 주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온 주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세에 놓여 있는가? 리스크 요인을 우선 반영",
+          "confidence": 0.6162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 리스크 요인 우선 반영 필요",
+          "confidence": 0.7915622059190301
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함, 주가 하락 추세 (-12.6%)",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 하지만, 현재가 211,500원으로 아직 저가 zone에 있으므로 관망을 선택",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "셀트리온",
+      "ticker": "068270",
+      "issue_date": "2026-03-06",
+      "seed": {
+        "summary": "셀트리온 주가 하락 추세로 리스크 요인 우선",
+        "issue_type": "주가 하락 추세",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세 (-10.9%)",
+          "부정적 공시/뉴스 없음",
+          "리스크 요인 우선",
+          "[전일(2026-03-05) 이월] 예측:하락 | 매수:0% | 매도:75%\n요약: 셀트리온의 주가가 하락 추세에 있는가? — 리스크 요인을 우선 반영"
+        ],
+        "corp_name": "셀트리온",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 212500.0,
+          "price_change_5d_pct": -10.9,
+          "trend": "하락",
+          "actual_1d_pct": -4.0,
+          "actual_5d_pct": -3.29,
+          "actual_20d_pct": -3.29
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 80.8,
+        "hold_pressure": 19.2,
+        "net_pressure": -80.8,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.31,
+        "confidence_avg": 0.754
+      },
+      "validation": {
+        "ticker": "068270",
+        "issue_date": "2026-03-06",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 80.8,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -4.0,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -3.29,
+            "is_correct": true
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -3.29,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 100.0,
+        "correct_count": 3,
+        "total_periods": 3,
+        "base_price": 212500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락 (-10.9%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온 주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.7347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세에 놓여 있어",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온 주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온 주가 하락 추세에 놓여 있는가? 리스크 요인을 우선 반영",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 리스크 요인 우선 반영 필요",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6247874625989606
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 하지만, 현재가 212,500원으로 아직 저가 zone에 있으므로 관망을 선택",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "셀트리온",
+      "ticker": "068270",
+      "issue_date": "2026-03-09",
+      "seed": {
+        "summary": "셀트리온의 주가가 하락 추세에 있는 등 리스크 요인",
+        "issue_type": "주가 하락 추세",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "최근 5일 주가 추이 하락 (-9.3%)",
+          "부정적 공시/뉴스 없음",
+          "[전일(2026-03-06) 이월] 예측:하락 | 매수:0% | 매도:81%\n요약: 셀트리온 주가 하락 추세로 리스크 요인 우선"
+        ],
+        "corp_name": "셀트리온",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 204000.0,
+          "price_change_5d_pct": -9.33,
+          "trend": "하락",
+          "actual_1d_pct": 0.98,
+          "actual_5d_pct": 0.74,
+          "actual_20d_pct": 0.74
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 84.8,
+        "hold_pressure": 15.2,
+        "net_pressure": -84.8,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.258,
+        "confidence_avg": 0.803
+      },
+      "validation": {
+        "ticker": "068270",
+        "issue_date": "2026-03-09",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 84.8,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": 0.98,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": 0.74,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": 0.74,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 204000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락 (-9.3%)에 따라 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세, 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온 주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온 주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.7162113205961712
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함, 아직 저가 zone에 있으므로 관망을 선택",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 최근 5일 주가 추이 하락, 리스크 요인을 우선 반영해야 함",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 리스크 요인 우선 반영 필요",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "매도",
+          "reason": "주가 하락 추세에 놓여 있어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.6247874625989606
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "매도",
+          "reason": "주가 하락 추세와 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.7391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "셀트리온",
+      "ticker": "068270",
+      "issue_date": "2026-03-10",
+      "seed": {
+        "summary": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+        "issue_type": "업황변화",
+        "sentiment": "positive",
+        "impact_level": "medium",
+        "key_points": [
+          "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "셀트리온의 경영체제 재정비 총력전은 주가 상승의 주요 이유로 작용할 수 있다.",
+          "셀트리온의 주가 상승 추세는 최근 5일 주가 추이의 상승 (+4.4%)에 기초하고 있다.",
+          "[전일(2026-03-09) 이월] 예측:하락 | 매수:0% | 매도:85%\n요약: 셀트리온의 주가가 하락 추세에 있는 등 리스크 요인"
+        ],
+        "corp_name": "셀트리온",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "‘빅파마 도약’ 셀트리온, 주총 앞두고 경영체제 재정비 총력전",
+            "description": "이는 당초 셀트리온이 지난달 공개했던 자사주 소각 계획(611만주)보다 300만주 증가한 규모로, 셀트리온은 임직원 주식매수선택권(스톡옵션) 보상 목적으로 보유키로 했던 자사주 물량까지 이달 주총을 거쳐 연중... ",
+            "press": "www.ekn.kr",
+            "date": "2026-03-09",
+            "url": "https://www.ekn.kr/web/view.php?key=20260309026065921",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 206000.0,
+          "price_change_5d_pct": 4.36,
+          "trend": "상승",
+          "actual_1d_pct": 1.46,
+          "actual_5d_pct": -0.24,
+          "actual_20d_pct": -0.24
+        }
+      },
+      "result": {
+        "prediction": "상승",
+        "strength": "강",
+        "buy_pressure": 66.8,
+        "sell_pressure": 0.0,
+        "hold_pressure": 33.2,
+        "net_pressure": 66.8,
+        "type_breakdown": {
+          "retail": {
+            "매수": 2,
+            "매도": 0,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 3,
+            "매도": 0,
+            "관망": 2,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 4,
+            "매도": 0,
+            "관망": 1,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 4,
+            "매도": 0,
+            "관망": 1,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.444,
+        "confidence_avg": 0.735
+      },
+      "validation": {
+        "ticker": "068270",
+        "issue_date": "2026-03-10",
+        "prediction": "상승",
+        "buy_pressure": 66.8,
+        "sell_pressure": 0.0,
+        "evaluations": {
+          "1d": {
+            "predicted": "상승",
+            "actual_direction": "상승",
+            "actual_change_pct": 1.46,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "상승",
+            "actual_direction": "보합",
+            "actual_change_pct": -0.24,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "상승",
+            "actual_direction": "보합",
+            "actual_change_pct": -0.24,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 33.3,
+        "correct_count": 1,
+        "total_periods": 3,
+        "base_price": 206000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다. 하지만, 최근 5일 주가 추이 하락이 있어 리스크 요인을 우선 반영해야 함.",
+          "confidence": 0.6718269282420702
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다. 리스크 요인을 우선 반영해야 하므로 관망이 합리적 선택이다.",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다. 주가 하락 추세와 리스크 요인을 우선 반영해야 함.",
+          "confidence": 0.7643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.6304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다. 리스크 요인을 우선 반영해야 하므로 관망이 합리적 선택이다.",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.65314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "셀트리온 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.3162113205961712
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다. 단기 노이즈 무시.",
+          "confidence": 0.6915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.6247874625989606
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "매수",
+          "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+          "confidence": 0.5391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "셀트리온",
+      "ticker": "068270",
+      "issue_date": "2026-03-11",
+      "seed": {
+        "summary": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+        "issue_type": "오너리스크",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세 (-1.2%)",
+          "부정적 공시/뉴스 ('빅파마 도약' 셀트리온, 주총 앞두고 경영체제 재정비 총력전)",
+          "자사주 소각 계획과 임직원 주식매수선택권(스톡옵션) 보상 목적",
+          "[전일(2026-03-10) 이월] 예측:상승 | 매수:67% | 매도:0%\n요약: 셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는"
+        ],
+        "corp_name": "셀트리온",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "‘빅파마 도약’ 셀트리온, 주총 앞두고 경영체제 재정비 총력전",
+            "description": "이는 당초 셀트리온이 지난달 공개했던 자사주 소각 계획(611만주)보다 300만주 증가한 규모로, 셀트리온은 임직원 주식매수선택권(스톡옵션) 보상 목적으로 보유키로 했던 자사주 물량까지 이달 주총을 거쳐 연중... ",
+            "press": "www.ekn.kr",
+            "date": "2026-03-09",
+            "url": "https://www.ekn.kr/web/view.php?key=20260309026065921",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 209000.0,
+          "price_change_5d_pct": -1.18,
+          "trend": "하락",
+          "actual_1d_pct": -1.44,
+          "actual_5d_pct": -1.67,
+          "actual_20d_pct": -1.67
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 46.6,
+        "hold_pressure": 53.4,
+        "net_pressure": -46.6,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 3,
+            "관망": 2,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.498,
+        "confidence_avg": 0.769
+      },
+      "validation": {
+        "ticker": "068270",
+        "issue_date": "2026-03-11",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 46.6,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.44,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.67,
+            "is_correct": true
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.67,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 100.0,
+        "correct_count": 3,
+        "total_periods": 3,
+        "base_price": 209000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인으로 주가 하락 추세를 우선 반영해야 함.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하므로 관망이 합리적 선택이다.",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인으로 주가 하락이 지속될 가능성이 높아보인다.",
+          "confidence": 0.9643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인으로, 리스크 관리가 최우선",
+          "confidence": 0.6304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하므로 관망이 합리적 선택이다.",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 함, 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.3162113205961712
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 장기 펀더멘털을 중심으로 분석해야 함",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 장기 펀더멘털을 고려하여 섣불리 판단하지 않음",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 장기 펀더멘털을 고려하여 섣불리 판단하지 말고 관망이 최선",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 주가 상승 추세가 꺾였으며, 장기 펀더멘털이 훼손됐을 가능성이 있다.",
+          "confidence": 0.4247874625989605
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 장기 펀더멘털이 훼손됐으면 관망 또는 매도",
+          "confidence": 0.5391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "셀트리온",
+      "ticker": "068270",
+      "issue_date": "2026-03-12",
+      "seed": {
+        "summary": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인해 리스크 요인이 우선 반영됩니다.",
+        "issue_type": "오너리스크",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세 (-3.1%)",
+          "부정적 공시/뉴스 (자사주 소각 계획)",
+          "임직원 주식매수선택권 보상 목적",
+          "[전일(2026-03-11) 이월] 예측:하락 | 매수:0% | 매도:47%\n요약: 셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인"
+        ],
+        "corp_name": "셀트리온",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "‘빅파마 도약’ 셀트리온, 주총 앞두고 경영체제 재정비 총력전",
+            "description": "이는 당초 셀트리온이 지난달 공개했던 자사주 소각 계획(611만주)보다 300만주 증가한 규모로, 셀트리온은 임직원 주식매수선택권(스톡옵션) 보상 목적으로 보유키로 했던 자사주 물량까지 이달 주총을 거쳐 연중... ",
+            "press": "www.ekn.kr",
+            "date": "2026-03-09",
+            "url": "https://www.ekn.kr/web/view.php?key=20260309026065921",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 206000.0,
+          "price_change_5d_pct": -3.06,
+          "trend": "하락",
+          "actual_1d_pct": -0.24,
+          "actual_5d_pct": -0.24,
+          "actual_20d_pct": -0.24
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 47.4,
+        "hold_pressure": 52.6,
+        "net_pressure": -47.4,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 3,
+            "관망": 2,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.499,
+        "confidence_avg": 0.685
+      },
+      "validation": {
+        "ticker": "068270",
+        "issue_date": "2026-03-12",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 47.4,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": -0.24,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": -0.24,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": -0.24,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 206000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인으로 주가 하락 추세를 우선 반영해야 함.",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하므로 관망이 합리적 선택입니다.",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인으로 주가 하락이 지속될 가능성이 높아보인다.",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 관리",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.4347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하므로 관망이 합리적 선택이다.",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 함, 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.5531469462265499
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 주가 하락 추세 우선",
+          "confidence": 0.11621132059617117
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 장기 펀더멘털을 중심으로 분석해야 함",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 장기 펀더멘털을 고려하여 섣불리 판단하지 않음",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 장기 펀더멘털을 고려하여 섣불리 판단하지 말고 관망이 최선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 주가 상승 추세가 꺾였으며, 장기 펀더멘털이 훼손됐을 가능성이 있다.",
+          "confidence": 0.22478746259896054
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 장기 펀더멘털이 훼손됐으면 관망 또는 매도",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "셀트리온",
+      "ticker": "068270",
+      "issue_date": "2026-03-13",
+      "seed": {
+        "summary": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 최근 공시 및 뉴스에서는 부정적 요인들이 나타나고 있습니다. 셀트리온은 주총을 앞두고 경영체제를 재정비할 계획으로, 이에 대한 리스크 요인들이 있습니다.",
+        "issue_type": "업황변화",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "셀트리온의 주총을 앞두고 경영체제 재정비 계획이 리스크 요인으로 작용할 수 있습니다.",
+          "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다.",
+          "셀트리온의 경영체제 재정비 계획이 성공적으로 진행되면 주가가 상승할 가능성이 있습니다.",
+          "[전일(2026-03-12) 이월] 예측:하락 | 매수:0% | 매도:47%\n요약: 셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인해 리스크 요인이 우선 반영됩니다."
+        ],
+        "corp_name": "셀트리온",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "‘빅파마 도약’ 셀트리온, 주총 앞두고 경영체제 재정비 총력전",
+            "description": "이는 당초 셀트리온이 지난달 공개했던 자사주 소각 계획(611만주)보다 300만주 증가한 규모로, 셀트리온은 임직원 주식매수선택권(스톡옵션) 보상 목적으로 보유키로 했던 자사주 물량까지 이달 주총을 거쳐 연중... ",
+            "press": "www.ekn.kr",
+            "date": "2026-03-09",
+            "url": "https://www.ekn.kr/web/view.php?key=20260309026065921",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 205500.0,
+          "price_change_5d_pct": 0.74,
+          "trend": "보합",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "약",
+        "buy_pressure": 0.0,
+        "sell_pressure": 39.6,
+        "hold_pressure": 60.4,
+        "net_pressure": -39.6,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 3,
+            "관망": 2,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.478,
+        "confidence_avg": 0.708
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 리스크 요인들이 있는 주총을 앞두고 경영체제 재정비 계획이 있습니다.",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 리스크 요인들이 있는 주총을 앞두고 경영체제 재정비 계획이 있습니다.",
+          "confidence": 0.5585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하므로 관망이 합리적 선택입니다.",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 리스크 요인들이 있는 주총을 앞두고 경영체제 재정비 계획이 있습니다.",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 관리",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 리스크 요인들이 있는 주총을 앞두고 경영체제 재정비 계획이 있습니다.",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "셀트리온의 주총을 앞두고 경영체제 재정비 계획이 리스크 요인으로 작용할 수 있습니다. 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다.",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인 우선, 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 관리",
+          "confidence": 0.7531469462265499
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주총을 앞두고 경영체제 재정비 계획이 리스크 요인으로 작용할 수 있습니다.",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 리스크 요인들이 있는 주총을 앞두고 경영체제 재정비 계획이 있습니다.",
+          "confidence": 0.1876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다.",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 리스크 요인들이 있는 주총을 앞두고 경영체제 재정비 계획이 있습니다.",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주총을 앞두고 경영체제 재정비 계획이 리스크 요인으로 작용할 수 있습니다. 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다.",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 장기 펀더멘털을 고려하여 섣불리 판단하지 않음",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 요인, 장기 펀더멘털을 고려하여 섣불리 판단하지 말고 관망이 최선",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 리스크 요인들도 고려해야 합니다.",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온의 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 장기 펀더멘털이 훼손됐으면 관망 또는 매도",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "셀트리온",
+      "ticker": "068270",
+      "issue_date": "2026-03-16",
+      "seed": {
+        "summary": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+        "issue_type": "오너리스크",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "셀트리온 대표의 지분 승계 숙제",
+          "막대한 상속·증여세 부담",
+          "업계에서는 셀트리온홀딩스 지분 가치 10~11조원",
+          "[전일(2026-03-13) 이월] 예측:하락 | 매수:0% | 매도:40%\n요약: 셀트리온의 주가 추세는 보합을 유지하고 있지만, 최근 공시 및 뉴스에서는 부정적 요인들이 나타나고 있습니다. 셀트리온은 주총을 앞두고 경영체제를"
+        ],
+        "corp_name": "셀트리온",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "주총 앞둔 셀트리온, 경영 전면화 속 '지분 승계' 숙제",
+            "description": "서진석 대표가 보유한 셀트리온 주식도 3254주로 지분율이 사실상 0%에 가깝다. 셀트리온홀딩스 지분을 물려받으려면 막대한 상속·증여세가 불가피하다. 업계에서는 서정진 회장이 보유한 홀딩스 지분 가치를 10~11조원... ",
+            "press": "www.ngetnews.com",
+            "date": "2026-03-13",
+            "url": "https://www.ngetnews.com/news/articleView.html?idxno=549088",
+            "source": "naver_api"
+          },
+          {
+            "title": "‘빅파마 도약’ 셀트리온, 주총 앞두고 경영체제 재정비 총력전",
+            "description": "이는 당초 셀트리온이 지난달 공개했던 자사주 소각 계획(611만주)보다 300만주 증가한 규모로, 셀트리온은 임직원 주식매수선택권(스톡옵션) 보상 목적으로 보유키로 했던 자사주 물량까지 이달 주총을 거쳐 연중... ",
+            "press": "www.ekn.kr",
+            "date": "2026-03-09",
+            "url": "https://www.ekn.kr/web/view.php?key=20260309026065921",
+            "source": "naver_api"
+          },
+          {
+            "title": "인천 상장사 주총 예고…경영 전략 관심 집중",
+            "description": "24일 주총을 여는 셀트리온은 자기주식 보유·처분 계획 승인과 자기주식 소각 등을 안건으로 다룬다. 또 삼성에피스홀딩스, 삼성바이오로직스, 현대제철 등이 집중투표 배제 관련 정관 변경안을 상정한 상태다. ▲ 존 림... ",
+            "press": "www.incheonilbo.com",
+            "date": "2026-03-15",
+            "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1318785",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 205500.0,
+          "price_change_5d_pct": 0.74,
+          "trend": "보합",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "약",
+        "buy_pressure": 0.0,
+        "sell_pressure": 42.0,
+        "hold_pressure": 58.0,
+        "net_pressure": -42.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 3,
+            "관망": 2,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.487,
+        "confidence_avg": 0.662
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.5585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인들이 있는 주총을 앞두고 경영체제 재정비 계획이 있습니다.",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.5643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "리스크 요인 우선, 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 관리",
+          "confidence": 0.23049027755348211
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하므로 관망이 합리적 선택이다.",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인 우선, 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 관리",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.91141546821062
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.4598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온 주총 앞두고 경영체제 재정비 계획이 리스크 요인으로 작용할 수 있습니다. 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다.",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+          "confidence": 0.6555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative. 장기 펀더멘털을 고려하여 섣불리 판단하지 말고 관망이 최선.",
+          "confidence": 0.5915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 리스크 요인들도 고려해야 합니다.",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "셀트리온 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 장기 펀더멘털이 훼손됐으면 관망 또는 매도",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    }
+  ]
+}

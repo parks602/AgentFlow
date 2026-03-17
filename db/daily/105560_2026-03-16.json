@@ -1,0 +1,290 @@
+{
+  "corp_name": "KB금융",
+  "ticker": "105560",
+  "issue_date": "2026-03-16",
+  "seed": {
+    "summary": "KB Financial Group's recent performance and future prospects are uncertain, with mixed signals from the market and news.",
+    "issue_type": "Realized performance and future prospects",
+    "sentiment": "neutral",
+    "impact_level": "medium",
+    "key_points": [
+      "KB Financial Group's recent performance is uncertain, with mixed signals from the market and news.",
+      "The company's financial reports and news articles suggest a mixed bag of positive and negative factors.",
+      "The market is uncertain about the company's future prospects, with some factors indicating potential growth and others indicating potential risks.",
+      "[전일(2026-03-13) 이월] 예측:보합 | 매수:0% | 매도:16%\n요약: KB금융의 최근 주가 추이와 관련된 시장 상황 요약"
+    ],
+    "corp_name": "KB금융",
+    "raw_disclosure_count": 2,
+    "raw_articles": [
+      {
+        "title": "가계대출 줄이고 산업투자 집중..508조 '생산적 금융' 경쟁 본격(종합)",
+        "description": "'생산적금융 협의체'는 지난 6일 출범했으며 KB금융그룹 '생산적금융 협의회'와 연계해 기업 금융을 생산적... 금융당국의 규제 개편도 산업 금융 확대를 뒷받침하고 있다. 은행이 보유한 주식의 위험가중치가 기존 400... ",
+        "press": "www.4th.kr",
+        "date": "2026-03-15",
+        "url": "http://www.4th.kr/news/articleView.html?idxno=2109077",
+        "source": "naver_api"
+      },
+      {
+        "title": "작년 금융지주 회장 연봉은…KB 양종희 19억·신한 진옥동 13억",
+        "description": "13일 각 금융지주가 공시한 2025년도 사업보고서·지배구조보고서 등에 따르면, 양종희 KB금융지주... 우리금융지주 관계자는 \"성과 연동 주식(최대 6만3천167주)의 수량과 금액은 2025∼2028년 장기 성과 평가... ",
+        "press": "www.yna.co.kr",
+        "date": "2026-03-13",
+        "url": "https://n.news.naver.com/mnews/article/001/0015958132?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "가계대출에서 산업 투자로..은행 '생산적 금융' 경쟁 본격",
+        "description": "'생산적금융 협의체'는 지난 6일 출범했으며 KB금융그룹 '생산적금융 협의회'와 연계해 기업금융을 생산적... 이에 금융당국은 기업 금융 확대를 유도하는 제도 개편을 추진하고 있다. 올해부터 은행이 보유한 주식의... ",
+        "press": "www.4th.kr",
+        "date": "2026-03-15",
+        "url": "http://www.4th.kr/news/articleView.html?idxno=2109068",
+        "source": "naver_api"
+      },
+      {
+        "title": "금융지주 회장 연봉은?…KB 양종희 19억·신한 진옥동 13억",
+        "description": "13일 금융지주가 공시한 2025년도 사업보고서 등에 따르면 양종희 KB금융지주 회장은 지난해 보수 총 18억... 신한금융은 \"이와 별도로 장기성과연동형 주식보수가 1만 7841주 있다\"며 \"2025년~2028년의 회사 장기성과... ",
+        "press": "www.news1.kr",
+        "date": "2026-03-13",
+        "url": "https://n.news.naver.com/mnews/article/421/0008825287?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "작년 연봉 KB 양종희 19억·신한 진옥동 13억·우리 임종룡 12억",
+        "description": "이에 따르면 양종희 KB금융지주 회장은 작년 모두 18억9천만원을 수령했습니다. 2024년(18억4800만원)보다... 우리금융지주 관계자는 \"성과 연동 주식(최대 6만3167주)의 수량과 금액은 2025∼2028년 장기 성과 평가... ",
+        "press": "biz.sbs.co.kr",
+        "date": "2026-03-14",
+        "url": "https://n.news.naver.com/mnews/article/374/0000497965?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "4대 금융 사외이사, 연봉 8500만원으로 올라…반대표 행사는 단 '1건'",
+        "description": "반대표가 나온 안건은 지난해 4월 KB금융의 제6차 이사회에서 통과된 '자기주식 취득 및 소각' 안건으로, 당시 김성용 사외이사가 반대표를 던졌다. 지난해 12월 우리금융에서 개최된 제14차 임시 이사회에서 1건의... ",
+        "press": "www.newsis.com",
+        "date": "2026-03-11",
+        "url": "https://n.news.naver.com/mnews/article/003/0013813944?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "[증권사 생산적금융]⑤ KB증권, 기업금융으로 향하는 자본",
+        "description": "실제로 회사채 발행 주관 시장에서 상위권 실적을 기록하고 있으며 주식 발행 주관 부문에서도 꾸준히 경쟁력을 유지하고 있는 것으로 알려졌다. 이 같은 기업금융 경쟁력은 발행어음 사업과도 연결된다. KB증권은... ",
+        "press": "www.bloter.net",
+        "date": "2026-03-13",
+        "url": "https://n.news.naver.com/mnews/article/293/0000080857?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "작년 금융지주 회장 연봉은…KB 양종희 19억·신한 진옥동 13억",
+        "description": "양종희 KB금융 회장, 진옥동 신한금융 회장, 함영주 하나금융 회장, 임종룡 우리금융 회장 (사진=각... 우리금융지주 관계자는 \"성과 연동 주식(최대 6만3167주)의 수량과 금액은 2025∼2028년 장기 성과 평가... ",
+        "press": "www.delighti.co.kr",
+        "date": "2026-03-15",
+        "url": "https://www.delighti.co.kr/news/articleView.html?idxno=113367",
+        "source": "naver_api"
+      }
+    ],
+    "raw_disclosures": [
+      {
+        "title": "사업보고서 (2025.12)",
+        "date": "20260313",
+        "corp": "KB금융"
+      },
+      {
+        "title": "[기재정정]일괄신고서",
+        "date": "20260316",
+        "corp": "KB금융"
+      }
+    ],
+    "market_context": {
+      "current_price": 148900.0,
+      "price_change_5d_pct": 4.42,
+      "trend": "상승",
+      "actual_1d_pct": null,
+      "actual_5d_pct": null,
+      "actual_20d_pct": null
+    }
+  },
+  "result": {
+    "prediction": "보합",
+    "strength": "-",
+    "buy_pressure": 0.0,
+    "sell_pressure": 0.0,
+    "hold_pressure": 100.0,
+    "net_pressure": 0.0,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.0,
+    "confidence_avg": 0.633
+  },
+  "validation": {
+    "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "KB Financial Group's recent performance is uncertain, and I need more information to make a confident decision.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 요인, 리스크 요인으로 주가 하락 가능성을 고려",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "KB Financial Group's recent performance is uncertain, with mixed signals from the market and news. I will wait and observe for further developments before making a decision.",
+      "confidence": 0.7585809436867458
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세, 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "KB Financial Group's recent performance and future prospects are uncertain, with mixed signals from the market and news. I need to gather more information and observe the market situation before making a decision.",
+      "confidence": 0.7643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인과 부정적 공시/뉴스 요인을 고려하여 추가 정보 필요",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "Mixed signals from market and news, emphasizing risk management",
+      "confidence": 0.3347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인과 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "KB금융의 최근 성과와 미래 전망이 불확실하여 리스크 요인을 고려",
+      "confidence": 0.85314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 요인, 리스크 요인으로 주가 하락 가능성을 고려",
+      "confidence": 0.8743701084766591
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 인해 하락 가능성 높아짐",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크가 높아 매수 편향을 조정하여 관망을 선택",
+      "confidence": 0.25988995669379356
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "KB Financial Group's recent performance and future prospects are uncertain, with mixed signals from the market and news.",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석, 추가 정보 필요",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가 하락 추세, 부정적 공시/뉴스 요인, 리스크 요인으로 포지션 정리",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 상승 추세는 있지만, 부정적 공시 및 뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "KB Financial Group's recent performance is uncertain, with mixed signals from the market and news. Need more information to make a confident decision.",
+      "confidence": 0.8555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "KB금융의 최근 성과와 미래 전망이 불확실하여 리스크 요인을 고려해야 하며, 추가 정보를 기다려야 할 것 같다.",
+      "confidence": 0.9915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "KB Financial Group의 최근 성과와 미래 전망이 불확실하여 장기 펀더멘털을 고려해야 한다.",
+      "confidence": 0.12478746259896051
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 상승 추세는 있지만, 부정적 공시 및 뉴스 요인으로 리스크가 있는 상황. 추가 정보 필요.",
+      "confidence": 0.1
+    }
+  ],
+  "run_id": "2a6c5436",
+  "corp": "KB금융",
+  "sector": "금융"
+}

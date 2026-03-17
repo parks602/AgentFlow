@@ -1,0 +1,238 @@
+{
+  "corp_name": "셀트리온",
+  "ticker": "068270",
+  "issue_date": "2026-03-16",
+  "seed": {
+    "summary": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+    "issue_type": "오너리스크",
+    "sentiment": "negative",
+    "impact_level": "medium",
+    "key_points": [
+      "셀트리온 대표의 지분 승계 숙제",
+      "막대한 상속·증여세 부담",
+      "업계에서는 셀트리온홀딩스 지분 가치 10~11조원",
+      "[전일(2026-03-13) 이월] 예측:하락 | 매수:0% | 매도:40%\n요약: 셀트리온의 주가 추세는 보합을 유지하고 있지만, 최근 공시 및 뉴스에서는 부정적 요인들이 나타나고 있습니다. 셀트리온은 주총을 앞두고 경영체제를"
+    ],
+    "corp_name": "셀트리온",
+    "raw_disclosure_count": 0,
+    "raw_articles": [
+      {
+        "title": "주총 앞둔 셀트리온, 경영 전면화 속 '지분 승계' 숙제",
+        "description": "서진석 대표가 보유한 셀트리온 주식도 3254주로 지분율이 사실상 0%에 가깝다. 셀트리온홀딩스 지분을 물려받으려면 막대한 상속·증여세가 불가피하다. 업계에서는 서정진 회장이 보유한 홀딩스 지분 가치를 10~11조원... ",
+        "press": "www.ngetnews.com",
+        "date": "2026-03-13",
+        "url": "https://www.ngetnews.com/news/articleView.html?idxno=549088",
+        "source": "naver_api"
+      },
+      {
+        "title": "‘빅파마 도약’ 셀트리온, 주총 앞두고 경영체제 재정비 총력전",
+        "description": "이는 당초 셀트리온이 지난달 공개했던 자사주 소각 계획(611만주)보다 300만주 증가한 규모로, 셀트리온은 임직원 주식매수선택권(스톡옵션) 보상 목적으로 보유키로 했던 자사주 물량까지 이달 주총을 거쳐 연중... ",
+        "press": "www.ekn.kr",
+        "date": "2026-03-09",
+        "url": "https://www.ekn.kr/web/view.php?key=20260309026065921",
+        "source": "naver_api"
+      },
+      {
+        "title": "인천 상장사 주총 예고…경영 전략 관심 집중",
+        "description": "24일 주총을 여는 셀트리온은 자기주식 보유·처분 계획 승인과 자기주식 소각 등을 안건으로 다룬다. 또 삼성에피스홀딩스, 삼성바이오로직스, 현대제철 등이 집중투표 배제 관련 정관 변경안을 상정한 상태다. ▲ 존 림... ",
+        "press": "www.incheonilbo.com",
+        "date": "2026-03-15",
+        "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1318785",
+        "source": "naver_api"
+      }
+    ],
+    "market_context": {
+      "current_price": 205500.0,
+      "price_change_5d_pct": 0.74,
+      "trend": "보합",
+      "actual_1d_pct": null,
+      "actual_5d_pct": null,
+      "actual_20d_pct": null
+    }
+  },
+  "result": {
+    "prediction": "하락",
+    "strength": "약",
+    "buy_pressure": 0.0,
+    "sell_pressure": 42.0,
+    "hold_pressure": 58.0,
+    "net_pressure": -42.0,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 1,
+        "관망": 4,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 3,
+        "관망": 2,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 4,
+        "관망": 1,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.487,
+    "confidence_avg": 0.662
+  },
+  "validation": {
+    "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.9718269282420703
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.8785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.5585809436867457
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인들이 있는 주총을 앞두고 경영체제 재정비 계획이 있습니다.",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.5643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "리스크 요인 우선, 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 관리",
+      "confidence": 0.23049027755348211
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.6347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영해야 하므로 관망이 합리적 선택이다.",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선, 주가 하락 추세와 부정적 공시/뉴스로 인한 리스크 관리",
+      "confidence": 0.95314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.91141546821062
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.4598899566937935
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.5876974779282134
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.41621132059617116
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "셀트리온 주총 앞두고 경영체제 재정비 계획이 리스크 요인으로 작용할 수 있습니다. 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다.",
+      "confidence": 0.9677603982663288
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative",
+      "confidence": 0.6555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "셀트리온 주총 앞두고 경영 전면화 속 '지분 승계' 숙제, 주가 추세는 보합이나 리스크 요인으로 인해 sentiment는 negative. 장기 펀더멘털을 고려하여 섣불리 판단하지 말고 관망이 최선.",
+      "confidence": 0.5915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "셀트리온 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 리스크 요인들도 고려해야 합니다.",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "셀트리온 주가 추세는 보합을 유지하고 있지만, 부정적 요인들이 나타나고 있습니다. 장기 펀더멘털이 훼손됐으면 관망 또는 매도",
+      "confidence": 0.3391035493879133
+    }
+  ],
+  "run_id": "c655ed17",
+  "corp": "셀트리온",
+  "sector": "바이오"
+}

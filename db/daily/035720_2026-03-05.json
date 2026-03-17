@@ -1,0 +1,240 @@
+{
+  "corp_name": "카카오",
+  "ticker": "035720",
+  "issue_date": "2026-03-05",
+  "seed": {
+    "summary": "카카오 주가 하락 추세, 최근 5일 주가 추이 -16.6% 하락. 투자자들은 주가 하락에 대한 리스크 요인을 우선 고려해야.",
+    "issue_type": "주가 하락 추세",
+    "sentiment": "negative",
+    "impact_level": "high",
+    "key_points": [
+      "주가 하락 추세, 최근 5일 주가 추이 -16.6% 하락",
+      "주가 하락에 대한 리스크 요인, 투자자들은 주가 하락에 대한 대응을 고려해야",
+      "카카오의 경영 성과에 대한 관심",
+      "[전일(2026-03-04) 이월] 예측:하락 | 매수:0% | 매도:74%\n요약: 카카오 주가 하락 추세에 대한 리스크 분석 — 주가 하락 추세와 부정적 공시/뉴스 absent"
+    ],
+    "corp_name": "카카오",
+    "raw_disclosure_count": 0,
+    "market_context": {
+      "current_price": 51200.0,
+      "price_change_5d_pct": -16.61,
+      "trend": "하락",
+      "actual_1d_pct": 4.69,
+      "actual_5d_pct": -1.56,
+      "actual_20d_pct": -1.17
+    }
+  },
+  "result": {
+    "prediction": "하락",
+    "strength": "강",
+    "buy_pressure": 0.0,
+    "sell_pressure": 73.9,
+    "hold_pressure": 26.1,
+    "net_pressure": -73.9,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 4,
+        "관망": 1,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 5,
+        "관망": 0,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 5,
+        "관망": 0,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.385,
+    "confidence_avg": 0.71
+  },
+  "validation": {
+    "ticker": "035720",
+    "issue_date": "2026-03-05",
+    "prediction": "하락",
+    "buy_pressure": 0.0,
+    "sell_pressure": 73.9,
+    "evaluations": {
+      "1d": {
+        "predicted": "하락",
+        "actual_direction": "상승",
+        "actual_change_pct": 4.69,
+        "is_correct": false
+      },
+      "5d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -1.56,
+        "is_correct": true
+      },
+      "20d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -1.17,
+        "is_correct": true
+      }
+    },
+    "accuracy_pct": 66.7,
+    "correct_count": 2,
+    "total_periods": 3,
+    "base_price": 51200.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent으로 리스크 요인으로 판단",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent으로 리스크 요인",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent으로 리스크 요인",
+      "confidence": 0.7585809436867458
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent로 리스크 요인",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 주의",
+      "confidence": 0.5643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent로 리스크 요인으로 판단",
+      "confidence": 0.33049027755348215
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent으로 리스크 요인",
+      "confidence": 0.5347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세, 최근 5일 주가 추이 -16.6% 하락. 리스크 요인 우선 고려.",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent으로 리스크 요인으로 판단",
+      "confidence": 0.85314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 주의",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 부정적 공시/뉴스 absent, 리스크 요인",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세, 최근 5일 주가 추이 -16.6% 하락. 투자자들은 주가 하락에 대한 리스크 요인을 우선 고려해야.",
+      "confidence": 0.6598899566937936
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 주의",
+      "confidence": 0.38769747792821335
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 주의",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent으로 리스크 요인",
+      "confidence": 0.21621132059617115
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인: 주가 하락 추세",
+      "confidence": 0.9677603982663288
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 장기 펀더멘털을 고려하여 섣불리 판단하지 않음",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 장기 펀더멘털을 확인해야 함",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인으로 판단, 장기 펀더멘털을 고려하여 섣불리 판단하지 않음",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시/뉴스 absent, 리스크 요인 주의",
+      "confidence": 0.4391035493879133
+    }
+  ],
+  "run_id": "ccb9c6d5",
+  "corp": "카카오",
+  "sector": "플랫폼"
+}

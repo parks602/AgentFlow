@@ -1,0 +1,247 @@
+{
+  "corp_name": "POSCO홀딩스",
+  "ticker": "005490",
+  "issue_date": "2026-03-11",
+  "seed": {
+    "summary": "포스코홀딩스의 2025년 실적발표에서 연결재무제표가 공개됐습니다. 최근 5일 주가 추이는 보합(-0.4%)으로 주가가 안정하고 있습니다. 그러나 공시내용은 부정적이지 않습니다.",
+    "issue_type": "실적발표",
+    "sentiment": "neutral",
+    "impact_level": "medium",
+    "key_points": [
+      "주가가 안정하고 있는 점",
+      "실적발표가 공개된 점",
+      "리스크 요인은 없는 점",
+      "[전일(2026-03-10) 이월] 예측:보합 | 매수:0% | 매도:0%\n요약: POSCO홀딩스의 주가 추세는 상승하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다."
+    ],
+    "corp_name": "POSCO홀딩스",
+    "raw_disclosure_count": 1,
+    "raw_disclosures": [
+      {
+        "title": "사업보고서 (2025.12)",
+        "date": "20260311",
+        "corp": "POSCO홀딩스"
+      }
+    ],
+    "market_context": {
+      "current_price": 345000.0,
+      "price_change_5d_pct": -0.43,
+      "trend": "보합",
+      "actual_1d_pct": 0.72,
+      "actual_5d_pct": -2.32,
+      "actual_20d_pct": -2.32
+    }
+  },
+  "result": {
+    "prediction": "보합",
+    "strength": "-",
+    "buy_pressure": 0.0,
+    "sell_pressure": 0.0,
+    "hold_pressure": 100.0,
+    "net_pressure": 0.0,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.0,
+    "confidence_avg": 0.664
+  },
+  "validation": {
+    "ticker": "005490",
+    "issue_date": "2026-03-11",
+    "prediction": "보합",
+    "buy_pressure": 0.0,
+    "sell_pressure": 0.0,
+    "evaluations": {
+      "1d": {
+        "predicted": "보합",
+        "actual_direction": "보합",
+        "actual_change_pct": 0.72,
+        "is_correct": true
+      },
+      "5d": {
+        "predicted": "보합",
+        "actual_direction": "하락",
+        "actual_change_pct": -2.32,
+        "is_correct": false
+      },
+      "20d": {
+        "predicted": "보합",
+        "actual_direction": "하락",
+        "actual_change_pct": -2.32,
+        "is_correct": false
+      }
+    },
+    "accuracy_pct": 33.3,
+    "correct_count": 1,
+    "total_periods": 3,
+    "base_price": 345000.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+      "confidence": 0.45858094368674573
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 함",
+      "confidence": 0.8643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+      "confidence": 0.4304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+      "confidence": 0.3347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+      "confidence": 0.5142067710386049
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+      "confidence": 0.85314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+      "confidence": 0.35988995669379353
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가 추세는 안정하고 있지만, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 합니다.",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+      "confidence": 0.41621132059617116
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+      "confidence": 0.9677603982663288
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점",
+      "confidence": 0.8915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점. 하지만, 이정모의 편향은 'emphasizes the importance of operational improvements and strategic restructuring'이므로, 추가 정보를 기다리며 관망을 선택.",
+      "confidence": 0.12478746259896051
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가가 안정하고 있는 점, 실적발표가 공개된 점, 리스크 요인은 없는 점. 하지만, 단기 노이즈 무시.",
+      "confidence": 0.3391035493879133
+    }
+  ],
+  "run_id": "91867504",
+  "corp": "POSCO홀딩스",
+  "sector": "철강"
+}

@@ -1,0 +1,205 @@
+{
+  "corp_name": "현대차",
+  "ticker": "005380",
+  "issue_date": "2025-03-13",
+  "seed": {
+    "summary": "현대차에 대한 시장 정보는 공시, 뉴스, 주가 정보가 모두 відсут어 리스크 요인을 우선 반영해야 합니다.",
+    "issue_type": "기타",
+    "sentiment": "negative",
+    "impact_level": "high",
+    "key_points": [
+      "주가 하락 추세",
+      "부정적 공시/뉴스 없음",
+      "리스크 요인 우선 반영",
+      "[전일(2025-03-12) 이월] 예측:하락 | 매수:0% | 매도:36%\n요약: 현대차의 주가 현황이 공시와 관련 뉴스로 인해 부정적 영향을 받을 수 있습니다. 리스크 요인으로는 주가 하락 추세, 부정적 공시, 뉴스가 포함됩"
+    ],
+    "corp_name": "현대차",
+    "raw_disclosure_count": 0,
+    "market_context": {}
+  },
+  "result": {
+    "prediction": "하락",
+    "strength": "약",
+    "buy_pressure": 0.0,
+    "sell_pressure": 32.6,
+    "hold_pressure": 67.4,
+    "net_pressure": -32.6,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 2,
+        "관망": 3,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 3,
+        "관망": 2,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.439,
+    "confidence_avg": 0.687
+  },
+  "validation": {
+    "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "Risk management prioritized, market trend uncertain, and negative news/news release.",
+      "confidence": 0.9718269282420703
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+      "confidence": 0.7585809436867458
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "Risk factors to be considered, market sentiment negative, and uncertainty about the future performance of Hyundai Motor",
+      "confidence": 0.7643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+      "confidence": 0.4304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+      "confidence": 0.3347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "Risk factors to be considered, market sentiment negative, and uncertainty about the future performance of Hyundai Motor",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+      "confidence": 0.95314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+      "confidence": 0.35988995669379353
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "Risk factors to be considered, market sentiment negative, and uncertainty about the future performance of Hyundai Motor",
+      "confidence": 0.1876974779282134
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+      "confidence": 0.3162113205961712
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+      "confidence": 0.9677603982663288
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+      "confidence": 0.9555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+      "confidence": 0.9915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "Risk factors to be considered, market sentiment negative, and uncertainty about the future performance of Hyundai Motor",
+      "confidence": 0.12478746259896051
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+      "confidence": 0.23910354938791328
+    }
+  ],
+  "run_id": "af26172f",
+  "corp": "현대차",
+  "sector": "자동차"
+}

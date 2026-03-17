@@ -1,0 +1,306 @@
+{
+  "corp_name": "현대차",
+  "ticker": "005380",
+  "issue_date": "2026-03-11",
+  "seed": {
+    "summary": "현대차의 주가 추세는 하락 추세이지만, 최근의 뉴스와 공시를 분석하면 리스크 요인과 기회 요인 모두 포함된 시장 상황을 확인할 수 있습니다.",
+    "issue_type": "오너리스크",
+    "sentiment": "negative",
+    "impact_level": "medium",
+    "key_points": [
+      "주가 하락 추세, 리스크 요인 1: 이란 전쟁으로 인한 주식 가격의 불안정성",
+      "리스크 요인 2: 외국인 소진율의 증가",
+      "기타 포인트 3: 최근의 뉴스와 공시에서 현대차의 주가 추세가 하락 추세임",
+      "[전일(2026-03-10) 이월] 예측:하락 | 매수:0% | 매도:28%\n요약: 현대차의 주가 추세는 주로 상승하고 있지만, 이란 전쟁으로 인한 리스크 요인과 부정적 뉴스들이 나타나고 있어 투자자들은 주의를 기울여야 할 필요"
+    ],
+    "corp_name": "현대차",
+    "raw_disclosure_count": 0,
+    "raw_articles": [
+      {
+        "title": "\"킹산직? 끝났어요… 주식이 답이죠\" 현대차 MZ들의 '각자도생'",
+        "description": "끝났어요… 주식이 답이죠\" 현대차 MZ들의 '각자도생' (www.hankookilbo.com/news/article/A2026030816360000717) ② 깡통 AI의 탄생 • \"해고했으면 큰일 날 뻔\" '띨띨한' AI 믿었던 어느 기업의 고백 (www.hankookilbo.com/news/article... ",
+        "press": "www.hankookilbo.com",
+        "date": "2026-03-09",
+        "url": "https://n.news.naver.com/mnews/article/469/0000918325?sid=102",
+        "source": "naver_api"
+      },
+      {
+        "title": "유가 떨어지자 현대차에 베팅...삼전닉스는 차익실현 [주식 초고수는 지...",
+        "description": "이날 미래에셋증권에 따르면 미래에셋증권 주식 거래 고객 중 최근 1개월간 투자 수익률 상위 1%에 해당하는 ‘주식 초고수’들이 오전 11시까지 가장 많이 사들인 종목은 현대차다. 현대차는 이날 오전 11시 기준... ",
+        "press": "www.sedaily.com",
+        "date": "2026-03-10",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597585?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "현대차證, KIA타이거즈 서포터즈 ‘호랭이들’ 3기 모집",
+        "description": "또한, KIA타이거즈와 현대차증권 콜래버레이션 한정판 카카오톡 이모티콘과 현대차증권 국내주식 거래수수료율(180일 기준, 0.0036396%) 우대 혜택도 제공된다. 월별 미션 이벤트도 진행될 예정이다. 매월 주어지는... ",
+        "press": "www.etoday.co.kr",
+        "date": "2026-03-10",
+        "url": "https://www.etoday.co.kr/news/view/2563633",
+        "source": "naver_api"
+      },
+      {
+        "title": "‘롤러코스터 장세’ 코스피…하루 만에 5% 급반등 [이런국장 저런주식...",
+        "description": "현대차는 3.55% 오른 52만 5000원에 거래를 마쳤고 기아는 4.95% 상승했다. 두산에너빌리티도 6.55% 올랐다. LG에너지솔루션(2.09%), 삼성바이오로직스(0.82%) 등도 상승 마감했다. 코스닥 지수도 덩달아 상승했다.... ",
+        "press": "www.sedaily.com",
+        "date": "2026-03-10",
+        "url": "https://n.news.naver.com/mnews/article/011/0004597666?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "전쟁 뒤 15조 베팅…외국인 판 주식 그대로 받는 개인",
+        "description": "미국·이스라엘과 이란 전쟁 직후 닷새간(3~9일) 코스피 시장에서 개인은 15조원 넘는 주식을 사들였다. 종목별로는 삼성전자(7조1170억원), SK하이닉스(3조5206억원), 현대차(1조4002억원) 등 대형주 위주로 매수세가... ",
+        "press": "www.joongang.co.kr",
+        "date": "2026-03-10",
+        "url": "https://n.news.naver.com/mnews/article/025/0003507902?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "현대차 주가, 3월 10일 장중 536,000원 5.72% 상승",
+        "description": "외국인소진율은 외국인 투자자가 소유할 수 있는 한도 내에서 실제 소유하고 있는 주식의 비율을 의미한다. 배당수익률은 1.87%이다. 지난 거래일 현대차는 504,000원으로 장을 시작하여 511,000원의 고가와... ",
+        "press": "www.topstarnews.net",
+        "date": "2026-03-10",
+        "url": "https://www.topstarnews.net/news/articleView.html?idxno=15999087",
+        "source": "naver_api"
+      },
+      {
+        "title": "[글로벌 비즈 브리핑] 이란 전쟁으로 현대차 '직격탄'…번스타인의 경고...",
+        "description": "한 눈에 보는 해외 경제 이슈 ▲이란 전쟁으로 현대차 '직격탄'...번스타인의 경고 ▲이란 전쟁에...기업들... 연봉과 주식 보상 등을 합해 최대 6억9천200만 달러(약 1조330억원)를 지급하는 보상안을 확정했습니다.... ",
+        "press": "biz.sbs.co.kr",
+        "date": "2026-03-09",
+        "url": "https://n.news.naver.com/mnews/article/374/0000496500?sid=104",
+        "source": "naver_api"
+      },
+      {
+        "title": "[외신 헤드라인] 이란 전쟁으로 현대차 '직격탄'…번스타인의 경고",
+        "description": "◇ 이란 전쟁으로 현대차 '직격탄'…번스타인의 경고 이란 사태가 길어지면서 아시아 완성차 업계가 가장 큰... 특히 이번에는 처음으로 자율주행 자회사인 웨이모와, 드론배송업체 윙의 주식을 지급하는 방안도... ",
+        "press": "biz.sbs.co.kr",
+        "date": "2026-03-09",
+        "url": "https://n.news.naver.com/mnews/article/374/0000496513?sid=104",
+        "source": "naver_api"
+      }
+    ],
+    "market_context": {
+      "current_price": 530000.0,
+      "price_change_5d_pct": -3.28,
+      "trend": "하락",
+      "actual_1d_pct": -1.7,
+      "actual_5d_pct": -2.45,
+      "actual_20d_pct": -2.45
+    }
+  },
+  "result": {
+    "prediction": "하락",
+    "strength": "약",
+    "buy_pressure": 0.0,
+    "sell_pressure": 28.1,
+    "hold_pressure": 71.9,
+    "net_pressure": -28.1,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 1,
+        "관망": 4,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 1,
+        "관망": 4,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 2,
+        "관망": 3,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.404,
+    "confidence_avg": 0.644
+  },
+  "validation": {
+    "ticker": "005380",
+    "issue_date": "2026-03-11",
+    "prediction": "하락",
+    "buy_pressure": 0.0,
+    "sell_pressure": 28.1,
+    "evaluations": {
+      "1d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -1.7,
+        "is_correct": true
+      },
+      "5d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -2.45,
+        "is_correct": true
+      },
+      "20d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -2.45,
+        "is_correct": true
+      }
+    },
+    "accuracy_pct": 100.0,
+    "correct_count": 3,
+    "total_periods": 3,
+    "base_price": 530000.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.9718269282420703
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.45858094368674573
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.7113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.8643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세에 놓여 있으며, 관련 공시와 뉴스 부족",
+      "confidence": 0.23049027755348211
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.4347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.7142067710386049
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.85314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 리스크 요인으로 인한 주의 필요",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세에 놓여 있으며, 관련 공시와 뉴스 부족",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "하락 추세와 리스크 요인으로 인한 불안정성, 군중 반응이 매도 우위",
+      "confidence": 0.3162113205961712
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.9677603982663288
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "DCF model suggests undervaluation, but considering market uncertainty and lack of news, it's better to wait.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.8915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.12478746259896051
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.3391035493879133
+    }
+  ],
+  "run_id": "e2d13272",
+  "corp": "현대차",
+  "sector": "자동차"
+}

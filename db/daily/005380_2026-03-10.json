@@ -1,0 +1,274 @@
+{
+  "corp_name": "현대차",
+  "ticker": "005380",
+  "issue_date": "2026-03-10",
+  "seed": {
+    "summary": "현대차의 주가 추세는 주로 상승하고 있지만, 이란 전쟁으로 인한 리스크 요인과 부정적 뉴스들이 나타나고 있어 투자자들은 주의를 기울여야 할 필요가 있습니다.",
+    "issue_type": "업황변화",
+    "sentiment": "negative",
+    "impact_level": "medium",
+    "key_points": [
+      "이란 전쟁으로 인한 리스크 요인",
+      "부정적 뉴스들",
+      "주가 추세는 상승하고 있지만 리스크 요인도 고려해야 할 필요가 있습니다.",
+      "[전일(2026-03-09) 이월] 예측:하락 | 매수:0% | 매도:27%\n요약: 현대차의 주가 하락 추세에 주목, 리스크 요인 우선"
+    ],
+    "corp_name": "현대차",
+    "raw_disclosure_count": 0,
+    "raw_articles": [
+      {
+        "title": "\"킹산직? 끝났어요… 주식이 답이죠\" 현대차 MZ들의 '각자도생'",
+        "description": "끝났어요… 주식이 답이죠\" 현대차 MZ들의 '각자도생' (www.hankookilbo.com/news/article/A2026030816360000717) ② 깡통 AI의 탄생 • \"해고했으면 큰일 날 뻔\" '띨띨한' AI 믿었던 어느 기업의 고백 (www.hankookilbo.com/news/article... ",
+        "press": "www.hankookilbo.com",
+        "date": "2026-03-09",
+        "url": "https://n.news.naver.com/mnews/article/469/0000918325?sid=102",
+        "source": "naver_api"
+      },
+      {
+        "title": "[글로벌 비즈 브리핑] 이란 전쟁으로 현대차 '직격탄'…번스타인의 경고...",
+        "description": "한 눈에 보는 해외 경제 이슈 ▲이란 전쟁으로 현대차 '직격탄'...번스타인의 경고 ▲이란 전쟁에...기업들... 연봉과 주식 보상 등을 합해 최대 6억9천200만 달러(약 1조330억원)를 지급하는 보상안을 확정했습니다.... ",
+        "press": "biz.sbs.co.kr",
+        "date": "2026-03-09",
+        "url": "https://n.news.naver.com/mnews/article/374/0000496500?sid=104",
+        "source": "naver_api"
+      },
+      {
+        "title": "[외신 헤드라인] 이란 전쟁으로 현대차 '직격탄'…번스타인의 경고",
+        "description": "◇ 이란 전쟁으로 현대차 '직격탄'…번스타인의 경고 이란 사태가 길어지면서 아시아 완성차 업계가 가장 큰... 특히 이번에는 처음으로 자율주행 자회사인 웨이모와, 드론배송업체 윙의 주식을 지급하는 방안도... ",
+        "press": "biz.sbs.co.kr",
+        "date": "2026-03-09",
+        "url": "https://n.news.naver.com/mnews/article/374/0000496513?sid=104",
+        "source": "naver_api"
+      },
+      {
+        "title": "8.9조 흥행 현대차 아틀라스 관련주 '액스비스' 오늘(9일) 코스닥 상장",
+        "description": "현재 자본금은 46억6600만원으로, 공모 후 발행주식총수 기준 김명진 대표(38.8%) 외 3인이 54.4%의 지분을... 지난해 현대차그룹으로부터 로봇 액추에이터 관련 레이저 공정 장비를 수주해 피지컬 AI로의 밸류체인... ",
+        "press": "www.newswell.co.kr",
+        "date": "2026-03-09",
+        "url": "http://www.newswell.co.kr/news/articleView.html?idxno=16487",
+        "source": "naver_api"
+      }
+    ],
+    "market_context": {
+      "current_price": 525000.0,
+      "price_change_5d_pct": 4.79,
+      "trend": "상승",
+      "actual_1d_pct": 0.95,
+      "actual_5d_pct": -1.52,
+      "actual_20d_pct": -1.52
+    }
+  },
+  "result": {
+    "prediction": "하락",
+    "strength": "약",
+    "buy_pressure": 0.0,
+    "sell_pressure": 27.6,
+    "hold_pressure": 72.4,
+    "net_pressure": -27.6,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 1,
+        "관망": 4,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 1,
+        "관망": 4,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 2,
+        "관망": 3,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.399,
+    "confidence_avg": 0.657
+  },
+  "validation": {
+    "ticker": "005380",
+    "issue_date": "2026-03-10",
+    "prediction": "하락",
+    "buy_pressure": 0.0,
+    "sell_pressure": 27.6,
+    "evaluations": {
+      "1d": {
+        "predicted": "하락",
+        "actual_direction": "보합",
+        "actual_change_pct": 0.95,
+        "is_correct": false
+      },
+      "5d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -1.52,
+        "is_correct": true
+      },
+      "20d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -1.52,
+        "is_correct": true
+      }
+    },
+    "accuracy_pct": 66.7,
+    "correct_count": 2,
+    "total_periods": 3,
+    "base_price": 525000.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "이란 전쟁으로 인한 리스크 요인과 부정적 뉴스들이 나타나고 있어 투자자들은 주의를 기울여야 할 필요가 있습니다.",
+      "confidence": 0.9718269282420703
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "이란 전쟁으로 인한 리스크 요인과 부정적 뉴스들이 나타나고 있어 투자자들은 주의를 기울여야 할 필요가 있습니다.",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.45858094368674573
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.7113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.9643101513004699
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세에 놓여 있으며, 관련 공시와 뉴스 부족",
+      "confidence": 0.4304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "이란 전쟁으로 인한 리스크 요인과 부정적 뉴스들이 나타나고 있어 투자자들은 주의를 기울여야 할 필요가 있습니다.",
+      "confidence": 0.4347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.7142067710386049
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.95314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "이란 전쟁으로 인한 리스크 요인과 부정적 뉴스들이 나타나고 있어 투자자들은 주의를 기울여야 할 필요가 있습니다.",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "이란 전쟁으로 인한 리스크 요인과 부정적 뉴스들이 나타나고 있어 주의를 기울여야 할 필요가 있습니다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세에 놓여 있으며, 관련 공시와 뉴스 부족",
+      "confidence": 0.25988995669379356
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.2876974779282134
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "이란 전쟁으로 인한 리스크 요인과 부정적 뉴스들이 나타나고 있어 주의를 기울여야 할 필요가 있습니다.",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "이란 전쟁으로 인한 리스크 요인과 부정적 뉴스들이 나타나고 있어 투자자들은 주의를 기울여야 할 필요가 있습니다.",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 관련 공시와 뉴스 부족",
+      "confidence": 0.9677603982663288
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "DCF model suggests undervaluation, but considering market uncertainty and lack of news, it's better to wait.",
+      "confidence": 0.6555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.9915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "이란 전쟁으로 인한 리스크 요인과 부정적 뉴스들이 나타나고 있어 투자자들은 주의를 기울여야 할 필요가 있습니다.",
+      "confidence": 0.12478746259896051
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "이란 전쟁으로 인한 리스크 요인과 부정적 뉴스들이 나타나고 있어 투자자들은 주의를 기울여야 할 필요가 있습니다.",
+      "confidence": 0.3391035493879133
+    }
+  ],
+  "run_id": "e2d13272",
+  "corp": "현대차",
+  "sector": "자동차"
+}

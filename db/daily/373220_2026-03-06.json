@@ -1,0 +1,257 @@
+{
+  "corp_name": "LG에너지솔루션",
+  "ticker": "373220",
+  "issue_date": "2026-03-06",
+  "seed": {
+    "summary": "LG Energy Solution의 주식 발행 및 실적발표에 대한 시장 상황 요약. 최근 주가 추이가 하락 추세이므로 리스크 요인을 우선 반영해야 한다.",
+    "issue_type": "유상증자",
+    "sentiment": "negative",
+    "impact_level": "medium",
+    "key_points": [
+      "주가 추이의 하락 추세",
+      "실적발표의 부정적 성과",
+      "리스크 요인으로 인한 투자자 불신",
+      "[전일(2026-03-05) 이월] 예측:하락 | 매수:0% | 매도:50%\n요약: LG Energy Solution의 유상증자 공시에 대한 투자자 관점의 시장 상황 요약으로, 주가 하락 추세와 부정적 공시가 나타나 있어 리스크"
+    ],
+    "corp_name": "LG에너지솔루션",
+    "raw_disclosure_count": 3,
+    "raw_disclosures": [
+      {
+        "title": "증권발행실적보고서",
+        "date": "20260305",
+        "corp": "LG에너지솔루션"
+      },
+      {
+        "title": "투자설명서",
+        "date": "20260305",
+        "corp": "LG에너지솔루션"
+      },
+      {
+        "title": "[발행조건확정]증권신고서(채무증권)",
+        "date": "20260304",
+        "corp": "LG에너지솔루션"
+      }
+    ],
+    "market_context": {
+      "current_price": 377500.0,
+      "price_change_5d_pct": -11.59,
+      "trend": "하락",
+      "actual_1d_pct": -4.77,
+      "actual_5d_pct": -2.25,
+      "actual_20d_pct": -2.25
+    }
+  },
+  "result": {
+    "prediction": "하락",
+    "strength": "강",
+    "buy_pressure": 0.0,
+    "sell_pressure": 48.2,
+    "hold_pressure": 51.8,
+    "net_pressure": -48.2,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 1,
+        "관망": 4,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 4,
+        "관망": 1,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 4,
+        "관망": 1,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.499,
+    "confidence_avg": 0.681
+  },
+  "validation": {
+    "ticker": "373220",
+    "issue_date": "2026-03-06",
+    "prediction": "하락",
+    "buy_pressure": 0.0,
+    "sell_pressure": 48.2,
+    "evaluations": {
+      "1d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -4.77,
+        "is_correct": true
+      },
+      "5d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -2.25,
+        "is_correct": true
+      },
+      "20d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -2.25,
+        "is_correct": true
+      }
+    },
+    "accuracy_pct": 100.0,
+    "correct_count": 3,
+    "total_periods": 3,
+    "base_price": 377500.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 고려하여 주의를 기울일 필요가 있다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "주가 하락 추세와 부정적 공시로 인한 리스크 요인",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시를 고려하여 리스크를 관리해야 한다.",
+      "confidence": 0.6585809436867457
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 하므로 관망을 선택",
+      "confidence": 0.7113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인으로 불확실한 시장 상황을 관망하는 것이 합리적",
+      "confidence": 0.7643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 고려하여 리스크 관리를 우선으로 하여 시장 상황을 관망할 것이다.",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "리스크 요인으로 인한 주가 하락 추세와 부정적 공시로 인한 리스크 관리 우선",
+      "confidence": 0.4347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "리스크 요인 우선 반영, 주가 하락 추세와 부정적 공시로 인한 리스크 요인",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "리스크 요인을 우선 반영해야 할 필요가 있습니다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "리스크 요인 우선 반영, 주가 하락 추세, 부정적 공시",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세 및 부정적 공시로 인한 리스크 요인",
+      "confidence": 0.4598899566937935
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인",
+      "confidence": 0.38769747792821335
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 하므로 포지션 정리를 결정",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 할 필요가 있습니다.",
+      "confidence": 0.9677603982663288
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 고려하여 주가 하락 가능성을 고려",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 우선 반영해야 할 필요가 있습니다.",
+      "confidence": 0.9915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 부정적 공시로 인한 리스크 요인을 고려하여 리스크 관리를 우선으로 하여 시장 상황을 관망할 것이다.",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 부정적 공시로 인한 리스크 요인을 고려하여 리스크를 관리해야 한다.",
+      "confidence": 0.3391035493879133
+    }
+  ],
+  "run_id": "1780ca95",
+  "corp": "LG에너지솔루션",
+  "sector": "2차전지"
+}

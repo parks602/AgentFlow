@@ -1,0 +1,239 @@
+{
+  "corp_name": "LG에너지솔루션",
+  "ticker": "373220",
+  "issue_date": "2025-03-10",
+  "seed": {
+    "summary": "LG에너지솔루션의 주가가 상승 추세에 있는 가운데, 최근 5일 주가 추이의 상승 (+5.3%)은 긍정적 신호입니다. 그러나 공시와 관련 뉴스가 없는 상황에서 주가 상승은 리스크 요인을 우선 반영해야 합니다.",
+    "issue_type": "실적발표",
+    "sentiment": "neutral",
+    "impact_level": "medium",
+    "key_points": [
+      "상승 추세: 최근 5일 주가 추이 +5.3%",
+      "리스크 요인: 공시와 관련 뉴스가 없음",
+      "기타 포인트: 주가 상승 추세를 지속할 수 있는가"
+    ],
+    "corp_name": "LG에너지솔루션",
+    "raw_disclosure_count": 0,
+    "market_context": {
+      "current_price": 349500.0,
+      "price_change_5d_pct": 5.27,
+      "trend": "상승",
+      "actual_1d_pct": -2.43,
+      "actual_5d_pct": -7.01,
+      "actual_20d_pct": -7.58
+    }
+  },
+  "result": {
+    "prediction": "보합",
+    "strength": "-",
+    "buy_pressure": 0.0,
+    "sell_pressure": 0.0,
+    "hold_pressure": 100.0,
+    "net_pressure": 0.0,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.0,
+    "confidence_avg": 0.677
+  },
+  "validation": {
+    "ticker": "373220",
+    "issue_date": "2025-03-10",
+    "prediction": "보합",
+    "buy_pressure": 0.0,
+    "sell_pressure": 0.0,
+    "evaluations": {
+      "1d": {
+        "predicted": "보합",
+        "actual_direction": "하락",
+        "actual_change_pct": -2.43,
+        "is_correct": false
+      },
+      "5d": {
+        "predicted": "보합",
+        "actual_direction": "하락",
+        "actual_change_pct": -7.01,
+        "is_correct": false
+      },
+      "20d": {
+        "predicted": "보합",
+        "actual_direction": "하락",
+        "actual_change_pct": -7.58,
+        "is_correct": false
+      }
+    },
+    "accuracy_pct": 0.0,
+    "correct_count": 0,
+    "total_periods": 3,
+    "base_price": 349500.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.7585809436867458
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 확인해야 함",
+      "confidence": 0.5643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.4304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+      "confidence": 0.3347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+      "confidence": 0.95314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.25988995669379356
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 불확실성을 고려",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.3162113205961712
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.9677603982663288
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "상승 추세의 지속 가능성을 관망, 리스크 요인을 우선 반영",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.9915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인을 우선 반영하여 주가 추세의 지속 가능성을 관망",
+      "confidence": 0.3391035493879133
+    }
+  ],
+  "run_id": "bd94cbd2",
+  "corp": "LG에너지솔루션",
+  "sector": "2차전지"
+}

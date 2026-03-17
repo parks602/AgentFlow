@@ -1,0 +1,239 @@
+{
+  "corp_name": "현대차",
+  "ticker": "005380",
+  "issue_date": "2026-03-03",
+  "seed": {
+    "summary": "현대차의 주가 추세는 상승 중이나, 공시와 관련 뉴스가 없는 점을 고려해야 합니다.",
+    "issue_type": "실적발표",
+    "sentiment": "positive",
+    "impact_level": "medium",
+    "key_points": [
+      "지난 5일간의 주가 상승 (+13.6%)",
+      "공시와 관련 뉴스가 없는 점을 고려해야 합니다.",
+      "리스크 요인 없음"
+    ],
+    "corp_name": "현대차",
+    "raw_disclosure_count": 0,
+    "market_context": {
+      "current_price": 595000.0,
+      "price_change_5d_pct": 13.55,
+      "trend": "상승",
+      "actual_1d_pct": -15.8,
+      "actual_5d_pct": -11.76,
+      "actual_20d_pct": -13.11
+    }
+  },
+  "result": {
+    "prediction": "상승",
+    "strength": "약",
+    "buy_pressure": 39.0,
+    "sell_pressure": 0.0,
+    "hold_pressure": 61.0,
+    "net_pressure": 39.0,
+    "type_breakdown": {
+      "retail": {
+        "매수": 2,
+        "매도": 0,
+        "관망": 3,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 2,
+        "매도": 0,
+        "관망": 3,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 3,
+        "매도": 0,
+        "관망": 2,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.476,
+    "confidence_avg": 0.72
+  },
+  "validation": {
+    "ticker": "005380",
+    "issue_date": "2026-03-03",
+    "prediction": "상승",
+    "buy_pressure": 39.0,
+    "sell_pressure": 0.0,
+    "evaluations": {
+      "1d": {
+        "predicted": "상승",
+        "actual_direction": "하락",
+        "actual_change_pct": -15.8,
+        "is_correct": false
+      },
+      "5d": {
+        "predicted": "상승",
+        "actual_direction": "하락",
+        "actual_change_pct": -11.76,
+        "is_correct": false
+      },
+      "20d": {
+        "predicted": "상승",
+        "actual_direction": "하락",
+        "actual_change_pct": -13.11,
+        "is_correct": false
+      }
+    },
+    "accuracy_pct": 0.0,
+    "correct_count": 0,
+    "total_periods": 3,
+    "base_price": 595000.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "현대차의 주가 추세는 상승 중이나, 공시와 관련 뉴스가 없는 점을 고려해야 한다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매수",
+      "reason": "현대차의 주가 추세가 상승 중이고, 공시와 관련 뉴스가 없는 점을 고려하면 매수할 수 있는 기회를 놓치지 않을 수 있다.",
+      "confidence": 0.8785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "매수",
+      "reason": "현대차의 주가 추세가 상승 중이고, 공시와 관련 뉴스가 없는 점을 고려하면 매수할 수 있는 기회를 잡을 수 있습니다.",
+      "confidence": 0.6585809436867457
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "현대차의 주가 추세는 상승 중이나, 공시와 관련 뉴스가 없는 점을 고려해야 합니다.",
+      "confidence": 0.7113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "현대차의 주가 추세는 상승 중이나, 공시와 관련 뉴스가 없는 점을 고려해야 합니다.",
+      "confidence": 0.6643101513004699
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "현대차의 주가 추세는 상승 중이나, 공시와 관련 뉴스가 없는 점을 고려해야 한다.",
+      "confidence": 0.5304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매수",
+      "reason": "Short-term performance-driven approach with no significant news or events, and a strong upward trend.",
+      "confidence": 0.6347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "현대차의 주가 추세는 상승 중이나, 공시와 관련 뉴스가 없는 점을 고려해야 하지만, 리스크 요인은 없는 것으로 판단",
+      "confidence": 0.7142067710386049
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "현대차의 주가 추세가 상승 중이나, 공시와 관련 뉴스가 없는 점을 고려해야 한다.",
+      "confidence": 0.65314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "매수",
+      "reason": "Long-term growth potential and in-house research and development expertise support a buy decision, despite the absence of recent news.",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매수",
+      "reason": "상승 추세 유지, 공시와 관련 뉴스가 없는 점을 고려",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "공시와 관련 뉴스가 없는 점을 고려해야 하며, 주가 추세가 상승 중이나 하락 신호가 보이지 않아 매수 또는 매도는 위험",
+      "confidence": 0.4598899566937935
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "매수",
+      "reason": "현대차의 주가 추세가 상승 중이고, 공시와 관련 뉴스가 없는 점을 고려하여 매수를 결정합니다.",
+      "confidence": 0.38769747792821335
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매수",
+      "reason": "상승 추세 유지, 공시 absence, risk factor none",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "공시와 관련 뉴스가 없는 점을 고려해야 하며, 주가 추세가 상승 중이나 하락 신호가 보이지 않아 매수 또는 매도는 위험",
+      "confidence": 0.6162113205961711
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "현대차의 주가 추세는 상승 중이나, 공시와 관련 뉴스가 없는 점을 고려해야 합니다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "DCF model suggests undervaluation, but considering market uncertainty and lack of news, it's better to wait.",
+      "confidence": 0.9555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "현대차의 주가 추세는 상승 중이나, 공시와 관련 뉴스가 없는 점을 고려해야 합니다.",
+      "confidence": 0.7915622059190301
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "현대차의 주가 추세는 상승 중이나, 공시와 관련 뉴스가 없는 점을 고려해야 합니다.",
+      "confidence": 0.4247874625989605
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "현대차의 주가 추세는 상승 중이나, 공시와 관련 뉴스가 없는 점을 고려해야 합니다.",
+      "confidence": 0.5391035493879133
+    }
+  ],
+  "run_id": "e2d13272",
+  "corp": "현대차",
+  "sector": "자동차"
+}

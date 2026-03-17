@@ -1,0 +1,2634 @@
+{
+  "run_id": "2a6c5436",
+  "corp": "KB금융",
+  "ticker": "105560",
+  "sector": "금융",
+  "start_date": "2026-03-03",
+  "end_date": "2026-03-16",
+  "days": 10,
+  "accuracy_1d": 50.0,
+  "created_at": "2026-03-16T17:49:34.952546",
+  "daily_results": [
+    {
+      "corp_name": "KB금융",
+      "ticker": "105560",
+      "issue_date": "2026-03-03",
+      "seed": {
+        "summary": "KB금융의 주가가 하락 추세에 있는 가운데, 최근 5일 주가 추이의 하락 (-7.9%)는 주가의 강한 하락 추세를 나타내는 것으로 보인다. ",
+        "issue_type": "주가 하락 추세",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "최근 5일 주가 추이의 하락 (-7.9%)",
+          "주가의 강한 하락 추세"
+        ],
+        "corp_name": "KB금융",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 153500.0,
+          "price_change_5d_pct": -7.92,
+          "trend": "하락",
+          "actual_1d_pct": -10.29,
+          "actual_5d_pct": -3.97,
+          "actual_20d_pct": -3.0
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 58.8,
+        "hold_pressure": 41.2,
+        "net_pressure": -58.8,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.485,
+        "confidence_avg": 0.76
+      },
+      "validation": {
+        "ticker": "105560",
+        "issue_date": "2026-03-03",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 58.8,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -10.29,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -3.97,
+            "is_correct": true
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -3.0,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 100.0,
+        "correct_count": 3,
+        "total_periods": 3,
+        "base_price": 153500.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이의 하락 (-7.9%)에 따라 주가의 강한 하락 추세를 예측",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, FOMO가 작용하여 주가 하락을 예측",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 강한 하락 추세, 손실 공포와 군중 심리가 작용하여 주의를 기울일 필요가 있음",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세에 있는 KB금융의 주가가 강한 하락 추세를 나타내는 것으로 보인다. 더 많은 정보를 수집하고 시장 상황을 지켜보는 것이 좋다.",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+          "confidence": 0.6304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+          "confidence": 0.7347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 강한 하락 추세, 리스크 관리 우선",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 최근 5일 주가 추이의 하락 (-7.9%)",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 강한 하락 추세, 리스크 관리 우선",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 추세추종 편향으로 매도",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이의 하락 (-7.9%)로 주가의 강한 하락 추세를 판단",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 강한 하락 추세, 리스크 관리 우선",
+          "confidence": 0.6162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 강한 하락 추세, 주가의 내재가치 대비 비싸 보이거나 성장 모멘텀이 꺾였으면 매도가 맞다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이의 하락 (-7.9%)를 고려하여 주가의 강한 하락 추세를 예측, 섣불리 판단하지 않고 관망을 선택",
+          "confidence": 0.9555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 주의를 기울이고, 최근 5일 주가 추이의 하락 (-7.9%)를 고려하여 장기 펀더멘털을 확인하고자 한다.",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 최근 5일 주가 추이의 하락 (-7.9%)로 주가의 강한 하락 추세를 나타내는 것 같아",
+          "confidence": 0.22478746259896054
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이의 하락 (-7.9%)를 고려하여 주가의 강한 하락 추세를 예측, 섣불리 판단하지 않고 관망을 선택",
+          "confidence": 0.5391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "KB금융",
+      "ticker": "105560",
+      "issue_date": "2026-03-04",
+      "seed": {
+        "summary": "KB금융의 주가가 하락 추세로 나타나고 있어, 투자자들은 주의해야 할 리스크 요인을 고려해야 합니다.",
+        "issue_type": "주가 하락 추세",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "최근 5일 주가 추이 하락 (-17.9%)",
+          "현재가 137,700원",
+          "[전일(2026-03-03) 이월] 예측:하락 | 매수:0% | 매도:59%\n요약: KB금융의 주가가 하락 추세에 있는 가운데, 최근 5일 주가 추이의 하락 (-7.9%)는 주가의 강한 하락 추세를 나타내는 것으로 보인다. "
+        ],
+        "corp_name": "KB금융",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 137700.0,
+          "price_change_5d_pct": -17.89,
+          "trend": "하락",
+          "actual_1d_pct": 8.21,
+          "actual_5d_pct": 9.88,
+          "actual_20d_pct": 8.13
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 53.4,
+        "hold_pressure": 46.6,
+        "net_pressure": -53.4,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.498,
+        "confidence_avg": 0.753
+      },
+      "validation": {
+        "ticker": "105560",
+        "issue_date": "2026-03-04",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 53.4,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 8.21,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 9.88,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 8.13,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 137700.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이의 하락 (-17.9%)에 따라 주가의 강한 하락 추세를 예측",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, FOMO가 작용하여 주가 하락을 예측",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 강한 하락 추세, 손실 공포와 군중 심리가 작용하여 주의를 기울일 필요가 있음",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세에 있는 KB금융의 주가가 강한 하락 추세를 나타내는 것으로 보인다. 더 많은 정보를 수집하고 시장 상황을 지켜보는 것이 좋다.",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+          "confidence": 0.6304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+          "confidence": 0.6347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리 우선",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선시",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 추세추종 편향으로 매도",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 강한 하락 추세, 리스크 관리 우선",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 추세추종 편향으로 매도",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 강한 하락 추세, 추세추종 편향으로 매도",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 강한 하락 추세, 리스크 관리 우선",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 강한 하락 추세, 주가의 내재가치 대비 비싸 보이거나 성장 모멘텀이 꺾졌을 가능성이 높아 관망이 최선",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이의 하락 (-17.9%)를 고려하여 주가의 강한 하락 추세를 예측, 섣불리 판단하지 않고 관망을 선택",
+          "confidence": 0.9555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 주의를 기울이고, 최근 5일 주가 추이의 하락 (-17.9%)를 고려하여 장기 펀더멘털을 확인하고자 한다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 강한 하락 추세, 리스크 관리를 우선",
+          "confidence": 0.3247874625989605
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 최근 5일 주가 추이의 하락 (-17.9%)를 고려하여 주가의 강한 하락 추세를 예측, 섣불리 판단하지 않고 관망을 선택",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "KB금융",
+      "ticker": "105560",
+      "issue_date": "2026-03-05",
+      "seed": {
+        "summary": "KB금융의 주가가 하락 추세에 있는 가운데, 최근 5일간의 주가 하락 (-9.9%)와 부정적 공시/뉴스가 없는 상황에서, 주가 하락 추세와 부정적 공시/뉴스의 조합으로 리스크 요인으로 분석됩니다.",
+        "issue_type": "주가 하락",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "부정적 공시/뉴스 없음",
+          "리스크 요인",
+          "[전일(2026-03-04) 이월] 예측:하락 | 매수:0% | 매도:53%\n요약: KB금융의 주가가 하락 추세로 나타나고 있어, 투자자들은 주의해야 할 리스크 요인을 고려해야 합니다."
+        ],
+        "corp_name": "KB금융",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 149000.0,
+          "price_change_5d_pct": -9.86,
+          "trend": "하락",
+          "actual_1d_pct": -1.07,
+          "actual_5d_pct": 0.13,
+          "actual_20d_pct": -0.07
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 55.8,
+        "hold_pressure": 44.2,
+        "net_pressure": -55.8,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.493,
+        "confidence_avg": 0.76
+      },
+      "validation": {
+        "ticker": "105560",
+        "issue_date": "2026-03-05",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 55.8,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.07,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": 0.13,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "보합",
+            "actual_change_pct": -0.07,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 33.3,
+        "correct_count": 1,
+        "total_periods": 3,
+        "base_price": 149000.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음으로 리스크 요인으로 분석. 더 많은 정보를 수집하고 시장 상황을 지켜보는 것이 좋다.",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음으로 리스크 요인으로 분석",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.7347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음으로 리스크 요인으로 분석",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.6162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인 고려하여 섣불리 판단하지 않음",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스의 조합으로 리스크 요인으로 분석됩니다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "KB금융",
+      "ticker": "105560",
+      "issue_date": "2026-03-06",
+      "seed": {
+        "summary": "KB금융의 주가가 하락 추세에 놓여 있으며, 최근 5일 주가 추이도 -7.3%의 하락을 보였다. 이를 고려할 때, 투자자는 주가 하락의 리스크 요인을 우선 반영해야 한다.",
+        "issue_type": "주가 하락",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "최근 5일 주가 추이 -7.3%",
+          "주가 하락의 리스크 요인",
+          "[전일(2026-03-05) 이월] 예측:하락 | 매수:0% | 매도:56%\n요약: KB금융의 주가가 하락 추세에 있는 가운데, 최근 5일간의 주가 하락 (-9.9%)와 부정적 공시/뉴스가 없는 상황에서, 주가 하락 추세와 부정"
+        ],
+        "corp_name": "KB금융",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 147400.0,
+          "price_change_5d_pct": -7.3,
+          "trend": "하락",
+          "actual_1d_pct": -3.26,
+          "actual_5d_pct": 1.02,
+          "actual_20d_pct": 1.02
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 54.3,
+        "hold_pressure": 45.7,
+        "net_pressure": -54.3,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.496,
+        "confidence_avg": 0.733
+      },
+      "validation": {
+        "ticker": "105560",
+        "issue_date": "2026-03-06",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 54.3,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "하락",
+            "actual_change_pct": -3.26,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 1.02,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 1.02,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 33.3,
+        "correct_count": 1,
+        "total_periods": 3,
+        "base_price": 147400.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음으로 리스크 요인으로 분석. 더 많은 정보를 수집하고 시장 상황을 지켜보는 것이 좋다.",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.6304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.5876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음으로 리스크 요인으로 분석",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.8677603982663287
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인 고려하여 섣불리 판단하지 않음",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 조합으로 리스크 요인으로 분석됩니다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.23910354938791328
+        }
+      ]
+    },
+    {
+      "corp_name": "KB금융",
+      "ticker": "105560",
+      "issue_date": "2026-03-09",
+      "seed": {
+        "summary": "KB금융의 주가가 하락 추세에 있는 것으로 분석되며, 최근 5일 주가 추이도 하락 (-7.1%)으로 리스크 요인들이 우세해 보입니다.",
+        "issue_type": "주가 하락",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세",
+          "최근 5일 주가 추이 하락 (-7.1%)",
+          "부정적 공시/뉴스 없음",
+          "[전일(2026-03-06) 이월] 예측:하락 | 매수:0% | 매도:54%\n요약: KB금융의 주가가 하락 추세에 놓여 있으며, 최근 5일 주가 추이도 -7.3%의 하락을 보였다. 이를 고려할 때, 투자자는 주가 하락의 리스크 "
+        ],
+        "corp_name": "KB금융",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 142600.0,
+          "price_change_5d_pct": -7.1,
+          "trend": "하락",
+          "actual_1d_pct": 3.37,
+          "actual_5d_pct": 4.42,
+          "actual_20d_pct": 4.42
+        }
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "강",
+        "buy_pressure": 0.0,
+        "sell_pressure": 55.1,
+        "hold_pressure": 44.9,
+        "net_pressure": -55.1,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 4,
+            "관망": 1,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 5,
+            "관망": 0,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.495,
+        "confidence_avg": 0.695
+      },
+      "validation": {
+        "ticker": "105560",
+        "issue_date": "2026-03-09",
+        "prediction": "하락",
+        "buy_pressure": 0.0,
+        "sell_pressure": 55.1,
+        "evaluations": {
+          "1d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 3.37,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 4.42,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "하락",
+            "actual_direction": "상승",
+            "actual_change_pct": 4.42,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 142600.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음으로 리스크 요인으로 분석. 더 많은 정보를 수집하고 시장 상황을 지켜보는 것이 좋다.",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.5598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음으로 리스크 요인으로 분석",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 없음, 리스크 요인",
+          "confidence": 0.21621132059617115
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.8677603982663287
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인 고려하여 섣불리 판단하지 않음",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 조합으로 리스크 요인으로 분석됩니다.",
+          "confidence": 0.6915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "KB금융",
+      "ticker": "105560",
+      "issue_date": "2026-03-10",
+      "seed": {
+        "summary": "KB금융의 주가 추세는 최근 5일간 상승했지만, 관련 뉴스에서는 금융권의 비상 대응체계 강화, 연봉 1억 받는 금융 사외이사 등의 부정적 요인들이 제기되고 있습니다.",
+        "issue_type": "오너리스크",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "상승 근거: 최근 5일간 주가 상승",
+          "리스크: 금융권의 비상 대응체계 강화, 연봉 1억 받는 금융 사외이사 등의 부정적 요인",
+          "[전일(2026-03-09) 이월] 예측:하락 | 매수:0% | 매도:55%\n요약: KB금융의 주가가 하락 추세에 있는 것으로 분석되며, 최근 5일 주가 추이도 하락 (-7.1%)으로 리스크 요인들이 우세해 보입니다."
+        ],
+        "corp_name": "KB금융",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "1500원 넘보는 환율, 코스피 급락에…금융권, 비상 대응체계 강화",
+            "description": "KB금융그룹은 지난 1일부터 '그룹 비상대응체계'를 가동, 매일 지주·계열사 핵심 경영진이 대응 현황과 주요 이슈를 점검해 내부 소통을 하고 있다. 코스피가 12%가량 하락하는 등 주식시장 변동성이 확대된 지난 4일에는... ",
+            "press": "view.asiae.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/277/0005731602?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "연봉 1억 받는 금융 사외이사… 반대 표결 ‘단 1건’ 사실상 거수기",
+            "description": "지난해 4월 24일 김성용 KB금융 사외이사가 제 6차 이사회에서 '자기주식 취득 및 소각' 안에 대해 “밸류업 정책 추진에는 예측 가능성이 동반돼야 한다”며 반대 의견을 제시한 것이 유일했다. 우리금융에서는... ",
+            "press": "www.ddaily.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/138/0002219991?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "[박종면칼럼] 금융지주 회장 연임은 일반결의, 3연임은 특별결의",
+            "description": "실제로 2023년 11월 양종희 KB금융 회장이나 2023년 3월 진옥동 신한금융 회장 선임, 지난해 3월 함영주 하나금융 회장 연임 당시 모두 주총 출석주식 수의 80~90% 이상 되는 찬성표를 얻었습니다. 이를 보면 특별결의의 문턱을... ",
+            "press": "www.bloter.net",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/293/0000080501?sid=110",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 147400.0,
+          "price_change_5d_pct": 7.04,
+          "trend": "상승",
+          "actual_1d_pct": 2.65,
+          "actual_5d_pct": 1.02,
+          "actual_20d_pct": 1.02
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 8.9,
+        "hold_pressure": 91.1,
+        "net_pressure": -8.9,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.161,
+        "confidence_avg": 0.642
+      },
+      "validation": {
+        "ticker": "105560",
+        "issue_date": "2026-03-10",
+        "prediction": "보합",
+        "buy_pressure": 0.0,
+        "sell_pressure": 8.9,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "상승",
+            "actual_change_pct": 2.65,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "상승",
+            "actual_change_pct": 1.02,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "상승",
+            "actual_change_pct": 1.02,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 147400.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.45858094368674573
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인으로 분석",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석. 더 많은 정보를 수집하고 시장 상황을 지켜보는 것이 좋다.",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.5304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시/뉴스 요인과 리스크 요인으로 인한 위험을 고려하여 관망",
+          "confidence": 0.7347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시/뉴스 요인과 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.65314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시/뉴스 요인과 리스크 요인으로 인해 주가 하락 가능성 높아짐",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승 추세 있지만, 부정적 공시/뉴스 요인으로 리스크가 높아 매수 편향을 조정하여 관망을 선택",
+          "confidence": 0.4598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세는 상승했지만, 부정적 요인들이 제기되고 있어 리스크 요인으로 분석됩니다.",
+          "confidence": 0.1876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.5150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승 추세지만 부정적 공시/뉴스 요인으로 리스크가 있어 포지션 정리",
+          "confidence": 0.3162113205961712
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.6677603982663287
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 없음, 리스크 요인 고려하여 섣불리 판단하지 않음",
+          "confidence": 0.6555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 조합으로 리스크 요인으로 분석됩니다.",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 요인들이 제기되고 있어 장기 펀더멘털을 고려해야 한다.",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "KB금융",
+      "ticker": "105560",
+      "issue_date": "2026-03-11",
+      "seed": {
+        "summary": "KB금융의 최근 주가 추이와 관련된 시장 상황 요약 — 리스크와 기회를 균형있게",
+        "issue_type": "실적발표",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세에 대한 리스크 요인",
+          "KB금융그룹의 비상 대응체계 강화",
+          "주주환원 확대의 가능성",
+          "[전일(2026-03-10) 이월] 예측:보합 | 매수:0% | 매도:9%\n요약: KB금융의 주가 추세는 최근 5일간 상승했지만, 관련 뉴스에서는 금융권의 비상 대응체계 강화, 연봉 1억 받는 금융 사외이사 등의 부정적 요인들"
+        ],
+        "corp_name": "KB금융",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "1500원 넘보는 환율, 코스피 급락에…금융권, 비상 대응체계 강화",
+            "description": "KB금융그룹은 지난 1일부터 '그룹 비상대응체계'를 가동, 매일 지주·계열사 핵심 경영진이 대응 현황과 주요 이슈를 점검해 내부 소통을 하고 있다. 코스피가 12%가량 하락하는 등 주식시장 변동성이 확대된 지난 4일에는... ",
+            "press": "view.asiae.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/277/0005731602?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "KB발해인프라 주주 국민은행, KB발해인프라 주식등의 수 151만7996주 감소...",
+            "description": "KB발해인프라(415640)의 주요주주 국민은행이 주식등 보유 상황을 10일 공시했다. 국민은행은 주식등의 수를... 지분율은 KB금융지주 2025년 3분기보고서 연결재무제표 기준 나. 특별관계자 (1) 특별관계자 개요 연번 성... ",
+            "press": "www.digitaltoday.co.kr",
+            "date": "2026-03-10",
+            "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=639253",
+            "source": "naver_api"
+          },
+          {
+            "title": "연봉 1억 받는 금융 사외이사… 반대 표결 ‘단 1건’ 사실상 거수기",
+            "description": "지난해 4월 24일 김성용 KB금융 사외이사가 제 6차 이사회에서 '자기주식 취득 및 소각' 안에 대해 “밸류업 정책 추진에는 예측 가능성이 동반돼야 한다”며 반대 의견을 제시한 것이 유일했다. 우리금융에서는... ",
+            "press": "www.ddaily.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/138/0002219991?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "[박종면칼럼] 금융지주 회장 연임은 일반결의, 3연임은 특별결의",
+            "description": "실제로 2023년 11월 양종희 KB금융 회장이나 2023년 3월 진옥동 신한금융 회장 선임, 지난해 3월 함영주 하나금융 회장 연임 당시 모두 주총 출석주식 수의 80~90% 이상 되는 찬성표를 얻었습니다. 이를 보면 특별결의의 문턱을... ",
+            "press": "www.bloter.net",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/293/0000080501?sid=110",
+            "source": "naver_api"
+          },
+          {
+            "title": "이홍구·강진두號' KB증권, 사상 최대 실적에도 '성장 정체'",
+            "description": "업계에선 특히 증시 리테일 주식 점유율과 매년 하락하는 수수료율을 아쉬운 대목으로 꼽는다. KB금융그룹에 따르면 KB증권의 대표 모바일트레이딩시스템(MTS) M-able(마블)'의 월간활성이용자수(MAU)는 197만 명으로... ",
+            "press": "www.imaeil.com",
+            "date": "2026-03-10",
+            "url": "https://n.news.naver.com/mnews/article/088/0001000263?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "4대 금융, 자본준비금 31조 감액…주주환원 확대",
+            "description": "주주환원율은 KB금융이 52.4%로 주요 금융그룹 중 가장 높았다. 신한금융도 50.2%를 기록하며, 오는... 올해 1월엔 2000억원 규모로 자사주를 취득했고, 이를 포함해 7월까지 취득이 예정된 자기주식 규모는 총 7000억원... ",
+            "press": "www.kbanker.co.kr",
+            "date": "2026-03-10",
+            "url": "https://www.kbanker.co.kr/news/articleView.html?idxno=224326",
+            "source": "naver_api"
+          },
+          {
+            "title": "거버넌스포럼, KB금융지주ㆍ메리츠금융 콕 집어 \"정통 밸류업의 모범\"",
+            "description": "밝히며 KB금융지주와 메리츠금융을 정통 밸류업의 대표 사례로 제시했다. 포럼은 지난 6일 김현정 의원이... 계획서에는 배당가능이익 처분과 자기주식 취득·소각, 사업구조 개선 등 기업가치를 높이기 위한 구체적... ",
+            "press": "www.press9.kr",
+            "date": "2026-03-10",
+            "url": "http://www.press9.kr/news/articleView.html?idxno=73275",
+            "source": "naver_api"
+          },
+          {
+            "title": "[경제소식] KB손보,조혜진 사외이사 추천.. 금융소비자 보호 전문가",
+            "description": "KB금융그룹 전경/사진=KB금융그룹 KB금융, 2025 CDP '탄소경영 섹터 아너스' 9년 연속 선정 KB금융그룹은 10일... 금융소득, 연금소득, 기타소득, 해외주식양도소득 등 투자와 관련된 주요 소득을 통합 조회할 수 있다.... ",
+            "press": "www.4th.kr",
+            "date": "2026-03-10",
+            "url": "http://www.4th.kr/news/articleView.html?idxno=2108833",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 151300.0,
+          "price_change_5d_pct": 1.54,
+          "trend": "상승",
+          "actual_1d_pct": -1.39,
+          "actual_5d_pct": -1.59,
+          "actual_20d_pct": -1.59
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 5.3,
+        "sell_pressure": 15.9,
+        "hold_pressure": 78.8,
+        "net_pressure": -10.5,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 1,
+            "매도": 0,
+            "관망": 4,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.351,
+        "confidence_avg": 0.648
+      },
+      "validation": {
+        "ticker": "105560",
+        "issue_date": "2026-03-11",
+        "prediction": "보합",
+        "buy_pressure": 5.3,
+        "sell_pressure": 15.9,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.39,
+            "is_correct": false
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.59,
+            "is_correct": false
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "하락",
+            "actual_change_pct": -1.59,
+            "is_correct": false
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_count": 0,
+        "total_periods": 3,
+        "base_price": 151300.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 조합으로 리스크 요인으로 분석됩니다.",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세에 대한 리스크 요인과 부정적 공시/뉴스 요인으로 리스크 요인으로 분석. 더 많은 정보를 수집하고 시장 상황을 지켜보는 것이 좋다.",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인과 부정적 공시/뉴스 요인을 고려하여 추가 정보 필요",
+          "confidence": 0.33049027755348215
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "부정적 공시/뉴스 요인과 리스크 요인을 고려하여 위험을 관리",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세에 대한 리스크 요인과 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시/뉴스 요인과 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "매수",
+          "reason": "Long-term growth potential and in-house research and development expertise, but cautious due to potential risks.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세에 대한 리스크 요인과 부정적 공시/뉴스 요인으로 인해 주가 하락 가능성 높아짐",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승 추세 있지만, 부정적 공시/뉴스 요인으로 리스크가 높아 매수 편향을 조정하여 관망을 선택",
+          "confidence": 0.25988995669379356
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 추세는 상승했지만, 부정적 요인들이 제기되고 있어 리스크 요인으로 분석됩니다.",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세에 대한 리스크 요인과 부정적 공시/뉴스 요인으로 포지션 정리",
+          "confidence": 0.11621132059617117
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크 요인 고려하여 섣불리 판단하지 않음",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 조합으로 리스크 요인으로 분석됩니다.",
+          "confidence": 0.6915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 대한 리스크 요인과 부정적 요인들이 제기되므로 장기 펀더멘털을 고려해야 한다.",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세에 대한 리스크 요인과 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.1391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "KB금융",
+      "ticker": "105560",
+      "issue_date": "2026-03-12",
+      "seed": {
+        "summary": "KB금융의 최근 시장 상황은 주가 상승 추세에 있지만, 부정적 공시 및 뉴스도 확인할 수 있습니다. 리스크 요인으로는 4대 금융의 자본준비금 감액, KB금융의 자사주 취득 등이 있습니다.",
+        "issue_type": "오너리스크",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 상승 추세",
+          "4대 금융의 자본준비금 감액",
+          "KB금융의 자사주 취득",
+          "[전일(2026-03-11) 이월] 예측:보합 | 매수:5% | 매도:16%\n요약: KB금융의 최근 주가 추이와 관련된 시장 상황 요약 — 리스크와 기회를 균형있게"
+        ],
+        "corp_name": "KB금융",
+        "raw_disclosure_count": 0,
+        "raw_articles": [
+          {
+            "title": "4대 금융 사외이사, 연봉 8500만원으로 올라…반대표 행사는 단 '1건'",
+            "description": "반대표가 나온 안건은 지난해 4월 KB금융의 제6차 이사회에서 통과된 '자기주식 취득 및 소각' 안건으로, 당시 김성용 사외이사가 반대표를 던졌다. 지난해 12월 우리금융에서 개최된 제14차 임시 이사회에서 1건의... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-11",
+            "url": "https://n.news.naver.com/mnews/article/003/0013813944?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "1500원 넘보는 환율, 코스피 급락에…금융권, 비상 대응체계 강화",
+            "description": "KB금융그룹은 지난 1일부터 '그룹 비상대응체계'를 가동, 매일 지주·계열사 핵심 경영진이 대응 현황과 주요 이슈를 점검해 내부 소통을 하고 있다. 코스피가 12%가량 하락하는 등 주식시장 변동성이 확대된 지난 4일에는... ",
+            "press": "view.asiae.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/277/0005731602?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "KB발해인프라 주주 국민은행, KB발해인프라 주식등의 수 151만7996주 감소...",
+            "description": "KB발해인프라(415640)의 주요주주 국민은행이 주식등 보유 상황을 10일 공시했다. 국민은행은 주식등의 수를... 지분율은 KB금융지주 2025년 3분기보고서 연결재무제표 기준 나. 특별관계자 (1) 특별관계자 개요 연번 성... ",
+            "press": "www.digitaltoday.co.kr",
+            "date": "2026-03-10",
+            "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=639253",
+            "source": "naver_api"
+          },
+          {
+            "title": "연봉 1억 받는 금융 사외이사… 반대 표결 ‘단 1건’ 사실상 거수기",
+            "description": "지난해 4월 24일 김성용 KB금융 사외이사가 제 6차 이사회에서 '자기주식 취득 및 소각' 안에 대해 “밸류업 정책 추진에는 예측 가능성이 동반돼야 한다”며 반대 의견을 제시한 것이 유일했다. 우리금융에서는... ",
+            "press": "www.ddaily.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/138/0002219991?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "[박종면칼럼] 금융지주 회장 연임은 일반결의, 3연임은 특별결의",
+            "description": "실제로 2023년 11월 양종희 KB금융 회장이나 2023년 3월 진옥동 신한금융 회장 선임, 지난해 3월 함영주 하나금융 회장 연임 당시 모두 주총 출석주식 수의 80~90% 이상 되는 찬성표를 얻었습니다. 이를 보면 특별결의의 문턱을... ",
+            "press": "www.bloter.net",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/293/0000080501?sid=110",
+            "source": "naver_api"
+          },
+          {
+            "title": "인뱅 이사회, '거수기 논란' 금융지주와 다르네",
+            "description": "KB금융에서는 '자기주식 취득 및 소각' 안건에 대해 반대표가 나왔고. KB국민은행은 총 2건의 반대의견이 제기됐다. 이정숙 이사는 지난해 초 열린 정기 이사회에서 불확실한 경영환경을 고려했을 때 배당 승인에... ",
+            "press": "news.einfomax.co.kr",
+            "date": "2026-03-11",
+            "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4403014",
+            "source": "naver_api"
+          },
+          {
+            "title": "[금융권 사외이사 재편] ① KB금융, 변화 최소화…법률·소비자보호 균...",
+            "description": "KB금융지주가 변화보다 안정과 균형에 무게를 두는 사외이사진 개편에 나섰다. /KB금융그룹 제공 | 서울... 또한 1주 이상의 주식을 보유한 주주라면 누구나 사외이사 후보를 추천할 수 있는 '사외이사 예비후보 주주... ",
+            "press": "www.hansbiz.co.kr",
+            "date": "2026-03-11",
+            "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=822846",
+            "source": "naver_api"
+          },
+          {
+            "title": "이홍구·강진두號' KB증권, 사상 최대 실적에도 '성장 정체'",
+            "description": "업계에선 특히 증시 리테일 주식 점유율과 매년 하락하는 수수료율을 아쉬운 대목으로 꼽는다. KB금융그룹에 따르면 KB증권의 대표 모바일트레이딩시스템(MTS) M-able(마블)'의 월간활성이용자수(MAU)는 197만 명으로... ",
+            "press": "www.imaeil.com",
+            "date": "2026-03-10",
+            "url": "https://n.news.naver.com/mnews/article/088/0001000263?sid=101",
+            "source": "naver_api"
+          }
+        ],
+        "market_context": {
+          "current_price": 149200.0,
+          "price_change_5d_pct": 1.22,
+          "trend": "상승",
+          "actual_1d_pct": -0.2,
+          "actual_5d_pct": -0.2,
+          "actual_20d_pct": -0.2
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 8.2,
+        "sell_pressure": 7.3,
+        "hold_pressure": 84.5,
+        "net_pressure": 0.9,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 1,
+            "매도": 1,
+            "관망": 3,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.274,
+        "confidence_avg": 0.625
+      },
+      "validation": {
+        "ticker": "105560",
+        "issue_date": "2026-03-12",
+        "prediction": "보합",
+        "buy_pressure": 8.2,
+        "sell_pressure": 7.3,
+        "evaluations": {
+          "1d": {
+            "predicted": "보합",
+            "actual_direction": "보합",
+            "actual_change_pct": -0.2,
+            "is_correct": true
+          },
+          "5d": {
+            "predicted": "보합",
+            "actual_direction": "보합",
+            "actual_change_pct": -0.2,
+            "is_correct": true
+          },
+          "20d": {
+            "predicted": "보합",
+            "actual_direction": "보합",
+            "actual_change_pct": -0.2,
+            "is_correct": true
+          }
+        },
+        "accuracy_pct": 100.0,
+        "correct_count": 3,
+        "total_periods": 3,
+        "base_price": 149200.0
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시/뉴스 요인과 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 조합으로 리스크 요인으로 분석됩니다.",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승 추세에 대한 리스크 요인과 부정적 공시/뉴스 요인으로 리스크 요인으로 분석. 더 많은 정보를 수집하고 시장 상황을 지켜보는 것이 좋다.",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인과 부정적 공시/뉴스 요인을 고려하여 추가 정보 필요",
+          "confidence": 0.13049027755348214
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "부정적 공시/뉴스 요인과 리스크 요인을 고려하여 위험을 관리",
+          "confidence": 0.3347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인과 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시/뉴스 요인과 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시/뉴스 요인과 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매수",
+          "reason": "주가 상승 추세에 따라 추세추종으로 매수를 결정, 리스크 요인도 고려",
+          "confidence": 0.91141546821062
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승 추세 있지만, 부정적 공시/뉴스 요인으로 리스크가 높아 매수 편향을 조정하여 관망을 선택",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시 및 뉴스 요인과 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 상승 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승 추세에 대한 리스크 요인과 부정적 공시/뉴스 요인으로 포지션 정리",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시 및 뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.8677603982663287
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세 있지만, 부정적 공시 및 뉴스 요인으로 리스크 요인 고려하여 섣불리 판단하지 않음",
+          "confidence": 0.6555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시 및 뉴스도 확인할 수 있습니다. 리스크 요인으로는 4대 금융의 자본준비금 감액, KB금융의 자사주 취득 등이 있습니다.",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세에 대한 리스크 요인과 부정적 요인들이 제기되므로 장기 펀더멘털을 고려해야 한다.",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시 및 뉴스 요인으로 리스크가 있는 상황. 추가 정보 필요.",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "KB금융",
+      "ticker": "105560",
+      "issue_date": "2026-03-13",
+      "seed": {
+        "summary": "KB금융의 최근 주가 추이와 관련된 시장 상황 요약",
+        "issue_type": "실적발표",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세: 최근 5일 주가 추이 상승 (-4.4%)",
+          "부정적 공시/뉴스: KB금융의 4대 금융지주 정기주총 통과 힘 실렸다",
+          "리스크 요인: 환율 하락, 주식시장 변동성 확대",
+          "[전일(2026-03-12) 이월] 예측:보합 | 매수:8% | 매도:7%\n요약: KB금융의 최근 시장 상황은 주가 상승 추세에 있지만, 부정적 공시 및 뉴스도 확인할 수 있습니다. 리스크 요인으로는 4대 금융의 자본준비금 감"
+        ],
+        "corp_name": "KB금융",
+        "raw_disclosure_count": 1,
+        "raw_articles": [
+          {
+            "title": "4대 금융 사외이사, 연봉 8500만원으로 올라…반대표 행사는 단 '1건'",
+            "description": "반대표가 나온 안건은 지난해 4월 KB금융의 제6차 이사회에서 통과된 '자기주식 취득 및 소각' 안건으로, 당시 김성용 사외이사가 반대표를 던졌다. 지난해 12월 우리금융에서 개최된 제14차 임시 이사회에서 1건의... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-11",
+            "url": "https://n.news.naver.com/mnews/article/003/0013813944?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "[금융 이모저모] KB국민은행, 'KB국민성장인프라펀드'에 5000억원 출자",
+            "description": "해당 펀드는 KB자산운용이 설립과 운용을 맡고 KB국민은행, KB손해보험, KB라이프 등 KB금융그룹 계열사가... 특히 국내 주식형 펀드 전반에서 차익 실현에 따른 자금 이탈이 나타나는 와중에도 꾸준한 자금 몰이에... ",
+            "press": "www.greened.kr",
+            "date": "2026-03-12",
+            "url": "https://www.greened.kr/news/articleView.html?idxno=337930",
+            "source": "naver_api"
+          },
+          {
+            "title": "‘난감한 금융당국?’...4대 금융지주, 정기주총 ‘통과’ 힘 실렸다",
+            "description": "12일 금융권에 따르면 ISS는 KB금융지주, 신한지주, 하나금융지주, 우리금융지주 등 4대 금융지주 정기주총... 현재는 발행주식 총수의 4분의 1 이상이 출석하고, 이들 중 과반수가 찬성하면 회장 선임 안건이 통과된다.... ",
+            "press": "www.ekn.kr",
+            "date": "2026-03-12",
+            "url": "https://www.ekn.kr/web/view.php?key=20260312021227318",
+            "source": "naver_api"
+          },
+          {
+            "title": "KB증권 넥스트증권 지분 전량 처분···현대선물 지분 완전 정리",
+            "description": "위한 KB증권 양측의 이해관계가 맞물리며 일어났다. KB, 넥스트증권 주식 모두 처분 12일 증권업계에... 현대증권이 KB금융지주의 KB투자증권과 합병해 2016년 새롭게 설립한 증권사가 바로 KB증권이다. 반대로... ",
+            "press": "www.womaneconomy.co.kr",
+            "date": "2026-03-12",
+            "url": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=250925",
+            "source": "naver_api"
+          },
+          {
+            "title": "1500원 넘보는 환율, 코스피 급락에…금융권, 비상 대응체계 강화",
+            "description": "KB금융그룹은 지난 1일부터 '그룹 비상대응체계'를 가동, 매일 지주·계열사 핵심 경영진이 대응 현황과 주요 이슈를 점검해 내부 소통을 하고 있다. 코스피가 12%가량 하락하는 등 주식시장 변동성이 확대된 지난 4일에는... ",
+            "press": "view.asiae.co.kr",
+            "date": "2026-03-09",
+            "url": "https://n.news.naver.com/mnews/article/277/0005731602?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "KB발해인프라 주주 국민은행, KB발해인프라 주식등의 수 151만7996주 감소...",
+            "description": "KB발해인프라(415640)의 주요주주 국민은행이 주식등 보유 상황을 10일 공시했다. 국민은행은 주식등의 수를... 지분율은 KB금융지주 2025년 3분기보고서 연결재무제표 기준 나. 특별관계자 (1) 특별관계자 개요 연번 성... ",
+            "press": "www.digitaltoday.co.kr",
+            "date": "2026-03-10",
+            "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=639253",
+            "source": "naver_api"
+          },
+          {
+            "title": "[금융가 이모저모] ISS 손에 달린 회장 거취",
+            "description": "현재 금융지주 회장의 연임 안건은 주식 총수의 4분의 1 이상이 출석하고, 출석 주주 의결권의 과반수... 금감원은 오는 19일부터 23일까지 KB금융지주·신한금융지주·하나금융지주·우리금융지주·농협금융지주... ",
+            "press": "news.einfomax.co.kr",
+            "date": "2026-03-12",
+            "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4403222",
+            "source": "naver_api"
+          },
+          {
+            "title": "'한 지붕 현대가'서 남남으로…KB증권, 넥스트증권 지분 전량 정리",
+            "description": "12일 금융투자업계에 따르면, KB증권은 지난해 3분기 넥스트증권 주식 39만6000주(지분율 6.58%)를 전량 매각했다. 해당 지분은 넥스트증권의 최대주주인 비케이에스제1호가 전량 인수한 것으로 확인됐다. KB증권의... ",
+            "press": "www.newsquest.co.kr",
+            "date": "2026-03-12",
+            "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=263095",
+            "source": "naver_api"
+          }
+        ],
+        "raw_disclosures": [
+          {
+            "title": "사업보고서 (2025.12)",
+            "date": "20260313",
+            "corp": "KB금융"
+          }
+        ],
+        "market_context": {
+          "current_price": 148900.0,
+          "price_change_5d_pct": 4.42,
+          "trend": "상승",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 16.5,
+        "hold_pressure": 83.5,
+        "net_pressure": -16.5,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.275,
+        "confidence_avg": 0.616
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인, 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 조합으로 리스크 요인으로 분석됩니다.",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석. 더 많은 정보를 수집하고 시장 상황을 지켜보는 것이 좋다.",
+          "confidence": 0.5643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인과 부정적 공시/뉴스 요인을 고려하여 추가 정보 필요",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "부정적 공시/뉴스 요인과 리스크 요인을 고려하여 위험을 관리",
+          "confidence": 0.1347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인과 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인, 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.65314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인, 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 인해 하락 가능성 높아짐",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크가 높아 매수 편향을 조정하여 관망을 선택",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 인해 하락 가능성 높아짐",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 요인, 리스크 요인으로 포지션 정리",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시 및 뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크 요인 고려하여 섣불리 판단하지 않음",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스, 리스크 요인들이 제기되므로 장기 펀더멘털을 고려해야 한다.",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시 및 뉴스 요인으로 리스크가 있는 상황. 추가 정보 필요.",
+          "confidence": 0.1391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "KB금융",
+      "ticker": "105560",
+      "issue_date": "2026-03-16",
+      "seed": {
+        "summary": "KB Financial Group's recent performance and future prospects are uncertain, with mixed signals from the market and news.",
+        "issue_type": "Realized performance and future prospects",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "KB Financial Group's recent performance is uncertain, with mixed signals from the market and news.",
+          "The company's financial reports and news articles suggest a mixed bag of positive and negative factors.",
+          "The market is uncertain about the company's future prospects, with some factors indicating potential growth and others indicating potential risks.",
+          "[전일(2026-03-13) 이월] 예측:보합 | 매수:0% | 매도:16%\n요약: KB금융의 최근 주가 추이와 관련된 시장 상황 요약"
+        ],
+        "corp_name": "KB금융",
+        "raw_disclosure_count": 2,
+        "raw_articles": [
+          {
+            "title": "가계대출 줄이고 산업투자 집중..508조 '생산적 금융' 경쟁 본격(종합)",
+            "description": "'생산적금융 협의체'는 지난 6일 출범했으며 KB금융그룹 '생산적금융 협의회'와 연계해 기업 금융을 생산적... 금융당국의 규제 개편도 산업 금융 확대를 뒷받침하고 있다. 은행이 보유한 주식의 위험가중치가 기존 400... ",
+            "press": "www.4th.kr",
+            "date": "2026-03-15",
+            "url": "http://www.4th.kr/news/articleView.html?idxno=2109077",
+            "source": "naver_api"
+          },
+          {
+            "title": "작년 금융지주 회장 연봉은…KB 양종희 19억·신한 진옥동 13억",
+            "description": "13일 각 금융지주가 공시한 2025년도 사업보고서·지배구조보고서 등에 따르면, 양종희 KB금융지주... 우리금융지주 관계자는 \"성과 연동 주식(최대 6만3천167주)의 수량과 금액은 2025∼2028년 장기 성과 평가... ",
+            "press": "www.yna.co.kr",
+            "date": "2026-03-13",
+            "url": "https://n.news.naver.com/mnews/article/001/0015958132?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "가계대출에서 산업 투자로..은행 '생산적 금융' 경쟁 본격",
+            "description": "'생산적금융 협의체'는 지난 6일 출범했으며 KB금융그룹 '생산적금융 협의회'와 연계해 기업금융을 생산적... 이에 금융당국은 기업 금융 확대를 유도하는 제도 개편을 추진하고 있다. 올해부터 은행이 보유한 주식의... ",
+            "press": "www.4th.kr",
+            "date": "2026-03-15",
+            "url": "http://www.4th.kr/news/articleView.html?idxno=2109068",
+            "source": "naver_api"
+          },
+          {
+            "title": "금융지주 회장 연봉은?…KB 양종희 19억·신한 진옥동 13억",
+            "description": "13일 금융지주가 공시한 2025년도 사업보고서 등에 따르면 양종희 KB금융지주 회장은 지난해 보수 총 18억... 신한금융은 \"이와 별도로 장기성과연동형 주식보수가 1만 7841주 있다\"며 \"2025년~2028년의 회사 장기성과... ",
+            "press": "www.news1.kr",
+            "date": "2026-03-13",
+            "url": "https://n.news.naver.com/mnews/article/421/0008825287?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "작년 연봉 KB 양종희 19억·신한 진옥동 13억·우리 임종룡 12억",
+            "description": "이에 따르면 양종희 KB금융지주 회장은 작년 모두 18억9천만원을 수령했습니다. 2024년(18억4800만원)보다... 우리금융지주 관계자는 \"성과 연동 주식(최대 6만3167주)의 수량과 금액은 2025∼2028년 장기 성과 평가... ",
+            "press": "biz.sbs.co.kr",
+            "date": "2026-03-14",
+            "url": "https://n.news.naver.com/mnews/article/374/0000497965?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "4대 금융 사외이사, 연봉 8500만원으로 올라…반대표 행사는 단 '1건'",
+            "description": "반대표가 나온 안건은 지난해 4월 KB금융의 제6차 이사회에서 통과된 '자기주식 취득 및 소각' 안건으로, 당시 김성용 사외이사가 반대표를 던졌다. 지난해 12월 우리금융에서 개최된 제14차 임시 이사회에서 1건의... ",
+            "press": "www.newsis.com",
+            "date": "2026-03-11",
+            "url": "https://n.news.naver.com/mnews/article/003/0013813944?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "[증권사 생산적금융]⑤ KB증권, 기업금융으로 향하는 자본",
+            "description": "실제로 회사채 발행 주관 시장에서 상위권 실적을 기록하고 있으며 주식 발행 주관 부문에서도 꾸준히 경쟁력을 유지하고 있는 것으로 알려졌다. 이 같은 기업금융 경쟁력은 발행어음 사업과도 연결된다. KB증권은... ",
+            "press": "www.bloter.net",
+            "date": "2026-03-13",
+            "url": "https://n.news.naver.com/mnews/article/293/0000080857?sid=101",
+            "source": "naver_api"
+          },
+          {
+            "title": "작년 금융지주 회장 연봉은…KB 양종희 19억·신한 진옥동 13억",
+            "description": "양종희 KB금융 회장, 진옥동 신한금융 회장, 함영주 하나금융 회장, 임종룡 우리금융 회장 (사진=각... 우리금융지주 관계자는 \"성과 연동 주식(최대 6만3167주)의 수량과 금액은 2025∼2028년 장기 성과 평가... ",
+            "press": "www.delighti.co.kr",
+            "date": "2026-03-15",
+            "url": "https://www.delighti.co.kr/news/articleView.html?idxno=113367",
+            "source": "naver_api"
+          }
+        ],
+        "raw_disclosures": [
+          {
+            "title": "사업보고서 (2025.12)",
+            "date": "20260313",
+            "corp": "KB금융"
+          },
+          {
+            "title": "[기재정정]일괄신고서",
+            "date": "20260316",
+            "corp": "KB금융"
+          }
+        ],
+        "market_context": {
+          "current_price": 148900.0,
+          "price_change_5d_pct": 4.42,
+          "trend": "상승",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.633
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "KB Financial Group's recent performance is uncertain, and I need more information to make a confident decision.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인, 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "KB Financial Group's recent performance is uncertain, with mixed signals from the market and news. I will wait and observe for further developments before making a decision.",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 요인으로 리스크 요인으로 분석",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "KB Financial Group's recent performance and future prospects are uncertain, with mixed signals from the market and news. I need to gather more information and observe the market situation before making a decision.",
+          "confidence": 0.7643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인과 부정적 공시/뉴스 요인을 고려하여 추가 정보 필요",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Mixed signals from market and news, emphasizing risk management",
+          "confidence": 0.3347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인과 부정적 공시/뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "KB금융의 최근 성과와 미래 전망이 불확실하여 리스크 요인을 고려",
+          "confidence": 0.85314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인, 리스크 요인으로 주가 하락 가능성을 고려",
+          "confidence": 0.8743701084766591
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 인해 하락 가능성 높아짐",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크가 높아 매수 편향을 조정하여 관망을 선택",
+          "confidence": 0.25988995669379356
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "KB Financial Group's recent performance and future prospects are uncertain, with mixed signals from the market and news.",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세와 부정적 공시/뉴스 요인으로 리스크 요인으로 분석, 추가 정보 필요",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 하락 추세, 부정적 공시/뉴스 요인, 리스크 요인으로 포지션 정리",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시 및 뉴스 요인으로 리스크가 있는 상황, 추가 정보 필요",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "KB Financial Group's recent performance is uncertain, with mixed signals from the market and news. Need more information to make a confident decision.",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "KB금융의 최근 성과와 미래 전망이 불확실하여 리스크 요인을 고려해야 하며, 추가 정보를 기다려야 할 것 같다.",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "KB Financial Group의 최근 성과와 미래 전망이 불확실하여 장기 펀더멘털을 고려해야 한다.",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있지만, 부정적 공시 및 뉴스 요인으로 리스크가 있는 상황. 추가 정보 필요.",
+          "confidence": 0.1
+        }
+      ]
+    }
+  ]
+}

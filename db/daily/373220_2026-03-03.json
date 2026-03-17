@@ -1,0 +1,251 @@
+{
+  "corp_name": "LG에너지솔루션",
+  "ticker": "373220",
+  "issue_date": "2026-03-03",
+  "seed": {
+    "summary": "LG Energy Solution의 채무증권 신고서에 대한 시장 상황 요약 — 리스크 요인을 우선 반영",
+    "issue_type": "증권신고서",
+    "sentiment": "negative",
+    "impact_level": "medium",
+    "key_points": [
+      "주가 하락 추세 (-4.7%)",
+      "채무증권 신고서에 대한 리스크 요인",
+      "수요예측 결과에 따른 기재 정정"
+    ],
+    "corp_name": "LG에너지솔루션",
+    "raw_disclosure_count": 2,
+    "raw_disclosures": [
+      {
+        "title": "[발행조건확정]증권신고서(채무증권)",
+        "date": "20260226",
+        "corp": "LG에너지솔루션"
+      },
+      {
+        "title": "[기재정정]증권신고서(채무증권)",
+        "date": "20260226",
+        "corp": "LG에너지솔루션"
+      }
+    ],
+    "market_context": {
+      "current_price": 393000.0,
+      "price_change_5d_pct": -4.73,
+      "trend": "하락",
+      "actual_1d_pct": -11.58,
+      "actual_5d_pct": -6.62,
+      "actual_20d_pct": -6.11
+    }
+  },
+  "result": {
+    "prediction": "하락",
+    "strength": "약",
+    "buy_pressure": 0.0,
+    "sell_pressure": 45.0,
+    "hold_pressure": 55.0,
+    "net_pressure": -45.0,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 1,
+        "관망": 4,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 4,
+        "관망": 1,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 0,
+        "매도": 4,
+        "관망": 1,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.495,
+    "confidence_avg": 0.749
+  },
+  "validation": {
+    "ticker": "373220",
+    "issue_date": "2026-03-03",
+    "prediction": "하락",
+    "buy_pressure": 0.0,
+    "sell_pressure": 45.0,
+    "evaluations": {
+      "1d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -11.58,
+        "is_correct": true
+      },
+      "5d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -6.62,
+        "is_correct": true
+      },
+      "20d": {
+        "predicted": "하락",
+        "actual_direction": "하락",
+        "actual_change_pct": -6.11,
+        "is_correct": true
+      }
+    },
+    "accuracy_pct": 100.0,
+    "correct_count": 3,
+    "total_periods": 3,
+    "base_price": 393000.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인을 고려하여 주의를 기울일 필요가 있다.",
+      "confidence": 0.9718269282420703
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매도",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인으로 주가 하락 가능성이 높아보임",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인을 고려하여 주가 하락을 예상하지 못하므로 관망을 선택",
+      "confidence": 0.6585809436867457
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인을 고려하여 주가 하락을 예상하지 못하므로 관망을 선택",
+      "confidence": 0.7113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "현재 주가 하락 추세와 채무증권 신고서에 대한 리스크 요인을 고려하여 불확실한 시장 상황을 관망하는 것이 합리적",
+      "confidence": 0.7643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인을 고려하여 리스크 관리를 우선으로 하여 시장 상황을 관망할 것이다.",
+      "confidence": 0.5304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "LG Energy Solution의 채무증권 신고서에 대한 리스크 요인으로 주가 하락 추세가 우세하고, 수요예측 결과에 따른 기재 정정이 필요하므로 리스크 관리를 우선하여 매도하거나 관망을 선택",
+      "confidence": 0.6347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "LG Energy Solution의 채무증권 신고서에 대한 리스크 요인으로 주가 하락 추세에 따라 매도 또는 관망이 합리적 선택",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "하락 추세와 채무증권 신고서 리스크 요인을 고려하여 리스크 관리를 우선",
+      "confidence": 0.85314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "매도",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인을 우선 반영",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인으로 주가 하락 가능성이 높아보임",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세 및 채무증권 신고서에 대한 리스크 요인",
+      "confidence": 0.5598899566937935
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인을 고려하여 매도를 결정",
+      "confidence": 0.38769747792821335
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인으로 주가 하락 가능성을 우선 반영",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인을 고려하여 포지션 정리를 결정",
+      "confidence": 0.6162113205961711
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인을 고려하여 섣불리 판단하지 않겠다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인을 고려하여 주가 하락 가능성을 고려",
+      "confidence": 0.9555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "하락 추세와 채무증권 신고서에 대한 리스크 요인을 고려하여 섣불리 판단하지 않겠다.",
+      "confidence": 0.8915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "현재 주가가 내재가치 대비 비싸 보이나, 장기 펀더멘털이 훼손된 경우를 고려하여 관망을 선택",
+      "confidence": 0.3247874625989605
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "주가 하락 추세와 채무증권 신고서에 대한 리스크 요인을 고려하여 주가의 움직임을 관망",
+      "confidence": 0.5391035493879133
+    }
+  ],
+  "run_id": "1780ca95",
+  "corp": "LG에너지솔루션",
+  "sector": "2차전지"
+}

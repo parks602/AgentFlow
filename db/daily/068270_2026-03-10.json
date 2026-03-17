@@ -1,0 +1,250 @@
+{
+  "corp_name": "셀트리온",
+  "ticker": "068270",
+  "issue_date": "2026-03-10",
+  "seed": {
+    "summary": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+    "issue_type": "업황변화",
+    "sentiment": "positive",
+    "impact_level": "medium",
+    "key_points": [
+      "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "셀트리온의 경영체제 재정비 총력전은 주가 상승의 주요 이유로 작용할 수 있다.",
+      "셀트리온의 주가 상승 추세는 최근 5일 주가 추이의 상승 (+4.4%)에 기초하고 있다.",
+      "[전일(2026-03-09) 이월] 예측:하락 | 매수:0% | 매도:85%\n요약: 셀트리온의 주가가 하락 추세에 있는 등 리스크 요인"
+    ],
+    "corp_name": "셀트리온",
+    "raw_disclosure_count": 0,
+    "raw_articles": [
+      {
+        "title": "‘빅파마 도약’ 셀트리온, 주총 앞두고 경영체제 재정비 총력전",
+        "description": "이는 당초 셀트리온이 지난달 공개했던 자사주 소각 계획(611만주)보다 300만주 증가한 규모로, 셀트리온은 임직원 주식매수선택권(스톡옵션) 보상 목적으로 보유키로 했던 자사주 물량까지 이달 주총을 거쳐 연중... ",
+        "press": "www.ekn.kr",
+        "date": "2026-03-09",
+        "url": "https://www.ekn.kr/web/view.php?key=20260309026065921",
+        "source": "naver_api"
+      }
+    ],
+    "market_context": {
+      "current_price": 206000.0,
+      "price_change_5d_pct": 4.36,
+      "trend": "상승",
+      "actual_1d_pct": 1.46,
+      "actual_5d_pct": -0.24,
+      "actual_20d_pct": -0.24
+    }
+  },
+  "result": {
+    "prediction": "상승",
+    "strength": "강",
+    "buy_pressure": 66.8,
+    "sell_pressure": 0.0,
+    "hold_pressure": 33.2,
+    "net_pressure": 66.8,
+    "type_breakdown": {
+      "retail": {
+        "매수": 2,
+        "매도": 0,
+        "관망": 3,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 3,
+        "매도": 0,
+        "관망": 2,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 4,
+        "매도": 0,
+        "관망": 1,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 4,
+        "매도": 0,
+        "관망": 1,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.444,
+    "confidence_avg": 0.735
+  },
+  "validation": {
+    "ticker": "068270",
+    "issue_date": "2026-03-10",
+    "prediction": "상승",
+    "buy_pressure": 66.8,
+    "sell_pressure": 0.0,
+    "evaluations": {
+      "1d": {
+        "predicted": "상승",
+        "actual_direction": "상승",
+        "actual_change_pct": 1.46,
+        "is_correct": true
+      },
+      "5d": {
+        "predicted": "상승",
+        "actual_direction": "보합",
+        "actual_change_pct": -0.24,
+        "is_correct": false
+      },
+      "20d": {
+        "predicted": "상승",
+        "actual_direction": "보합",
+        "actual_change_pct": -0.24,
+        "is_correct": false
+      }
+    },
+    "accuracy_pct": 33.3,
+    "correct_count": 1,
+    "total_periods": 3,
+    "base_price": 206000.0
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다. 하지만, 최근 5일 주가 추이 하락이 있어 리스크 요인을 우선 반영해야 함.",
+      "confidence": 0.6718269282420702
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.9785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.7585809436867458
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다. 리스크 요인을 우선 반영해야 하므로 관망이 합리적 선택이다.",
+      "confidence": 0.8113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다. 주가 하락 추세와 리스크 요인을 우선 반영해야 함.",
+      "confidence": 0.7643101513004698
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.6304902775534821
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.5347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다. 리스크 요인을 우선 반영해야 하므로 관망이 합리적 선택이다.",
+      "confidence": 0.814206771038605
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.65314694622655
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.5598899566937935
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.5876974779282134
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "셀트리온 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.3162113205961712
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.9677603982663288
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 1.0
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다. 단기 노이즈 무시.",
+      "confidence": 0.6915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.6247874625989606
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "매수",
+      "reason": "셀트리온의 주가 상승 추세는 임직원 주식매수선택권 보상 목적으로 보유키로 했던 자사주 물량이 주총을 거쳐 연중으로 재정비 총력전을 준비하고 있는 것 같다.",
+      "confidence": 0.5391035493879133
+    }
+  ],
+  "run_id": "c655ed17",
+  "corp": "셀트리온",
+  "sector": "바이오"
+}

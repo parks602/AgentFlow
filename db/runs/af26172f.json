@@ -1,0 +1,820 @@
+{
+  "run_id": "af26172f",
+  "corp": "현대차",
+  "ticker": "005380",
+  "sector": "자동차",
+  "start_date": "2025-03-10",
+  "end_date": "2025-03-13",
+  "days": 4,
+  "accuracy_1d": null,
+  "created_at": "2026-03-16T15:20:03.032424",
+  "daily_results": [
+    {
+      "corp_name": "현대차",
+      "ticker": "005380",
+      "issue_date": "2025-03-10",
+      "seed": {
+        "summary": "현대차의 주가 현황이 불명확하여 리스크 요인을 우선 반영",
+        "issue_type": "기타",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세",
+          "관련 뉴스/공시 없음",
+          "리스크 요인"
+        ],
+        "corp_name": "현대차",
+        "raw_disclosure_count": 0,
+        "market_context": {}
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "약",
+        "buy_pressure": 0.0,
+        "sell_pressure": 33.9,
+        "hold_pressure": 66.1,
+        "net_pressure": -33.9,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 3,
+            "관망": 2,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.448,
+        "confidence_avg": 0.686
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "현대차 주가 하락 추세, 리스크 요인 우선 반영",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "현대차 주가 하락 추세와 리스크 요인을 우선 반영, 군중 반응도 매도 우위",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk factors to be considered, market sentiment negative, and uncertainty about the future performance of Hyundai Motor",
+          "confidence": 0.8643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.1347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "현대차 주가 하락 추세, 리스크 요인 우선 반영",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.15988995669379352
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "현대차 주가 하락 추세, 리스크 요인 우선 반영",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "현대차 주가 하락 추세, 리스크 요인 우선 반영",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.41621132059617116
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "현대차 주가 하락 추세와 리스크 요인을 고려하여 단기 노이즈를 무시하고 장기 펀더멘털을 분석합니다.",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "현대차 주가 현황이 불명확하여 리스크 요인을 우선 반영, 단기 노이즈 무시.",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "장기 펀더멘털이 훼손됐으면 관망 또는 매도. 주가 하락 추세와 관련 뉴스/공시 없음.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "현대차 주가 하락 추세와 리스크 요인으로 인한 불확실성, 단기 노이즈 무시",
+          "confidence": 0.3247874625989605
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세, 관련 뉴스/공시 없음, 리스크 요인 우선 반영",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "현대차",
+      "ticker": "005380",
+      "issue_date": "2025-03-11",
+      "seed": {
+        "summary": "현대차의 주가 현황이 불명확하여 리스크 요인을 우선 반영",
+        "issue_type": "기타",
+        "sentiment": "negative",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 하락 추세 없음, 리스크 요인 없음",
+          "공시 및 뉴스 없음, 불확실성",
+          "현대차의 경영 성과 및 경쟁사 분석 필요",
+          "[전일(2025-03-10) 이월] 예측:하락 | 매수:0% | 매도:34%\n요약: 현대차의 주가 현황이 불명확하여 리스크 요인을 우선 반영"
+        ],
+        "corp_name": "현대차",
+        "raw_disclosure_count": 0,
+        "market_context": {}
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 23.4,
+        "hold_pressure": 76.6,
+        "net_pressure": -23.4,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 1,
+            "관망": 4,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.358,
+        "confidence_avg": 0.66
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인 우선 반영, 주가 하락 추세와 관련 뉴스/공시 없음",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "리스크 요인 우선 반영, 현대차 주가 하락 추세",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "현대차 주가 현황이 불명확하여 리스크 요인을 우선 반영, 군중 반응도 매도 우위",
+          "confidence": 0.5585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인 우선 반영, 주가 하락 추세 없음",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인 우선 반영, 주가 하락 추세와 관련 뉴스/공시 없음",
+          "confidence": 0.9643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인 우선 반영, 주가 하락 추세와 관련 뉴스/공시 없음",
+          "confidence": 0.33049027755348215
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인 우선 반영, 주가 하락 추세와 관련 뉴스/공시 없음",
+          "confidence": 0.4347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인 우선 반영, 주가 하락 추세와 관련 뉴스/공시 없음",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인 우선 반영, 주가 하락 추세와 관련 뉴스/공시 없음",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "리스크 요인 우선 반영, 주가 하락 추세 없음",
+          "confidence": 0.91141546821062
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.25988995669379356
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "현대차 주가 현황이 불명확하여 리스크 요인을 우선 반영",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "리스크 요인 우선 반영, 주가 하락 추세 없음",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.21621132059617115
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "현대차 주가 하락 추세와 리스크 요인을 고려하여 단기 노이즈를 무시하고 장기 펀더멘털을 분석합니다.",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "현대차 주가 현황이 불명확하여 리스크 요인을 우선 반영, 단기 노이즈 무시.",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인 우선 반영, 주가 하락 추세와 관련 뉴스/공시 없음",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "현대차 주가 하락 추세와 리스크 요인으로 인한 불확실성, 단기 노이즈 무시",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인 우선 반영, 주가 하락 추세 없음, 불확실성",
+          "confidence": 0.3391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "현대차",
+      "ticker": "005380",
+      "issue_date": "2025-03-12",
+      "seed": {
+        "summary": "현대차의 주가 현황이 공시와 관련 뉴스로 인해 부정적 영향을 받을 수 있습니다. 리스크 요인으로는 주가 하락 추세, 부정적 공시, 뉴스가 포함됩니다.",
+        "issue_type": "기타",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "부정적 공시/뉴스",
+          "리스크 요인",
+          "[전일(2025-03-11) 이월] 예측:보합 | 매수:0% | 매도:23%\n요약: 현대차의 주가 현황이 불명확하여 리스크 요인을 우선 반영"
+        ],
+        "corp_name": "현대차",
+        "raw_disclosure_count": 0,
+        "market_context": {}
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "약",
+        "buy_pressure": 0.0,
+        "sell_pressure": 35.6,
+        "hold_pressure": 64.4,
+        "net_pressure": -35.6,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 3,
+            "관망": 2,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.459,
+        "confidence_avg": 0.665
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and negative news/news release.",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk factors to be considered, market sentiment negative, and uncertainty about the future performance of Hyundai Motor",
+          "confidence": 0.5643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.2347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "부정적 공시/뉴스, 주가 하락 추세, 리스크 요인",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 리스크 요인을 고려하여 단기 노이즈를 무시하고 장기 펀더멘털을 분석합니다.",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 하락 추세와 리스크 요인으로 인한 불확실성, 단기 노이즈 무시",
+          "confidence": 0.1
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    },
+    {
+      "corp_name": "현대차",
+      "ticker": "005380",
+      "issue_date": "2025-03-13",
+      "seed": {
+        "summary": "현대차에 대한 시장 정보는 공시, 뉴스, 주가 정보가 모두 відсут어 리스크 요인을 우선 반영해야 합니다.",
+        "issue_type": "기타",
+        "sentiment": "negative",
+        "impact_level": "high",
+        "key_points": [
+          "주가 하락 추세",
+          "부정적 공시/뉴스 없음",
+          "리스크 요인 우선 반영",
+          "[전일(2025-03-12) 이월] 예측:하락 | 매수:0% | 매도:36%\n요약: 현대차의 주가 현황이 공시와 관련 뉴스로 인해 부정적 영향을 받을 수 있습니다. 리스크 요인으로는 주가 하락 추세, 부정적 공시, 뉴스가 포함됩"
+        ],
+        "corp_name": "현대차",
+        "raw_disclosure_count": 0,
+        "market_context": {}
+      },
+      "result": {
+        "prediction": "하락",
+        "strength": "약",
+        "buy_pressure": 0.0,
+        "sell_pressure": 32.6,
+        "hold_pressure": 67.4,
+        "net_pressure": -32.6,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 2,
+            "관망": 3,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 3,
+            "관망": 2,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.439,
+        "confidence_avg": 0.687
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and negative news/news release.",
+          "confidence": 0.9718269282420703
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.9785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "매도",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.7585809436867458
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.8113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "Risk factors to be considered, market sentiment negative, and uncertainty about the future performance of Hyundai Motor",
+          "confidence": 0.7643101513004698
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.4304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.3347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk factors to be considered, market sentiment negative, and uncertainty about the future performance of Hyundai Motor",
+          "confidence": 0.814206771038605
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.95314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.9743701084766592
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.35988995669379353
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "Risk factors to be considered, market sentiment negative, and uncertainty about the future performance of Hyundai Motor",
+          "confidence": 0.1876974779282134
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "매도",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "Risk management prioritized, market trend uncertain, and no significant negative news.",
+          "confidence": 0.3162113205961712
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.9677603982663288
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.9555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.9915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "Risk factors to be considered, market sentiment negative, and uncertainty about the future performance of Hyundai Motor",
+          "confidence": 0.12478746259896051
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "Risk management prioritized, considering the potential for excessive risk and lack of negative news.",
+          "confidence": 0.23910354938791328
+        }
+      ]
+    }
+  ]
+}

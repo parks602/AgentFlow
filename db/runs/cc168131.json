@@ -1,0 +1,221 @@
+{
+  "run_id": "cc168131",
+  "corp": "카카오",
+  "ticker": "035720",
+  "sector": "플랫폼",
+  "start_date": "2026-03-13",
+  "end_date": "2026-03-13",
+  "days": 1,
+  "accuracy_1d": null,
+  "created_at": "2026-03-16T15:45:41.083791",
+  "daily_results": [
+    {
+      "corp_name": "카카오",
+      "ticker": "035720",
+      "issue_date": "2026-03-13",
+      "seed": {
+        "summary": "카카오의 주가 상승 추세는 최근 5일간 43.0%의 상승을 보였으나, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+        "issue_type": "실적발표",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "상승 근거: 최근 5일간 주가 상승",
+          "리스크 요인: 공시 및 뉴스 없음",
+          "기타 포인트: 주가 추세의 지속 가능성"
+        ],
+        "corp_name": "카카오",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 2685.0,
+          "price_change_5d_pct": 43.05,
+          "trend": "상승",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.659
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음으로 주가 추세의 지속 가능성을 우선 고려",
+          "confidence": 0.8718269282420702
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음으로 주가 추세의 지속 가능성을 우선 고려",
+          "confidence": 0.6785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "카카오의 주가 상승 추세는 최근 5일간 43.0%의 상승을 보였으나, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "카카오의 주가 상승 추세는 최근 5일간 43.0%의 상승을 보였으나, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.7113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "카카오의 주가 상승 추세는 최근 5일간 43.0%의 상승을 보였으나, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음으로 주가 추세의 지속 가능성을 우선 고려",
+          "confidence": 0.5304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "카카오의 주가 상승 추세는 최근 5일간 43.0%의 상승을 보였으나, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음, 주가 추세의 지속 가능성에 대한 확신이 부족",
+          "confidence": 0.5142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하며, 공시 및 뉴스 없음으로 주가 추세의 지속 가능성에 대한 판단이 어려워 관망을 선택",
+          "confidence": 0.65314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음으로 주가 추세의 지속 가능성을 우선 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음으로 주가 추세의 지속 가능성을 우선 고려",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인으로 주가 추세의 지속 가능성에 주의를 기울이고, 현재 상태를 관망하여 추가 정보를 수집할 계획입니다.",
+          "confidence": 0.25988995669379356
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음으로 주가 추세의 지속 가능성을 우선 고려",
+          "confidence": 0.48769747792821333
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음으로 주가 추세의 지속 가능성을 우선 고려",
+          "confidence": 0.8150886494937297
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음으로 주가 추세의 지속 가능성을 우려",
+          "confidence": 0.5162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음으로 주가 추세의 지속 가능성을 우선 고려",
+          "confidence": 0.8677603982663287
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "카카오의 주가 상승 추세는 최근 5일간 43.0%의 상승을 보였으나, 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.9555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음으로 주가 추세의 지속 가능성에 대한 확신이 부족하여 관망을 결정",
+          "confidence": 0.6915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인으로 공시 및 뉴스 없음, 주가 추세의 지속 가능성에 주의",
+          "confidence": 0.3247874625989605
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승 추세는 있으나 공시 및 뉴스 없음으로 리스크 요인을 우선 반영해야 하며, 장기 펀더멘털을 확인하여야 한다.",
+          "confidence": 0.4391035493879133
+        }
+      ]
+    }
+  ]
+}

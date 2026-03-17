@@ -1,0 +1,278 @@
+{
+  "corp_name": "현대차",
+  "ticker": "005380",
+  "issue_date": "2026-03-16",
+  "seed": {
+    "summary": "현대차의 주가 추세는 최근 5일간 상승했지만, 부정적 공시와 뉴스도 확인된다. 주주환원 경쟁과 자사주 소각 확산 등 리스크 요인도 확인된다.",
+    "issue_type": "자사주 소각/주주환원 경쟁",
+    "sentiment": "negative",
+    "impact_level": "medium",
+    "key_points": [
+      "주가 상승 근거: 최근 5일간 상승",
+      "리스크 요인 1: 주주환원 경쟁",
+      "리스크 요인 2: 자사주 소각 확산",
+      "[전일(2026-03-13) 이월] 예측:상승 | 매수:35% | 매도:0%\n요약: 현대차의 주가 추세는 상승 추세이나 리스크 요인도 존재하는 상황"
+    ],
+    "corp_name": "현대차",
+    "raw_disclosure_count": 0,
+    "raw_articles": [
+      {
+        "title": "상법 개정에 재계 자사주 소각 확산…삼성·SK·현대차·LG 주주환원 강...",
+        "description": "발행 주식 수를 줄여 주당 가치를 높이고 주주환원을 강화하려는 움직임으로, 재계 전반에서 주주가치... 현대차는 내달 말까지 4000억원 규모의 자사주를 매입한 뒤 임직원 보상 목적 없이 전량 주주가치 제고를 위해... ",
+        "press": "www.newsis.com",
+        "date": "2026-03-11",
+        "url": "https://n.news.naver.com/mnews/article/003/0013814396?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "\"주식 열풍에 억만장자 매일 탄생\"…세계 최고 부자는 2년 연속 이 남자",
+        "description": "정몽구 현대차 명예회장(97억 달러·359위) 등이 순위에 올랐다. 도널드 트럼프 미국 대통령은 자산 65억... 포브스 관계자는 “인공지능(AI) 관련 주식 시장의 열기로 억만장자가 지난 1년간 매일 1명 이상... ",
+        "press": "www.joongang.co.kr",
+        "date": "2026-03-11",
+        "url": "https://n.news.naver.com/mnews/article/025/0003508288?sid=104",
+        "source": "naver_api"
+      },
+      {
+        "title": "\"킹산직? 끝났어요… 주식이 답이죠\" 현대차 MZ들의 '각자도생'",
+        "description": "끝났어요… 주식이 답이죠\" 현대차 MZ들의 '각자도생' (www.hankookilbo.com/news/article/A2026030816360000717) ② 깡통 AI의 탄생 • \"해고했으면 큰일 날 뻔\" '띨띨한' AI 믿었던 어느 기업의 고백 (www.hankookilbo.com/news/article... ",
+        "press": "www.hankookilbo.com",
+        "date": "2026-03-09",
+        "url": "https://n.news.naver.com/mnews/article/469/0000918325?sid=102",
+        "source": "naver_api"
+      },
+      {
+        "title": "\"공포에 사야 돈 번다\"…외국인·기관 던질 때 개미들 '2조 베팅'",
+        "description": "개인은 장중 기준 유가증권시장(코스피) 주식 2조1446억원을 순매수하고 있다. 반면 외국인과 기관은... 현대차(-0.58%), LG에너지솔루션(-3.39%) 등도 '파란불' 상태다. 코스닥지수는 0.38% 상승세를 보이고 있다. 장... ",
+        "press": "www.hankyung.com",
+        "date": "2026-03-13",
+        "url": "https://n.news.naver.com/mnews/article/015/0005262010?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "자사주 소각 호재…고수들은 삼성전자·SK 순매수 [주식 초고수는 지금...",
+        "description": "이날 미래에셋증권에 따르면 미래에셋증권 주식 거래 고객 중 최근 1개월 동안 투자수익률 상위 1%에... 전일 순매수 상위 종목은 현대차(005380), 한전산업(130660), SK였고 순매도 상위 종목에는 삼성전자, SK하이닉스... ",
+        "press": "www.sedaily.com",
+        "date": "2026-03-11",
+        "url": "https://n.news.naver.com/mnews/article/011/0004598038?sid=101",
+        "source": "naver_api"
+      },
+      {
+        "title": "삼성·SK의 ‘결단’…현대차도 자사주 소각 예정",
+        "description": "이는 전체 주식의 약 20%로 5조1500억원 규모입니다. 이처럼 한국을 대표하는 두 기업이 대규모 자사주... 현대차와 LG 등 주요 그룹 역시 기보유 자사주의 전량 소각을 계획하고 이를 이행 중입니다. 현대차는 지난 2024년... ",
+        "press": "www.newstomato.com",
+        "date": "2026-03-11",
+        "url": "http://www.newstomato.com/ReadNews.aspx?no=1293912&inflow=N",
+        "source": "naver_api"
+      },
+      {
+        "title": "현대글로비스 최대주주 정의선, 현대글로비스 주식등의 수 300주 감소…...",
+        "description": "현대글로비스(086280)는 12일 주식등 보유 상황을 공시했다. 현대글로비스의 최대주주 정의선 경영인은... - 현대차 정몽구 재단 *상기의 자산, 부채, 자본에 관한 사항은 2024년말 기준임. - 현대자동차 *상기의 자산... ",
+        "press": "www.digitaltoday.co.kr",
+        "date": "2026-03-13",
+        "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=640600",
+        "source": "naver_api"
+      },
+      {
+        "title": "월 400만원 따박따박…\"2억으로 이 주식만 샀다\" 30대에 은퇴한 비결",
+        "description": "현대차 우선주 2000주만 모으면 돈 걱정 없이 살 수 있겠다는 계산 끝에 내린 결정이었다. 당시 2000주면 매달... 그는 \"부동산을 대출로 사는 것은 자연스럽게 받아들이면서 주식을 대출로 사는 것은 위험하게 보는 시선이... ",
+        "press": "www.mt.co.kr",
+        "date": "2026-03-11",
+        "url": "https://n.news.naver.com/mnews/article/008/0005328195?sid=101",
+        "source": "naver_api"
+      }
+    ],
+    "market_context": {
+      "current_price": 517000.0,
+      "price_change_5d_pct": 1.97,
+      "trend": "상승",
+      "actual_1d_pct": null,
+      "actual_5d_pct": null,
+      "actual_20d_pct": null
+    }
+  },
+  "result": {
+    "prediction": "보합",
+    "strength": "-",
+    "buy_pressure": 0.9,
+    "sell_pressure": 7.4,
+    "hold_pressure": 91.7,
+    "net_pressure": -6.5,
+    "type_breakdown": {
+      "retail": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "institutional": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      },
+      "day_trader": {
+        "매수": 1,
+        "매도": 1,
+        "관망": 3,
+        "total": 5
+      },
+      "value_investor": {
+        "매수": 0,
+        "매도": 0,
+        "관망": 5,
+        "total": 5
+      }
+    },
+    "total_agents": 20,
+    "disagreement": 0.153,
+    "confidence_avg": 0.622
+  },
+  "validation": {
+    "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+  },
+  "final_decisions": [
+    {
+      "agent_id": "retail_1",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.9718269282420703
+    },
+    {
+      "agent_id": "retail_2",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.8785679158793696
+    },
+    {
+      "agent_id": "retail_3",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.7585809436867458
+    },
+    {
+      "agent_id": "retail_4",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.7113393481844879
+    },
+    {
+      "agent_id": "retail_5",
+      "persona_type": "retail",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.6643101513004699
+    },
+    {
+      "agent_id": "institutional_1",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세에 놓여 있으며, 관련 공시와 뉴스 부족",
+      "confidence": 0.13049027755348214
+    },
+    {
+      "agent_id": "institutional_2",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.7347843275379647
+    },
+    {
+      "agent_id": "institutional_3",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.7142067710386049
+    },
+    {
+      "agent_id": "institutional_4",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.5531469462265499
+    },
+    {
+      "agent_id": "institutional_5",
+      "persona_type": "institutional",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.9743701084766592
+    },
+    {
+      "agent_id": "day_trader_1",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "주가 상승 추세 유지, 주주환원 경쟁 등 리스크 요인 고려",
+      "confidence": 0.91141546821062
+    },
+    {
+      "agent_id": "day_trader_2",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세에 놓여 있으며, 관련 공시와 뉴스 부족",
+      "confidence": 0.15988995669379352
+    },
+    {
+      "agent_id": "day_trader_3",
+      "persona_type": "day_trader",
+      "action": "매수",
+      "reason": "현대차의 주가 추세는 상승 추세이나 리스크 요인도 존재하는 상황. 추세추종 편향으로 매수를 고려",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "day_trader_4",
+      "persona_type": "day_trader",
+      "action": "매도",
+      "reason": "주주환원 경쟁과 자사주 소각 확산 등 리스크 요인 확인, 주가 상승 추세도 부정적 공시와 뉴스 고려",
+      "confidence": 0.8150886494937297
+    },
+    {
+      "agent_id": "day_trader_5",
+      "persona_type": "day_trader",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.41621132059617116
+    },
+    {
+      "agent_id": "value_investor_1",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.9677603982663288
+    },
+    {
+      "agent_id": "value_investor_2",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "DCF model suggests undervaluation, but considering market uncertainty and lack of news, it's better to wait.",
+      "confidence": 0.6555974171590685
+    },
+    {
+      "agent_id": "value_investor_3",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세와 부정적 공시/뉴스 없음",
+      "confidence": 0.9915622059190302
+    },
+    {
+      "agent_id": "value_investor_4",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.1
+    },
+    {
+      "agent_id": "value_investor_5",
+      "persona_type": "value_investor",
+      "action": "관망",
+      "reason": "리스크 요인 우선 고려, 주가 하락 추세, 부정적 공시/뉴스 없음",
+      "confidence": 0.23910354938791328
+    }
+  ],
+  "run_id": "e2d13272",
+  "corp": "현대차",
+  "sector": "자동차"
+}

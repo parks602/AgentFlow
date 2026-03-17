@@ -1,0 +1,221 @@
+{
+  "run_id": "1b5bf63e",
+  "corp": "현대차",
+  "ticker": "005380",
+  "sector": "자동차",
+  "start_date": "2026-03-13",
+  "end_date": "2026-03-13",
+  "days": 1,
+  "accuracy_1d": null,
+  "created_at": "2026-03-16T15:46:56.113919",
+  "daily_results": [
+    {
+      "corp_name": "현대차",
+      "ticker": "005380",
+      "issue_date": "2026-03-13",
+      "seed": {
+        "summary": "현대차의 주가가 최근 5일간 43.0% 상승하여 2,685원에 도달했지만, 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 합니다.",
+        "issue_type": "실적발표",
+        "sentiment": "neutral",
+        "impact_level": "medium",
+        "key_points": [
+          "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있습니다.",
+          "하지만 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 합니다.",
+          "따라서 투자자들은 주가 추세를 주시해야 합니다."
+        ],
+        "corp_name": "현대차",
+        "raw_disclosure_count": 0,
+        "market_context": {
+          "current_price": 2685.0,
+          "price_change_5d_pct": 43.05,
+          "trend": "상승",
+          "actual_1d_pct": null,
+          "actual_5d_pct": null,
+          "actual_20d_pct": null
+        }
+      },
+      "result": {
+        "prediction": "보합",
+        "strength": "-",
+        "buy_pressure": 0.0,
+        "sell_pressure": 0.0,
+        "hold_pressure": 100.0,
+        "net_pressure": 0.0,
+        "type_breakdown": {
+          "retail": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "institutional": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "day_trader": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          },
+          "value_investor": {
+            "매수": 0,
+            "매도": 0,
+            "관망": 5,
+            "total": 5
+          }
+        },
+        "total_agents": 20,
+        "disagreement": 0.0,
+        "confidence_avg": 0.697
+      },
+      "validation": {
+        "error": "주가 데이터 없음 — market_ctx에 actual_*_pct 값 필요"
+      },
+      "final_decisions": [
+        {
+          "agent_id": "retail_1",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하며 주가 추세를 주시해야 한다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "retail_2",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있습니다. 하지만 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.8785679158793696
+        },
+        {
+          "agent_id": "retail_3",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 하며 주가 추세를 주시해야 한다.",
+          "confidence": 0.6585809436867457
+        },
+        {
+          "agent_id": "retail_4",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있지만, 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.7113393481844879
+        },
+        {
+          "agent_id": "retail_5",
+          "persona_type": "retail",
+          "action": "관망",
+          "reason": "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있지만, 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.6643101513004699
+        },
+        {
+          "agent_id": "institutional_1",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하며 주가 추세를 주시해야 한다.",
+          "confidence": 0.5304902775534821
+        },
+        {
+          "agent_id": "institutional_2",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하며 주가 추세를 주시해야 한다.",
+          "confidence": 0.5347843275379647
+        },
+        {
+          "agent_id": "institutional_3",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하며 주가 추세를 주시해야 한다.",
+          "confidence": 0.7142067710386049
+        },
+        {
+          "agent_id": "institutional_4",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하며 주가 추세를 주시해야 함",
+          "confidence": 0.65314694622655
+        },
+        {
+          "agent_id": "institutional_5",
+          "persona_type": "institutional",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하며 주가 추세를 주시해야 한다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "day_trader_1",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하며 주가 추세를 주시해야 한다.",
+          "confidence": 0.91141546821062
+        },
+        {
+          "agent_id": "day_trader_2",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있지만, 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.4598899566937935
+        },
+        {
+          "agent_id": "day_trader_3",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있지만, 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.38769747792821335
+        },
+        {
+          "agent_id": "day_trader_4",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있습니다. 하지만 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.7150886494937296
+        },
+        {
+          "agent_id": "day_trader_5",
+          "persona_type": "day_trader",
+          "action": "관망",
+          "reason": "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있지만, 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.5162113205961711
+        },
+        {
+          "agent_id": "value_investor_1",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "리스크 요인을 우선 반영해야 하며 주가 추세를 주시해야 한다.",
+          "confidence": 1.0
+        },
+        {
+          "agent_id": "value_investor_2",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있습니다. 하지만 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 합니다.",
+          "confidence": 0.8555974171590685
+        },
+        {
+          "agent_id": "value_investor_3",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있지만, 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.8915622059190302
+        },
+        {
+          "agent_id": "value_investor_4",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있지만, 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 한다.",
+          "confidence": 0.3247874625989605
+        },
+        {
+          "agent_id": "value_investor_5",
+          "persona_type": "value_investor",
+          "action": "관망",
+          "reason": "주가 상승의 주요 요인으로는 최근 5일간의 호재가 있을 수 있지만, 공시 및 뉴스 정보가 없어 리스크 요인을 우선 반영해야 함",
+          "confidence": 0.5391035493879133
+        }
+      ]
+    }
+  ]
+}
