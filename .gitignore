@@ -2,6 +2,6 @@
 test*
 __*
 .venv
-db/
-data/
+db/daily/
+db/runs/
 simulation.db
