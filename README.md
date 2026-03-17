@@ -1,5 +1,7 @@
 # AgentFlow — 다중 에이전트 주식 시장 시뮬레이터
 
+**대시보드 예시:** https://agentflow-pkw.streamlit.app/
+
 > **LLM 기반 투자자 행동 시뮬레이션으로 주가 방향을 예측한다**  
 > AI/데이터 직군 포트폴리오 프로젝트 | Python · Ollama (phi4) · Streamlit · DART · 공공데이터포털
 
