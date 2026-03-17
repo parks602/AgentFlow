@@ -2,3 +2,6 @@
 test*
 __*
 .venv
+db/
+data/
+simulation.db
