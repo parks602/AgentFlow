@@ -1,5 +1,7 @@
 # AgentFlow — 다중 에이전트 주식 시장 시뮬레이터
 
+**[🇺🇸 English README](./README_EN.md)**
+
 **대시보드 예시:** https://agentflow-pkw.streamlit.app/
 
 > **LLM 기반 투자자 행동 시뮬레이션으로 주가 방향을 예측한다**  
